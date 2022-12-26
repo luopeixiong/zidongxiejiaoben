@@ -1,0 +1,42 @@
+{
+    "0_基础数据_": {
+        "0": [
+            "QLineEdit",
+            "2000"
+        ],
+        "1": [
+            "QLineEdit",
+            "贴吧测试"
+        ],
+        "2": [
+            "QLineEdit",
+            "Tieba1"
+        ]
+    },
+    "1_start_urlAnddata__查询字符串参数_": {
+        "0": [
+            "QLineEdit",
+            "https://tieba.baidu.com/mg/p/getPbData"
+        ],
+        "1": [
+            "QTextEdit",
+            "kz=8191664923&obj_param2=chrome&format=json&eqid=&refer=&prev=frs&source=atieba.baidu.com-bfrs-c27400819-d-e0&p_tk=6998WdIuDfXrvmRD0Wg4QL1sF2XMjmKd%252BYwWxtxduqcxtUO%252BtKbu2ISWBPnF%252FEMOW9vCSGKxvw081GMp9wJ6SPbqRQNKcGh15M2zWREc6EP%252BWjupmRgr0uBb1NhCPJu6k4AnZX6LWKtwn2g9gZAC7qgV6A%253D%253D&p_timestamp=1671587243&p_sign=bbe2fa2d4627ee5ce12d299c51127e6e&p_signature=28a494acc8a2d3923ba7ec9235eaa58f&__pc2ps_ab=6998WdIuDfXrvmRD0Wg4QL1sF2XMjmKd%252BYwWxtxduqcxtUO%252BtKbu2ISWBPnF%252FEMOW9vCSGKxvw081GMp9wJ6SPbqRQNKcGh15M2zWREc6EP%252BWjupmRgr0uBb1NhCPJu6k4AnZX6LWKtwn2g9gZAC7qgV6A%253D%253D%7C1671587243%7C28a494acc8a2d3923ba7ec9235eaa58f%7Cbbe2fa2d4627ee5ce12d299c51127e6e&pn=1&rn=5"
+        ],
+        "2": [
+            "QTextEdit",
+            "_中标_data_"
+        ]
+    },
+    "2_start_requests_": {
+        "0": [
+            "QComboBox",
+            "_GET_"
+        ]
+    },
+    "3_列表页面__Json包_": {
+        "0": [
+            "QLineEdit",
+            ""
+        ]
+    }
+}

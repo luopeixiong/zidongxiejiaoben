@@ -1,0 +1,15 @@
+{
+    "脚本编号": "1017",
+    "脚本中文名": "山西交通控股集团有限公司电子招投标采购交易平台",
+    "脚本类名": "ShanxiJiaotongKonggu",
+    "起始url_lst": "http://zcpt.sxjkzhgk.com.cn:88/pub/ZCDT_pages.htm|menuCode=&typeCode=ZZGG&page=1&pageSize=20&keyName=&_csrf=77dc241a-7d2d-4232-b50e-1aa98dd2d256\nhttp://zcpt.sxjkzhgk.com.cn:88/pub/ZCDT_pages.htm|menuCode=&typeCode=JJKB&page=1&pageSize=20&keyName=&_csrf=77dc241a-7d2d-4232-b50e-1aa98dd2d256\nhttp://zcpt.sxjkzhgk.com.cn:88/pub/ZCDT_pages.htm|menuCode=&typeCode=ZZGS&page=1&pageSize=20&keyName=&_csrf=77dc241a-7d2d-4232-b50e-1aa98dd2d256\nhttp://zcpt.sxjkzhgk.com.cn:88/pub/JYXX_pages.htm|menuCode=ZBCG&typeCode=CGGG&page=1&pageSize=20&keyName=&_csrf=77dc241a-7d2d-4232-b50e-1aa98dd2d256\nhttp://zcpt.sxjkzhgk.com.cn:88/pub/JYXX_pages.htm|menuCode=ZBCG&typeCode=GZGG&page=1&pageSize=20&keyName=&_csrf=77dc241a-7d2d-4232-b50e-1aa98dd2d256\nhttp://zcpt.sxjkzhgk.com.cn:88/pub/JYXX_pages.htm|menuCode=ZBCG&typeCode=GZGG&page=1&pageSize=20&keyName=&_csrf=77dc241a-7d2d-4232-b50e-1aa98dd2d256\nhttp://zcpt.sxjkzhgk.com.cn:88/pub/JYXX_pages.htm|menuCode=FZBCG&typeCode=CGGG&page=1&pageSize=20&keyName=&_csrf=77dc241a-7d2d-4232-b50e-1aa98dd2d256\nhttp://zcpt.sxjkzhgk.com.cn:88/pub/JYXX_pages.htm|menuCode=FZBCG&typeCode=GZGG&page=1&pageSize=20&keyName=&_csrf=77dc241a-7d2d-4232-b50e-1aa98dd2d256\n\nhttp://zcpt.sxjkzhgk.com.cn:88/pub/JYXX_pages.htm|menuCode=ZBCG&typeCode=ZBHXRGS&page=1&pageSize=20&keyName=&_csrf=77dc241a-7d2d-4232-b50e-1aa98dd2d256\nhttp://zcpt.sxjkzhgk.com.cn:88/pub/JYXX_pages.htm|menuCode=ZBCG&typeCode=JGGG&page=1&pageSize=20&keyName=&_csrf=77dc241a-7d2d-4232-b50e-1aa98dd2d256\nhttp://zcpt.sxjkzhgk.com.cn:88/pub/JYXX_pages.htm|menuCode=FZBCG&typeCode=ZBHXRGS&page=1&pageSize=20&keyName=&_csrf=77dc241a-7d2d-4232-b50e-1aa98dd2d256\nhttp://zcpt.sxjkzhgk.com.cn:88/pub/JYXX_pages.htm|menuCode=FZBCG&typeCode=JGGG&page=1&pageSize=20&keyName=&_csrf=77dc241a-7d2d-4232-b50e-1aa98dd2d256",
+    "列表title-xpath": "//div[@class=\"erjizt-right-cont-dt\"]/div[2]/a/div[2]",
+    "列表url-xpath": "//div[@class=\"erjizt-right-cont-dt\"]/div[2]/a",
+    "列表时间-xpath": "//div[@class=\"erjizt-right-cont-dt\"]/div[2]/a/div[3]",
+    "列表时间-re": "(\\d\\d\\d\\d\\-\\d\\d\\-\\d\\d)",
+    "翻页-xpath": "//a[contains(text(), \"下一页\")]/@href",
+    "正文title-xpath": "//h1[@class=\"firth-tit\"]",
+    "正文时间-xpath": "//p[@class=\"remark\"]",
+    "正文时间-re": "(\\d\\d\\d\\d\\-\\d\\d\\-\\d\\d)",
+    "正文内容-xpath": "//div[@class=\"text-wrap\"]"
+}

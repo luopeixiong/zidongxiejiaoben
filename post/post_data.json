@@ -1,0 +1,19 @@
+{
+    "脚本编号": "1017",
+    "脚本中文名": "山西交通控股集团有限公司电子招投标采购交易平台",
+    "脚本类名": "XianJiaotongKonggu",
+    "起始url": "http://zcpt.sxjkzhgk.com.cn:88/pub/JYXX_pages.htm",
+    "起始data_lst": "menuCode=ZBCG&typeCode=CGGG&page=1&pageSize=20&keyName=&_csrf=77dc241a-7d2d-4232-b50e-1aa98dd2d256\nmenuCode=ZBCG&typeCode=GZGG&page=1&pageSize=20&keyName=&_csrf=77dc241a-7d2d-4232-b50e-1aa98dd2d256\nmenuCode=FZBCG&typeCode=CGGG&page=1&pageSize=20&keyName=&_csrf=77dc241a-7d2d-4232-b50e-1aa98dd2d256\nmenuCode=FZBCG&typeCode=GZGG&page=1&pageSize=20&keyName=&_csrf=77dc241a-7d2d-4232-b50e-1aa98dd2d256\n\nmenuCode=ZBCG&typeCode=ZBHXRGS&page=1&pageSize=20&keyName=&_csrf=77dc241a-7d2d-4232-b50e-1aa98dd2d256\nmenuCode=ZBCG&typeCode=JGGG&page=1&pageSize=20&keyName=&_csrf=77dc241a-7d2d-4232-b50e-1aa98dd2d256\nmenuCode=FZBCG&typeCode=ZBHXRGS&page=1&pageSize=20&keyName=&_csrf=77dc241a-7d2d-4232-b50e-1aa98dd2d256\nmenuCode=FZBCG&typeCode=JGGG&page=1&pageSize=20&keyName=&_csrf=77dc241a-7d2d-4232-b50e-1aa98dd2d256",
+    "列表定位—dict": "",
+    "列表title-dict": "BT",
+    "列表url-dict": "NRID",
+    "列表url-拼接前段": "https://cgb.xjtu.edu.cn/site/caseInfo?nrid=",
+    "列表时间-dict": "DATES",
+    "列表时间-re": "(\\d\\d\\d\\d\\-\\d\\d\\-\\d\\d)",
+    "翻页-xpath": "//a[contains(text(), \"下页\")]/@href",
+    "正文title-xpath": "//div[@class=\"news_bt\"]/a/span",
+    "正文时间-xpath": "//div[@class=\"new_zzas\"]/a/span",
+    "正文时间-re": "(\\d\\d\\d\\d\\-\\d\\d\\-\\d\\d)",
+    "正文内容-xpath": "//div[@class=\"neir\"]",
+    "列表定位-dict": ""
+}
