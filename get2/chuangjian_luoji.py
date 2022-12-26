@@ -116,6 +116,11 @@ def fanye(data_dict, wanzheng_text):
                     houzhui = '.' + v[0].text().split('{}.'.format(fenge_num))[1]
                     wanzheng_text = bugen_text_lst[0].format(fanye2_text=v[0].text(), qianzhui=qianzhui, houzhui=houzhui) + wanzheng_text
                     wanzheng_text = wanzheng_text + bugen_text_lst[1]
+            elif '_正则url_' in k:
+                with open('./muban/6fanye/{}.py'.format('正则_url'), 'r', encoding='utf8') as f:
+                    text = f.read()
+                    wanzheng_text += text.format(a=v[0].text())
+
     return wanzheng_text
 
 

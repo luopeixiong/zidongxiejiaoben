@@ -30,7 +30,7 @@
     "6_start_requests_": {
         "0": [
             "QComboBox",
-            "_GET_"
+            "_POST_"
         ]
     },
     "7_列表页面__Html格式_": {
@@ -55,6 +55,12 @@
         "0": [
             "QLineEdit",
             "&categorynum=(.+?)&"
+        ]
+    },
+    "0_翻页__正则url_": {
+        "0": [
+            "QLineEdit",
+            "&Paging=(\\d+)&"
         ]
     }
 }

@@ -112,7 +112,7 @@ class MainWindow(QWidget):
         elif "_招中标区分_" in i:
             self.select2.addItems(["_标题判断_", "_url判断_", "_body判断_"])
         elif "_翻页_" in i:
-            self.select2.addItems(["_下一页xpath_", "_url_num增加_"])
+            self.select2.addItems(["_下一页xpath_", "_url_num增加_", "_正则url_"])
         else:
             pass
 
@@ -168,7 +168,7 @@ class MainWindow(QWidget):
             if '_标题判断_' in value2:
                 dongdai_chuangjian_lst.append(QLineEdit("_招中标区分__标题判断_"))
             elif '_url判断_' in value2:
-                dongdai_chuangjian_lst.append(QLineEdit(r"\'\"categoryCode\":\"(.+?)\"\'"))
+                dongdai_chuangjian_lst.append(QLineEdit(r"&categorynum=(.+?)&"))
             elif '_url判断_' in value2:
                 dongdai_chuangjian_lst.append(QLineEdit("_招中标区分__body判断_"))
         elif "_翻页_" in value:
@@ -177,6 +177,8 @@ class MainWindow(QWidget):
                 dongdai_chuangjian_lst.append(QLineEdit("_下一页xpath_"))
             elif '_url_num增加_' in value2:
                 dongdai_chuangjian_lst.append(QLineEdit("把第二页的url后段部分写入，如：index_2.jhtml"))
+            elif '_正则url_' in value2:
+                dongdai_chuangjian_lst.append(QLineEdit(r"&Paging=(\d+)&【请勿修改\d+】"))
         elif "_详细页_" in value:
             biaoqian = str(self.count) + value + value2
             dongdai_chuangjian_lst.append(QLineEdit("_详细页_标题_xpath_"))

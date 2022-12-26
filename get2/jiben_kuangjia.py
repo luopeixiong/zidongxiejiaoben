@@ -10,6 +10,20 @@ class Spider(scrapy.Spider):
 {wanzheng_text}
 
 
+    def url_pingjie(self, response, url):
+        if 'http' == url[:4]:
+            url = url
+        elif '/' == url[:1]:
+            url = '/'.join(response.url.split('/')[:3]) + url  # 删掉res的url到域名位置
+        elif './' == url[:2]:
+            url = '/'.join(response.url.split('/')[:-1]) + '/' + url.replace('./', '')
+        elif '../' in url[:3]:
+            daoshu_num = -1 * (url.count('../') + 1)
+            url = '/'.join(response.url.split('/')[:daoshu_num]) + '/' + url.replace('../', '')
+        else:
+            url = '/'.join(response.url.split('/')[:-1]) + '/' + url
+        return url
+
     def guding_xieru(self, response):
         items = response.meta['items']  # 回传管道
         self.shi.shishi1(items['source'], str(response.url))
