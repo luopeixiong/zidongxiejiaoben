@@ -29,13 +29,16 @@ class MainWindow(QWidget):
 
         # 设置布局
         layout = QHBoxLayout()
-        layout.addWidget(self.select)
-        layout.addWidget(self.select2)
-        layout.addWidget(self.add_button)
-        layout.addWidget(self.remove_button)
-        layout.addWidget(self.print_button)
-        layout.addWidget(self.save_button)
-        layout.addWidget(self.load_button)
+        layout2 = QVBoxLayout()
+        layout3 = QVBoxLayout()
+
+        layout2.addWidget(self.select)
+        layout2.addWidget(self.select2)
+        layout2.addWidget(self.add_button)
+        layout2.addWidget(self.remove_button)
+        layout2.addWidget(self.print_button)
+        layout2.addWidget(self.save_button)
+        layout2.addWidget(self.load_button)
 
         # 在布局的底部添加一个垂直滚动条，用于滚动控件列表
         scroll = QScrollArea()
@@ -43,9 +46,11 @@ class MainWindow(QWidget):
         self.scroll_content = QWidget()
         self.scroll_layout = QVBoxLayout(self.scroll_content)
         scroll.setWidget(self.scroll_content)
-        layout.addWidget(scroll)
+        layout3.addWidget(scroll)
 
         # 设置布局
+        layout.addLayout(layout2)
+        layout.addLayout(layout3)
         self.setLayout(layout)
 
         # 连接信号和槽
@@ -94,7 +99,6 @@ class MainWindow(QWidget):
                     self.scroll_layout.addWidget(x)
         else:
             pass
-
 
 
     def save_clicked(self):
