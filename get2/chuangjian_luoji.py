@@ -15,6 +15,7 @@ def jichu_data(data_dict, wanzheng_text):
 def start_urldata(data_dict, wanzheng_text):
     zhaobiao_url_lst = []
     zhongbiao_url_lst = []
+    panduan_zhaozhongbiaoyong_zhongbiaoshuju_lst = []
     for k, v in data_dict.items():
         if '_start_urlAnddata_' in k:
             if "_无_" in k:
@@ -25,6 +26,7 @@ def start_urldata(data_dict, wanzheng_text):
                 for data in zhaobiao_daipinjie_data_lst:
                     zhaobiao_url_lst.append('{}?{}'.format(v[0].text(), data))
                 zhongbiao_daipinjie_data_lst = (v[2].toPlainText()).split('\n')
+                panduan_zhaozhongbiaoyong_zhongbiaoshuju_lst = zhongbiao_daipinjie_data_lst
                 for data in zhongbiao_daipinjie_data_lst:
                     zhongbiao_url_lst.append('{}?{}'.format(v[0].text(), data))
             elif "_表单数据_" in k:
@@ -32,13 +34,14 @@ def start_urldata(data_dict, wanzheng_text):
                 for data in zhaobiao_daipinjie_data_lst:
                     zhaobiao_url_lst.append('{}|{}'.format(v[0].text(), data))
                 zhongbiao_daipinjie_data_lst = (v[2].toPlainText()).split('\n')
+                panduan_zhaozhongbiaoyong_zhongbiaoshuju_lst = zhongbiao_daipinjie_data_lst
                 for data in zhongbiao_daipinjie_data_lst:
                     zhongbiao_url_lst.append('{}|{}'.format(v[0].text(), data))
 
             with open('./muban/2start_urldata/{}.py'.format('1'), 'r', encoding='utf8') as f:
                 text = f.read()
             wanzheng_text += text.format(a=str(zhaobiao_url_lst)+str(zhongbiao_url_lst))
-    return wanzheng_text
+    return wanzheng_text, panduan_zhaozhongbiaoyong_zhongbiaoshuju_lst
 
 
 def start_requests_luoji(data_dict, wanzheng_text):
@@ -74,19 +77,25 @@ def liebiao_data(data_dict, wanzheng_text):
     return wanzheng_text
 
 
-def zhaozhongbiao_qufen(data_dict, wanzheng_text):
+def zhaozhongbiao_qufen(data_dict, wanzheng_text, panduan_zhaozhongbiaoyong_zhongbiaoshuju_lst):
     for k, v in data_dict.items():
         if '_招中标区分_' in k:
             if "_标题判断_" in k:
                 with open('./muban/5zhaozhongbiao_qufen/{}.py'.format('title_panduan'), 'r', encoding='utf8') as f:
                     text = f.read()
+                    text = text.format(a=str((v[0].toPlainText()).split('\n')))
             elif "_url判断_" in k:
                 with open('./muban/5zhaozhongbiao_qufen/{}.py'.format('url_panduan'), 'r', encoding='utf8') as f:
                     text = f.read()
+                    zhongbiaobiaoqian_lst = []
+                    for zhongbiao_url in panduan_zhaozhongbiaoyong_zhongbiaoshuju_lst:
+                        biaoqian = re.findall(v[0].text(), zhongbiao_url)[0]
+                        zhongbiaobiaoqian_lst.append(biaoqian)
+                    text = text.format(a=str((v[0].text())), b=str(zhongbiaobiaoqian_lst))
             elif "_body判断_" in k:
                 with open('./muban/5zhaozhongbiao_qufen/{}.py'.format('body_panduan'), 'r', encoding='utf8') as f:
                     text = f.read()
-            text = text.format(a=str((v[0].toPlainText()).split('\n')))
+                    text = text.format(a=str((v[0].toPlainText()).split('\n')))
             wanzheng_text += text
     return wanzheng_text
 
@@ -125,13 +134,14 @@ def chuangjian(data_dict):
     # print(data_dict)
     wanzheng_text = ''
     wenjianming = ''
+    panduan_zhaozhongbiaoyong_zhongbiaoshuju_lst = []
 
     # 基础数据
     if re.findall(r'\'(\d+)_基础数据_', str(data_dict)):
         wanzheng_text, wenjianming = jichu_data(data_dict, wanzheng_text)
 
     if re.findall(r'\'(\d+)_start_urlAnddata_', str(data_dict)):
-        wanzheng_text = start_urldata(data_dict, wanzheng_text)
+        wanzheng_text, panduan_zhaozhongbiaoyong_zhongbiaoshuju_lst = start_urldata(data_dict, wanzheng_text)
 
     # 第一次start_requests以及对应的url和data
 
@@ -144,7 +154,7 @@ def chuangjian(data_dict):
 
     # 招标中标区分
     if re.findall(r'\'(\d+)_招中标区分_', str(data_dict)):
-        wanzheng_text = zhaozhongbiao_qufen(data_dict, wanzheng_text)
+        wanzheng_text = zhaozhongbiao_qufen(data_dict, wanzheng_text, panduan_zhaozhongbiaoyong_zhongbiaoshuju_lst)
 
     # 翻页
     if re.findall(r'\'(\d+)_翻页_', str(data_dict)):

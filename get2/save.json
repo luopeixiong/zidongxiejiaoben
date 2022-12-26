@@ -24,7 +24,7 @@
         ],
         "2": [
             "QTextEdit",
-            "Eptr3=&categorynum=003001002&Paging=1\nEptr3=&categorynum=003001003&Paging=1\nEptr3=&categorynum=003002003&Paging=1\nEptr3=&categorynum=003003002&Paging=1\nEptr3=&categorynum=003004002&Paging=1\nEptr3=&categorynum=003005002&Paging=1\nEptr3=&categorynum=003007002&Paging=1\n"
+            "Eptr3=&categorynum=003001002&Paging=1\nEptr3=&categorynum=003001003&Paging=1\nEptr3=&categorynum=003002003&Paging=1\nEptr3=&categorynum=003003002&Paging=1\nEptr3=&categorynum=003004002&Paging=1\nEptr3=&categorynum=003005002&Paging=1\nEptr3=&categorynum=003007002&Paging=1"
         ]
     },
     "6_start_requests_": {
@@ -51,34 +51,10 @@
             "(\\d\\d\\d\\d\\-\\d\\d\\-\\d\\d)"
         ]
     },
-    "8_招中标区分__url判断_": {
-        "0": [
-            "QTextEdit",
-            "003001002\n003001003\n003002003\n003003002\n003004002\n003005002\n003007002"
-        ]
-    },
-    "9_翻页__url_num增加_": {
+    "0_招中标区分__url判断_": {
         "0": [
             "QLineEdit",
-            "index_2.jhtml"
-        ]
-    },
-    "10_详细页_": {
-        "0": [
-            "QLineEdit",
-            "//div[@class=\"menu-info\"]/h1"
-        ],
-        "1": [
-            "QLineEdit",
-            "//div[@class=\"info-sources\"]/div[1]"
-        ],
-        "2": [
-            "QLineEdit",
-            "(\\d\\d\\d\\d\\-\\d\\d\\-\\d\\d)"
-        ],
-        "3": [
-            "QLineEdit",
-            "//div[@class=\"post-content\"]"
+            "&categorynum=(.+?)&"
         ]
     }
 }

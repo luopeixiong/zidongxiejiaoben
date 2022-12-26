@@ -63,7 +63,8 @@ class MainWindow(QWidget):
                 if x[0] == 'QLineEdit':
                     dongdai_chuangjian_lst.append(QLineEdit(x[1]))
                 elif x[0] == 'QTextEdit':
-                    a = QTextEdit(x[1])
+                    a = QTextEdit()
+                    a.setPlainText(x[1])
                     a.setGeometry(55, 20, 200, 20)
                     a.setAcceptRichText(False)
                     dongdai_chuangjian_lst.append(a)
@@ -92,7 +93,7 @@ class MainWindow(QWidget):
                 if kongjian_leiming == 'QLineEdit':
                     save_dict[k][str(num)] = [kongjian_leiming, x.text()]
                 elif kongjian_leiming == 'QTextEdit':
-                    save_dict[k][str(num)] = [kongjian_leiming, x.toPlainText()]
+                    save_dict[k][str(num)] = [kongjian_leiming, x.toPlainText().replace(' ', '\n')]
                 elif kongjian_leiming == 'QComboBox':
                     save_dict[k][str(num)] = [kongjian_leiming, x.currentText()]
                 else:
@@ -163,11 +164,13 @@ class MainWindow(QWidget):
             elif '_Json包_' in value2:
                 dongdai_chuangjian_lst.append(QLineEdit("如果值得到详细页的url的id部分，在此写入完整url前段部分"))
         elif "_招中标区分_" in value:
-            biaoqian = str(self.count) + value + value2
-            a = QTextEdit("_招中标区分_")
-            a.setGeometry(55, 20, 200, 20)
-            a.setAcceptRichText(False)
-            dongdai_chuangjian_lst.append(a)
+            biaoqian = str(self.count) + value + value2  # "_标题判断_", "_url判断_", "_body判断_"
+            if '_标题判断_' in value2:
+                dongdai_chuangjian_lst.append(QLineEdit("_招中标区分__标题判断_"))
+            elif '_url判断_' in value2:
+                dongdai_chuangjian_lst.append(QLineEdit(r"\'\"categoryCode\":\"(.+?)\"\'"))
+            elif '_url判断_' in value2:
+                dongdai_chuangjian_lst.append(QLineEdit("_招中标区分__body判断_"))
         elif "_翻页_" in value:
             biaoqian = str(self.count) + value + value2
             if '_下一页xpath_' in value2:
