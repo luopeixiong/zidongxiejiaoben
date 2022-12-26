@@ -15,6 +15,7 @@ def jichu_data(data_dict, wanzheng_text):
 def start_urldata(data_dict, wanzheng_text):
     zhaobiao_url_lst = []
     zhongbiao_url_lst = []
+    zhenghe_url_lst = []
     panduan_zhaozhongbiaoyong_zhongbiaoshuju_lst = []
     for k, v in data_dict.items():
         if '_start_urlAnddata_' in k:
@@ -40,7 +41,10 @@ def start_urldata(data_dict, wanzheng_text):
 
             with open('./muban/2start_urldata/{}.py'.format('1'), 'r', encoding='utf8') as f:
                 text = f.read()
-            wanzheng_text += text.format(a=str(zhaobiao_url_lst)+str(zhongbiao_url_lst))
+            zhenghe_url_lst += zhaobiao_url_lst
+            zhenghe_url_lst.append('')
+            zhenghe_url_lst += zhongbiao_url_lst
+            wanzheng_text += text.format(a=str(zhenghe_url_lst).replace(" '", "\n'").replace("[", "[\n").replace("]", "\n]"))
     return wanzheng_text, panduan_zhaozhongbiaoyong_zhongbiaoshuju_lst
 
 

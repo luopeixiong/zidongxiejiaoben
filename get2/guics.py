@@ -10,6 +10,8 @@ class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
 
+        self.resize(700, 500)
+
         self.queren_msg = QMessageBox()
         self.queren_again()
 
