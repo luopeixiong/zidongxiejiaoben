@@ -10,6 +10,9 @@ class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
 
+        self.queren_msg = QMessageBox()
+        self.queren_again()
+
         # 创建下拉列表和按键
         self.select = QComboBox()
         self.select.addItems(["0", "_基础数据_", "_start_urlAnddata_", "_start_requests_", "_列表页面_", "_招中标区分_", "_翻页_", "_详细页_"])
@@ -53,55 +56,72 @@ class MainWindow(QWidget):
         self.load_button.clicked.connect(self.load_clicked)
         self.select.currentIndexChanged[str].connect(self.select_changed)  # 条目发生改变，发射信号，传递条目内容
 
-    def load_clicked(self):
-        self.controls = {}
-        with open("save.json", "r", encoding="utf-8") as f:
-            old_data = json.load(f)
-        for k, v in old_data.items():
-            dongdai_chuangjian_lst = []
-            for _, x in v.items():
-                if x[0] == 'QLineEdit':
-                    dongdai_chuangjian_lst.append(QLineEdit(x[1]))
-                elif x[0] == 'QTextEdit':
-                    a = QTextEdit()
-                    a.setPlainText(x[1])
-                    a.setGeometry(55, 20, 200, 20)
-                    a.setAcceptRichText(False)
-                    dongdai_chuangjian_lst.append(a)
-                elif x[0] == 'QComboBox':
-                    if '_start_requests_' in k:
-                        a = QComboBox()
-                        a.addItems(["_GET_", "_POST_"])
-                        dongdai_chuangjian_lst.append(a)
+    def queren_again(self):
+        # 创建一个 QMessageBox 对象
+        self.queren_msg.setIcon(QMessageBox.Question)
+        self.queren_msg.setWindowTitle("再次确认")
+        self.queren_msg.setStandardButtons(QMessageBox.Yes | QMessageBox.No)
 
-            self.controls[k] = dongdai_chuangjian_lst
-        for _, v in self.controls.items():
-            for x in v:
-                # 将新创建的控件添加到控件列表和布局中
-                self.scroll_layout.addWidget(x)
+    def load_clicked(self):
+        self.queren_msg.setText("你确定要【加载存档】吗？")
+        # 显示对话框并获取用户的选择
+        result = self.queren_msg.exec_()
+        if result == QMessageBox.Yes:
+            self.controls = {}
+            with open("save.json", "r", encoding="utf-8") as f:
+                old_data = json.load(f)
+            for k, v in old_data.items():
+                dongdai_chuangjian_lst = []
+                for _, x in v.items():
+                    if x[0] == 'QLineEdit':
+                        dongdai_chuangjian_lst.append(QLineEdit(x[1]))
+                    elif x[0] == 'QTextEdit':
+                        a = QTextEdit()
+                        a.setPlainText(x[1])
+                        a.setGeometry(55, 20, 200, 20)
+                        a.setAcceptRichText(False)
+                        dongdai_chuangjian_lst.append(a)
+                    elif x[0] == 'QComboBox':
+                        if '_start_requests_' in k:
+                            a = QComboBox()
+                            a.addItems(["_GET_", "_POST_"])
+                            dongdai_chuangjian_lst.append(a)
+
+                self.controls[k] = dongdai_chuangjian_lst
+            for _, v in self.controls.items():
+                for x in v:
+                    # 将新创建的控件添加到控件列表和布局中
+                    self.scroll_layout.addWidget(x)
+        else:
+            pass
+
 
 
     def save_clicked(self):
-        save_dict = dict()
-        for k, v in self.controls.items():
-            num = 0
-            for x in v:
-                kongjian_leiming = re.findall(r's.(.+?) ', str(x))[0]
-                if num == 0:
-                    save_dict[k] = {}
-                save_dict[k][str(num)] = {}
-                if kongjian_leiming == 'QLineEdit':
-                    save_dict[k][str(num)] = [kongjian_leiming, x.text()]
-                elif kongjian_leiming == 'QTextEdit':
-                    save_dict[k][str(num)] = [kongjian_leiming, x.toPlainText().replace(' ', '\n')]
-                elif kongjian_leiming == 'QComboBox':
-                    save_dict[k][str(num)] = [kongjian_leiming, x.currentText()]
-                else:
-                    pass
-                num += 1
-        with open("save.json", "w", encoding="utf-8") as f:
-            json.dump(save_dict, f, ensure_ascii=False, indent=4)
-        print('----保存成功------')
+        self.queren_msg.setText("你确定要【保存当前数据】吗？")
+        # 显示对话框并获取用户的选择
+        result = self.queren_msg.exec_()
+        if result == QMessageBox.Yes:
+            save_dict = dict()
+            for k, v in self.controls.items():
+                num = 0
+                for x in v:
+                    kongjian_leiming = re.findall(r's.(.+?) ', str(x))[0]
+                    if num == 0:
+                        save_dict[k] = {}
+                    save_dict[k][str(num)] = {}
+                    if kongjian_leiming == 'QLineEdit':
+                        save_dict[k][str(num)] = [kongjian_leiming, x.text()]
+                    elif kongjian_leiming == 'QTextEdit':
+                        save_dict[k][str(num)] = [kongjian_leiming, x.toPlainText().replace(' ', '\n')]
+                    elif kongjian_leiming == 'QComboBox':
+                        save_dict[k][str(num)] = [kongjian_leiming, x.currentText()]
+                    else:
+                        pass
+                    num += 1
+            with open("save.json", "w", encoding="utf-8") as f:
+                json.dump(save_dict, f, ensure_ascii=False, indent=4)
+            print('----保存成功------')
 
     def select_changed(self, i):
         self.select2.clear()
@@ -197,23 +217,31 @@ class MainWindow(QWidget):
         # print(self.controls)
 
     def remove_clicked(self):
-        # 从控件列表中移除最后一个控件
-        if self.controls:
-            zuihou_k = ''
-            for x in self.controls.keys():
-                zuihou_k = x
-            zuihou_v = self.controls[zuihou_k]
-            for x in zuihou_v:
-                x.setParent(None)
-            del self.controls[zuihou_k]
+        self.queren_msg.setText("你确定要【删除最后一个控件组】吗？")
+        # 显示对话框并获取用户的选择
+        result = self.queren_msg.exec_()
+        if result == QMessageBox.Yes:
+            # 从控件列表中移除最后一个控件
+            if self.controls:
+                zuihou_k = ''
+                for x in self.controls.keys():
+                    zuihou_k = x
+                zuihou_v = self.controls[zuihou_k]
+                for x in zuihou_v:
+                    x.setParent(None)
+                del self.controls[zuihou_k]
 
     def print_clicked(self):
-        try:
-            # 在这里执行你的代码
-            chuangjian_luoji.chuangjian(self.controls)
-        except Exception as e:
-            # 在这里处理所有异常
-            QMessageBox.warning(self, "错误", f"发生了一个错误：{traceback.format_exc()}")
+        self.queren_msg.setText("你确定要【创建脚本】吗？")
+        # 显示对话框并获取用户的选择
+        result = self.queren_msg.exec_()
+        if result == QMessageBox.Yes:
+            try:
+                # 在这里执行你的代码
+                chuangjian_luoji.chuangjian(self.controls)
+            except Exception as e:
+                # 在这里处理所有异常
+                QMessageBox.warning(self, "错误", f"发生了一个错误：{traceback.format_exc()}")
 
 
 if __name__ == "__main__":

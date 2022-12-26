@@ -1,45 +1,46 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLineEdit, QHBoxLayout, QVBoxLayout
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QMessageBox
+
 
 class Example(QWidget):
+
     def __init__(self):
         super().__init__()
 
         self.initUI()
 
     def initUI(self):
-        self.setGeometry(300, 300, 280, 170)
-        self.setWindowTitle('QHBoxLayout')
 
         # 创建一个按钮
-        addBtn = QPushButton('Add')
-        addBtn.clicked.connect(self.addInput)
+        btn = QPushButton('点击这里', self)
+        btn.clicked.connect(self.showDialog)
 
-        # 创建一个布局
-        vbox = QVBoxLayout()
-        vbox.addWidget(addBtn)
-
-        self.setLayout(vbox)
-
+        # 设置窗口的布局
+        self.setGeometry(300, 300, 300, 200)
+        self.setWindowTitle('再次确认对话框')
         self.show()
 
-    def addInput(self):
-        # 创建一个水平布局，用于放置输入框和按钮
-        hbox = QHBoxLayout()
+    def showDialog(self):
 
-        # 创建一个输入框
-        input = QLineEdit()
-        # 获取当前布局中已有的控件数量作为输入框的编号
-        count = self.layout().count()
-        input.setPlaceholderText('Input {}'.format(count))
+        # 创建一个 QMessageBox 对象
+        msg = QMessageBox()
+        msg.setIcon(QMessageBox.Question)
+        msg.setText("你确定要继续吗？")
+        msg.setWindowTitle("再次确认")
+        msg.setStandardButtons(QMessageBox.Yes | QMessageBox.No)
 
-        # 添加输入框到水平布局中
-        hbox.addWidget(input)
+        # 显示对话框并获取用户的选择
+        result = msg.exec_()
 
-        # 创建一个按钮
-        btn = QPushButton('Button {}'.format(count))
+        # 如果用户选择“是”，则执行某些操作
+        if result == QMessageBox.Yes:
+            print("用户选择了“是”，执行操作。")
+        # 否则，执行取消操作
+        else:
+            print("用户选择了“否”，取消操作。")
 
-        # 添加按钮到水平布局中
-        hbox.addWidget(btn)
 
-        # 添加
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    ex = Example()
+    sys.exit(app.exec_())
