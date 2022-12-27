@@ -28,13 +28,13 @@
         ],
         "2": [
             "QTextEdit",
-            "_中标_data_"
+            ""
         ]
     },
     "2_start_requests_": {
         "0": [
             "QComboBox",
-            "_POST_"
+            "_GET_"
         ]
     },
     "3_列表页面__Json包_": {

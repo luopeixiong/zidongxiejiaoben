@@ -132,7 +132,7 @@ class MainWindow(QWidget):
         self.select2.clear()
         if "_start_urlAnddata_" in i:
             self.select2.addItems(["_无_", "_查询字符串参数_", "_表单数据_"])
-        elif "_列表页面_" in i:
+        elif "_列表页面_" in i or "_详细页_" in i:
             self.select2.addItems(["_Html格式_", "_Json包_"])
         elif "_招中标区分_" in i:
             self.select2.addItems(["_标题判断_", "_url判断_", "_body判断_"])
@@ -193,7 +193,7 @@ class MainWindow(QWidget):
                 dongdai_chuangjian_lst.append(QLineEdit("列表标题定位【逗号做分隔符】"))
                 dongdai_chuangjian_lst.append(QLineEdit("列表url定位【逗号做分隔符】"))
                 dongdai_chuangjian_lst.append(QLineEdit("列表时间定位【逗号做分隔符】"))
-                dongdai_chuangjian_lst.append(QLineEdit("(\d\d\d\d\-\d\d\-\d\d)"))
+                dongdai_chuangjian_lst.append(QLineEdit(r"(\d\d\d\d\-\d\d\-\d\d)"))
         elif "_招中标区分_" in value:
             biaoqian = str(self.count) + value + value2  # "_标题判断_", "_url判断_", "_body判断_"
             if '_标题判断_' in value2:
@@ -216,10 +216,18 @@ class MainWindow(QWidget):
                 dongdai_chuangjian_lst.append(QLineEdit(r'30【增加的数组】'))
         elif "_详细页_" in value:
             biaoqian = str(self.count) + value + value2
-            dongdai_chuangjian_lst.append(QLineEdit("_详细页_标题_xpath_"))
-            dongdai_chuangjian_lst.append(QLineEdit("_详细页_时间_xpath_"))
-            dongdai_chuangjian_lst.append(QLineEdit(r"(\d\d\d\d\-\d\d\-\d\d)"))
-            dongdai_chuangjian_lst.append(QLineEdit("_详细页_正文_xpath_"))
+            biaoqian = str(self.count) + value + value2
+            if '_Html格式_' in value2:
+                dongdai_chuangjian_lst.append(QLineEdit("_详细页_标题_xpath_"))
+                dongdai_chuangjian_lst.append(QLineEdit("_详细页_时间_xpath_"))
+                dongdai_chuangjian_lst.append(QLineEdit(r"(\d\d\d\d\-\d\d\-\d\d)"))
+                dongdai_chuangjian_lst.append(QLineEdit("_详细页_正文_xpath_"))
+            elif '_Json包_' in value2:
+                dongdai_chuangjian_lst.append(QLineEdit("详细页title定位【逗号做分隔符,记得是全路径】"))
+                dongdai_chuangjian_lst.append(QLineEdit("详细页正文定位【逗号做分隔符,记得是全路径】"))
+                dongdai_chuangjian_lst.append(QLineEdit("详细页time定位【逗号做分隔符,记得是全路径】"))
+                dongdai_chuangjian_lst.append(QLineEdit(r"(\d\d\d\d\-\d\d\-\d\d)"))
+
         else:
             pass
 
