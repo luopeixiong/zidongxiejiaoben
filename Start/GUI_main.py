@@ -102,7 +102,6 @@ class MainWindow(QWidget):
         else:
             pass
 
-
     def save_clicked(self):
         self.queren_msg.setText("你确定要【保存当前数据】吗？")
         # 显示对话框并获取用户的选择
@@ -194,11 +193,11 @@ class MainWindow(QWidget):
                 dongdai_chuangjian_lst.append(QLineEdit("列表标题定位【逗号做分隔符】"))
                 dongdai_chuangjian_lst.append(QLineEdit("列表url定位【逗号做分隔符】"))
                 dongdai_chuangjian_lst.append(QLineEdit("列表时间定位【逗号做分隔符】"))
-                dongdai_chuangjian_lst.append(QLineEdit("列表时间re"))
+                dongdai_chuangjian_lst.append(QLineEdit("(\d\d\d\d\-\d\d\-\d\d)"))
         elif "_招中标区分_" in value:
             biaoqian = str(self.count) + value + value2  # "_标题判断_", "_url判断_", "_body判断_"
             if '_标题判断_' in value2:
-                dongdai_chuangjian_lst.append(QLineEdit("_招中标区分__标题判断_"))
+                dongdai_chuangjian_lst.append(QLineEdit("结果,中选，成交"))
             elif '_url判断_' in value2:
                 dongdai_chuangjian_lst.append(QLineEdit(r"&categorynum=(.+?)&"))
             elif '_body判断_' in value2:
@@ -211,8 +210,10 @@ class MainWindow(QWidget):
                 dongdai_chuangjian_lst.append(QLineEdit("把第二页的url后段部分写入，如：index_2.jhtml"))
             elif '_正则url_' in value2:
                 dongdai_chuangjian_lst.append(QLineEdit(r"&Paging=(\d+)&【请勿修改\d+】"))
+                dongdai_chuangjian_lst.append(QLineEdit(r"30【增加的数组】"))
             elif '_正则body_' in value2:
                 dongdai_chuangjian_lst.append(QLineEdit(r'pageNum":(\d+)&【请勿修改\d+】'))
+                dongdai_chuangjian_lst.append(QLineEdit(r'30【增加的数组】'))
         elif "_详细页_" in value:
             biaoqian = str(self.count) + value + value2
             dongdai_chuangjian_lst.append(QLineEdit("_详细页_标题_xpath_"))

@@ -2,83 +2,91 @@
     "0_基础数据_": {
         "0": [
             "QLineEdit",
-            "1019"
+            "1021"
         ],
         "1": [
             "QLineEdit",
-            "贵州省公共资源交易公共服务平台"
+            "云采链线上采购一体化平台"
         ],
         "2": [
             "QLineEdit",
-            "GuizhoushengGonggongziyuan"
+            "YuncailianXianshang"
+        ],
+        "3": [
+            "QLineEdit",
+            "application/json; charset=utf-8"
         ]
     },
-    "1_start_urlAnddata__表单数据_": {
+    "1_start_urlAnddata__查询字符串参数_": {
         "0": [
             "QLineEdit",
-            "https://ggzy.guizhou.gov.cn/tradeInfo/es/list"
+            "https://siteserver.choicelink.cn/api/LjSiteServer/GetRKSiteServerList"
         ],
         "1": [
             "QTextEdit",
-            "{\"channelId\":\"5904475\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"交易公告\",\"isPage\":true}\n{\"channelId\":\"5904475\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"变更公告（澄清与答疑）\",\"isPage\":true}\n{\"channelId\":\"5904475\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"交易证明书\",\"isPage\":true}\n{\"channelId\":\"5904475\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"其他公告\",\"isPage\":true}\n{\"channelId\":\"5904475\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"合同公示\",\"isPage\":true}\n{\"channelId\":\"5904543\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"采购需求公示\",\"isPage\":true}\n{\"channelId\":\"5904543\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"采购公告\",\"isPage\":true}\n{\"channelId\":\"5904543\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"变更公告（澄清与答疑）\",\"isPage\":true}\n{\"channelId\":\"5904543\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"交易证明书\",\"isPage\":true}\n{\"channelId\":\"5904543\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"其他公告\",\"isPage\":true}\n{\"channelId\":\"5904543\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"合同公示\",\"isPage\":true}\n{\"channelId\":\"5904477\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"交易公告\",\"isPage\":true}\n{\"channelId\":\"5904477\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"变更公告（澄清与答疑）\",\"isPage\":true}\n{\"channelId\":\"5904477\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"其他公告\",\"isPage\":true}\n{\"channelId\":\"5904477\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"交易证明书\",\"isPage\":true}\n\n"
+            "pageSize=30&offset=0&query=SiteId%3D%274795%27+AND+ChannelId+IN(%275138%27,%275140%27,%275139%27,%275141%27)\npageSize=30&offset=0&query=SiteId%3D%274795%27+AND+ChannelId+IN(%275146%27,%275147%27,%275148%27,%275149%27)"
         ],
         "2": [
             "QTextEdit",
-            "{\"channelId\":\"5904475\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"中标候选人公示\",\"isPage\":true}\n{\"channelId\":\"5904475\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"交易结果公示\",\"isPage\":true}\n{\"channelId\":\"5904543\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"交易结果公示\",\"isPage\":true}\n{\"channelId\":\"5904477\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"成交公示\",\"isPage\":true}\n"
+            "_中标_data_"
         ]
     },
     "2_start_requests_": {
         "0": [
             "QComboBox",
-            "_GET_"
+            "_POST_"
         ]
     },
-    "0_列表页面__Json包_": {
+    "3_列表页面__Json包_": {
         "0": [
             "QLineEdit",
             ""
         ],
         "1": [
             "QLineEdit",
-            "list"
+            "items"
         ],
         "2": [
             "QLineEdit",
-            "docTitle"
+            "title"
         ],
         "3": [
             "QLineEdit",
-            "apiUrl"
+            "列表url定位【逗号做分隔符】"
         ],
         "4": [
             "QLineEdit",
-            "docRelTime"
+            "addDate"
         ],
         "5": [
             "QLineEdit",
-            "列表时间re"
+            "(\\d\\d\\d\\d\\-\\d\\d\\-\\d\\d)"
         ]
     },
-    "0_招中标区分__body判断_": {
+    "4_招中标区分__标题判断_": {
         "0": [
             "QLineEdit",
-            "\\\"announcement\\\":\\\"(.+?)\\\""
+            "结果,中选，成交"
         ]
     },
-    "0_翻页__正则body_": {
+    "5_翻页__正则url_": {
         "0": [
             "QLineEdit",
-            "pageNum\":(\\d+)"
-        ]
-    },
-    "1_详细页_": {
-        "0": [
-            "QLineEdit",
-            "//div[@class=\"title\"]/h3"
+            "&offset=(\\d+)"
         ],
         "1": [
             "QLineEdit",
-            "//div[@class=\"toolbar\"]/span[@class=\"fbrq\"]"
+            "30"
+        ]
+    },
+    "6_详细页_": {
+        "0": [
+            "QLineEdit",
+            "_详细页_标题_xpath_"
+        ],
+        "1": [
+            "QLineEdit",
+            "_详细页_时间_xpath_"
         ],
         "2": [
             "QLineEdit",
@@ -86,7 +94,7 @@
         ],
         "3": [
             "QLineEdit",
-            "//div[@class=\"view_con\"]"
+            "_详细页_正文_xpath_"
         ]
     }
 }

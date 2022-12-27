@@ -23,6 +23,7 @@ def start_urldata(data_dict, wanzheng_text):
             if "_无_" in k:
                 zhaobiao_url_lst += (v[0].toPlainText()).split('\n')
                 zhongbiao_url_lst += (v[1].toPlainText()).split('\n')
+                panduan_zhaozhongbiaoyong_zhongbiaoshuju_lst = zhongbiao_url_lst
                 yuming_huoqu = zhaobiao_url_lst[0]
             elif "_查询字符串参数_" in k:
                 yuming_huoqu = v[0].text()
@@ -108,7 +109,7 @@ def zhaozhongbiao_qufen(data_dict, wanzheng_text, panduan_zhaozhongbiaoyong_zhon
             if "_标题判断_" in k:
                 with open('./muban/5zhaozhongbiao_qufen/{}.py'.format('title_panduan'), 'r', encoding='utf8') as f:
                     text = f.read()
-                    text = text.format(a=str((v[0].toPlainText()).split('\n')))
+                    text = text.format(a=str(v[0].text().replace('，', ',').split(',')))
             elif "_url判断_" in k:
                 with open('./muban/5zhaozhongbiao_qufen/{}.py'.format('url_panduan'), 'r', encoding='utf8') as f:
                     text = f.read()
@@ -150,11 +151,11 @@ def fanye(data_dict, wanzheng_text):
             elif '_正则url_' in k:
                 with open('./muban/6fanye/{}.py'.format('正则_url'), 'r', encoding='utf8') as f:
                     text = f.read()
-                    wanzheng_text += text.format(a=v[0].text())
+                    wanzheng_text += text.format(a=v[0].text(), b=v[1].text())
             elif '_正则body_' in k:
                 with open('./muban/6fanye/{}.py'.format('body_num_zengjia'), 'r', encoding='utf8') as f:
                     text = f.read()
-                    wanzheng_text += text.format(a=v[0].text())
+                    wanzheng_text += text.format(a=v[0].text(), b=v[1].text())
 
     return wanzheng_text
 
