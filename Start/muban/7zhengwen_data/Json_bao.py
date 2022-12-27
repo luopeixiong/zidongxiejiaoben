@@ -8,6 +8,7 @@
             items['title'] = rs{a}
             items['content'] = rs{b}
             time_text = re.findall(r"{d}", str(re{c}))[0]
+
             if time_text:
                 items['publishtime'] = time_text[0].replace('.', '-').replace(' ', '').replace('/', '-').replace('年', '-').replace('月', '-').replace('日', '')
             # self.guding_xieru(response)
