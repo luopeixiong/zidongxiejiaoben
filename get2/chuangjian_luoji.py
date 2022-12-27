@@ -7,7 +7,7 @@ def jichu_data(data_dict, wanzheng_text):
         if '_基础数据_' in k:
             with open('./muban/1kaitou/{}.py'.format('kaitou1'), 'r', encoding='utf8') as f:
                 wenjianming = v[0].text()+v[1].text()
-                text = f.read().format(a=(v[0].text()+v[1].text()), b=v[1].text(), c=v[2].text())
+                text = f.read().format(a=(v[0].text()+v[1].text()), b=v[1].text(), c=v[2].text(), d=v[3].text())
                 wanzheng_text += text
     return wanzheng_text, wenjianming
 
@@ -16,13 +16,16 @@ def start_urldata(data_dict, wanzheng_text):
     zhaobiao_url_lst = []
     zhongbiao_url_lst = []
     zhenghe_url_lst = []
+    yuming_huoqu = ''
     panduan_zhaozhongbiaoyong_zhongbiaoshuju_lst = []
     for k, v in data_dict.items():
         if '_start_urlAnddata_' in k:
             if "_无_" in k:
                 zhaobiao_url_lst += (v[0].toPlainText()).split('\n')
                 zhongbiao_url_lst += (v[1].toPlainText()).split('\n')
+                yuming_huoqu = zhaobiao_url_lst[0]
             elif "_查询字符串参数_" in k:
+                yuming_huoqu = v[0].text()
                 zhaobiao_daipinjie_data_lst = (v[1].toPlainText()).split('\n')
                 for data in zhaobiao_daipinjie_data_lst:
                     zhaobiao_url_lst.append('{}?{}'.format(v[0].text(), data))
@@ -31,6 +34,7 @@ def start_urldata(data_dict, wanzheng_text):
                 for data in zhongbiao_daipinjie_data_lst:
                     zhongbiao_url_lst.append('{}?{}'.format(v[0].text(), data))
             elif "_表单数据_" in k:
+                yuming_huoqu = v[0].text()
                 zhaobiao_daipinjie_data_lst = (v[1].toPlainText()).split('\n')
                 for data in zhaobiao_daipinjie_data_lst:
                     zhaobiao_url_lst.append('{}|{}'.format(v[0].text(), data))
@@ -39,12 +43,16 @@ def start_urldata(data_dict, wanzheng_text):
                 for data in zhongbiao_daipinjie_data_lst:
                     zhongbiao_url_lst.append('{}|{}'.format(v[0].text(), data))
 
+            yuming = re.findall(r"//(.+?)/", yuming_huoqu)[0]
+            if ':' in yuming:
+                yuming = yuming.slipt(':')[0]
+
             with open('./muban/2start_urldata/{}.py'.format('1'), 'r', encoding='utf8') as f:
                 text = f.read()
             zhenghe_url_lst += zhaobiao_url_lst
             zhenghe_url_lst.append('')
             zhenghe_url_lst += zhongbiao_url_lst
-            wanzheng_text += text.format(a=str(zhenghe_url_lst).replace(" '", "\n'").replace("[", "[\n").replace("]", "\n]"))
+            wanzheng_text += text.format(a=str(zhenghe_url_lst).replace(" '", "\n'").replace("[", "[\n").replace("]", "\n]"), b=yuming)
     return wanzheng_text, panduan_zhaozhongbiaoyong_zhongbiaoshuju_lst
 
 
@@ -75,10 +83,23 @@ def liebiao_data(data_dict, wanzheng_text):
                     wanzheng_text = wanzheng_text + houduan_text
             elif '_Json包_' in k:
                 with open('./muban/4liebiao_data/{}.py'.format('json_bao'), 'r', encoding='utf8') as f:
-                    bugen_text_lst = f.read().split('~')
-                    wanzheng_text = bugen_text_lst[0] + wanzheng_text
-                    wanzheng_text = wanzheng_text + bugen_text_lst[1]
+                    text_lst = f.read().split('~')
+                    qianduan_text = text_lst[0].format(a=v[0].text())
+                    houduan_text = text_lst[1]
+                    houduan_text = houduan_text.format(b=zhenghe_kuohao(v[1].text()), c=zhenghe_kuohao(v[2].text()), d=zhenghe_kuohao(v[3].text()), e=zhenghe_kuohao(v[4].text()), f=v[5].text()).replace('【', '{').replace('】', '}')
+                    wanzheng_text = qianduan_text + wanzheng_text
+                    wanzheng_text = wanzheng_text + houduan_text
     return wanzheng_text
+
+
+def zhenghe_kuohao(text):
+    zhongkuohao_dict_text = '["{}"]'
+    zhenghe_zhongkuohao = ''
+    text_lst = text.replace('，', ',').split(',')
+    for x in range(len(text_lst)):
+        hebing = zhongkuohao_dict_text.format(text_lst[x])
+        zhenghe_zhongkuohao += hebing
+    return zhenghe_zhongkuohao
 
 
 def zhaozhongbiao_qufen(data_dict, wanzheng_text, panduan_zhaozhongbiaoyong_zhongbiaoshuju_lst):
@@ -93,13 +114,19 @@ def zhaozhongbiao_qufen(data_dict, wanzheng_text, panduan_zhaozhongbiaoyong_zhon
                     text = f.read()
                     zhongbiaobiaoqian_lst = []
                     for zhongbiao_url in panduan_zhaozhongbiaoyong_zhongbiaoshuju_lst:
-                        biaoqian = re.findall(v[0].text(), zhongbiao_url)[0]
-                        zhongbiaobiaoqian_lst.append(biaoqian)
+                        if zhongbiao_url != '':
+                            biaoqian = re.findall(v[0].text(), zhongbiao_url)[0]
+                            zhongbiaobiaoqian_lst.append(biaoqian)
                     text = text.format(a=str((v[0].text())), b=str(zhongbiaobiaoqian_lst))
             elif "_body判断_" in k:
                 with open('./muban/5zhaozhongbiao_qufen/{}.py'.format('body_panduan'), 'r', encoding='utf8') as f:
                     text = f.read()
-                    text = text.format(a=str((v[0].toPlainText()).split('\n')))
+                    zhongbiaobiaoqian_lst = []
+                    for zhongbiao_url in panduan_zhaozhongbiaoyong_zhongbiaoshuju_lst:
+                        if zhongbiao_url != '':
+                            biaoqian = re.findall(v[0].text(), zhongbiao_url)[0]
+                            zhongbiaobiaoqian_lst.append(biaoqian)
+                    text = text.format(a=str((v[0].text())), b=str(zhongbiaobiaoqian_lst))
             wanzheng_text += text
     return wanzheng_text
 
@@ -122,6 +149,10 @@ def fanye(data_dict, wanzheng_text):
                     wanzheng_text = wanzheng_text + bugen_text_lst[1]
             elif '_正则url_' in k:
                 with open('./muban/6fanye/{}.py'.format('正则_url'), 'r', encoding='utf8') as f:
+                    text = f.read()
+                    wanzheng_text += text.format(a=v[0].text())
+            elif '_正则body_' in k:
+                with open('./muban/6fanye/{}.py'.format('body_num_zengjia'), 'r', encoding='utf8') as f:
                     text = f.read()
                     wanzheng_text += text.format(a=v[0].text())
 

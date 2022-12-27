@@ -1,7 +1,9 @@
-a = dict({'0': 1})
-k = '_0_'
-a[k] = {}
-a[k]['0'] = 1
-print(a)
-k.replace(' ', '\n')
-# {'a': {'0': 0}} {'a': {'0': 0, '1': 0}}
+import time
+
+time_stamp = 1672052781000
+print(str(time_stamp)[:-3])
+
+# 时间戳 => 结构化时间 => 时间字符串
+time_str = time.strftime('%Y-%m-%d', time.localtime(int(str(time_stamp)[:-3])))
+print(time_str)
+# publishtime = time.strftime('%Y-%m-%d', time.localtime(int(str(x["docRelTime"])[:-3])))

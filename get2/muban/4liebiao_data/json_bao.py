@@ -1,4 +1,4 @@
-    url_pinjie_qianduan = ''
+    url_pinjie_qianduan = '{a}'
 
 ~
     def parse(self, response):
@@ -7,13 +7,13 @@
                 rs = json.loads(response.text)
             except:
                 rs = response.text
-            for x in rs['result']['records']:
+            for x in rs{b}:
                 items = ShishicesiItem()
-                titlell = x['title']
-                urlhtml = x['linkurl']
-                url = self.url_pingjie(response, urlhtml)
-                publishtime = re.findall(r"(\d\d\d\d\-\d\d\-\d\d)", str(x['webdate']))
-                items['publishtime'] = publishtime[0].replace('.', '-').replace(' ', '').replace('/', '-')
+                titlell = x{c}
+                urlhtml = x{d}
+                url = self.url_pinjie_qianduan + urlhtml
+                publishtime = re.findall(r"{f}", str({e}))[0]
+                items['publishtime'] = publishtime.replace('.', '-').replace(' ', '').replace('/', '-')
                 self.zuihou_time = items['publishtime']
                 # timeStamp = int(time.mktime(time.strptime(items['publishtime'], "%Y-%m-%d %H:%M:%S")))
                 # timeStamp = int(time.mktime(time.strptime(items['publishtime'], "%Y-%m-%d")))
@@ -24,7 +24,7 @@
                 if url and self.shi.shishi(items['source'], str(url)):
                     self.zhaozhong_biao(response, items)
                     # 爬取列表内各个url的数据
-                    yield scrapy.Request(url=url.replace('&amp;', '&'), callback=self.html, meta={'items': items})
+                    yield scrapy.Request(url=url.replace('&amp;', '&'), callback=self.html, meta=【'items': items】)
             # # 存在下一页翻页
             yield from self.xiayiye_fanye(response)
 

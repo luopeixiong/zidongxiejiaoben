@@ -20,7 +20,7 @@
         ],
         "1": [
             "QTextEdit",
-            "{\"channelId\":\"5904475\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"交易公告\",\"isPage\":true}\n{\"channelId\":\"5904475\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"变更公告（澄清与答疑）\",\"isPage\":true}\n{\"channelId\":\"5904475\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"交易证明书\",\"isPage\":true}\n{\"channelId\":\"5904475\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"其他公告\",\"isPage\":true}\n{\"channelId\":\"5904475\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"合同公示\",\"isPage\":true}\n{\"channelId\":\"5904543\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"采购需求公示\",\"isPage\":true}\n{\"channelId\":\"5904543\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"采购公告\",\"isPage\":true}\n{\"channelId\":\"5904543\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"变更公告（澄清与答疑）\",\"isPage\":true}\n{\"channelId\":\"5904543\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"交易证明书\",\"isPage\":true}\n{\"channelId\":\"5904543\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"其他公告\",\"isPage\":true}\n{\"channelId\":\"5904543\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"合同公示\",\"isPage\":true}\n{\"channelId\":\"5904477\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"交易公告\",\"isPage\":true}\n{\"channelId\":\"5904477\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"变更公告（澄清与答疑）\",\"isPage\":true}{\"channelId\":\"5904477\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"其他公告\",\"isPage\":true}\n{\"channelId\":\"5904477\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"交易证明书\",\"isPage\":true}\n\n"
+            "{\"channelId\":\"5904475\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"交易公告\",\"isPage\":true}\n{\"channelId\":\"5904475\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"变更公告（澄清与答疑）\",\"isPage\":true}\n{\"channelId\":\"5904475\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"交易证明书\",\"isPage\":true}\n{\"channelId\":\"5904475\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"其他公告\",\"isPage\":true}\n{\"channelId\":\"5904475\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"合同公示\",\"isPage\":true}\n{\"channelId\":\"5904543\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"采购需求公示\",\"isPage\":true}\n{\"channelId\":\"5904543\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"采购公告\",\"isPage\":true}\n{\"channelId\":\"5904543\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"变更公告（澄清与答疑）\",\"isPage\":true}\n{\"channelId\":\"5904543\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"交易证明书\",\"isPage\":true}\n{\"channelId\":\"5904543\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"其他公告\",\"isPage\":true}\n{\"channelId\":\"5904543\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"合同公示\",\"isPage\":true}\n{\"channelId\":\"5904477\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"交易公告\",\"isPage\":true}\n{\"channelId\":\"5904477\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"变更公告（澄清与答疑）\",\"isPage\":true}\n{\"channelId\":\"5904477\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"其他公告\",\"isPage\":true}\n{\"channelId\":\"5904477\",\"pageNum\":1,\"pageSize\":20,\"announcement\":\"交易证明书\",\"isPage\":true}\n\n"
         ],
         "2": [
             "QTextEdit",
@@ -30,13 +30,63 @@
     "2_start_requests_": {
         "0": [
             "QComboBox",
-            "_POST_"
+            "_GET_"
         ]
     },
-    "3_列表页面__Json包_": {
+    "0_列表页面__Json包_": {
         "0": [
             "QLineEdit",
-            "如果值得到详细页的url的id部分，在此写入完整url前段部分"
+            ""
+        ],
+        "1": [
+            "QLineEdit",
+            "list"
+        ],
+        "2": [
+            "QLineEdit",
+            "docTitle"
+        ],
+        "3": [
+            "QLineEdit",
+            "apiUrl"
+        ],
+        "4": [
+            "QLineEdit",
+            "docRelTime"
+        ],
+        "5": [
+            "QLineEdit",
+            "列表时间re"
+        ]
+    },
+    "0_招中标区分__body判断_": {
+        "0": [
+            "QLineEdit",
+            "\\\"announcement\\\":\\\"(.+?)\\\""
+        ]
+    },
+    "0_翻页__正则body_": {
+        "0": [
+            "QLineEdit",
+            "pageNum\":(\\d+)"
+        ]
+    },
+    "1_详细页_": {
+        "0": [
+            "QLineEdit",
+            "//div[@class=\"title\"]/h3"
+        ],
+        "1": [
+            "QLineEdit",
+            "//div[@class=\"toolbar\"]/span[@class=\"fbrq\"]"
+        ],
+        "2": [
+            "QLineEdit",
+            "(\\d\\d\\d\\d\\-\\d\\d\\-\\d\\d)"
+        ],
+        "3": [
+            "QLineEdit",
+            "//div[@class=\"view_con\"]"
         ]
     }
 }
