@@ -172,7 +172,7 @@ def xiangxiye(data_dict, wanzheng_text):
             elif '_Json包_' in k:
                 with open('./muban/7zhengwen_data/{}.py'.format('Json_bao'), 'r', encoding='utf8') as f:
                     text = f.read()
-                    houduan = text.format(a=zhenghe_kuohao(v[0].text()), b=zhenghe_kuohao(v[1].text()), c=zhenghe_kuohao(v[2].text()), d=zhenghe_kuohao(v[3].text()))
+                    houduan = text.format(a=zhenghe_kuohao(v[0].text()), b=zhenghe_kuohao(v[1].text()), c=zhenghe_kuohao(v[2].text()), d=v[3].text())
                     wanzheng_text = wanzheng_text + houduan
     return wanzheng_text
 

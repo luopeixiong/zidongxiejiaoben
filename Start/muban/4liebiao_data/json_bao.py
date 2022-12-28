@@ -12,7 +12,7 @@
                 titlell = x{c}
                 urlhtml = x{d}
                 url = self.url_pinjie_qianduan + urlhtml
-                publishtime = re.findall(r"{f}", str({e}))[0]
+                publishtime = re.findall(r"{f}", str(x{e}))[0]
                 items['publishtime'] = publishtime.replace('.', '-').replace(' ', '').replace('/', '-')
                 self.zuihou_time = items['publishtime']
                 # timeStamp = int(time.mktime(time.strptime(items['publishtime'], "%Y-%m-%d %H:%M:%S")))

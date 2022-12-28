@@ -216,7 +216,6 @@ class MainWindow(QWidget):
                 dongdai_chuangjian_lst.append(QLineEdit(r'30【增加的数组】'))
         elif "_详细页_" in value:
             biaoqian = str(self.count) + value + value2
-            biaoqian = str(self.count) + value + value2
             if '_Html格式_' in value2:
                 dongdai_chuangjian_lst.append(QLineEdit("_详细页_标题_xpath_"))
                 dongdai_chuangjian_lst.append(QLineEdit("_详细页_时间_xpath_"))

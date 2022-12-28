@@ -2,33 +2,29 @@
     "0_基础数据_": {
         "0": [
             "QLineEdit",
-            "1021"
+            "1023"
         ],
         "1": [
             "QLineEdit",
-            "云采链线上采购一体化平台"
+            "福建省福怡药械招标有限公司"
         ],
         "2": [
             "QLineEdit",
-            "YuncailianXianshang"
+            "FujianshengFuyiyaoxie"
         ],
         "3": [
             "QLineEdit",
-            "application/json; charset=utf-8"
+            "text/html; charset=utf-8"
         ]
     },
-    "1_start_urlAnddata__查询字符串参数_": {
+    "1_start_urlAnddata__无_": {
         "0": [
-            "QLineEdit",
-            "https://siteserver.choicelink.cn/api/LjSiteServer/GetRKSiteServerList"
+            "QTextEdit",
+            "http://www.fyzb.com/index/Message/index.html?cate=20&page=1\nhttp://www.fyzb.com/index/Message/index.html?cate=22&page=1\nhttp://www.fyzb.com/index/Message/index.html?cate=23&page=1\nhttp://www.fyzb.com/index/Message/index.html?cate=26&page=1"
         ],
         "1": [
             "QTextEdit",
-            "pageSize=30&offset=0&query=SiteId%3D%274795%27+AND+ChannelId+IN(%275138%27,%275140%27,%275139%27,%275141%27)\npageSize=30&offset=0&query=SiteId%3D%274795%27+AND+ChannelId+IN(%275146%27,%275147%27,%275148%27,%275149%27)"
-        ],
-        "2": [
-            "QTextEdit",
-            ""
+            "ttp://www.fyzb.com/index/Message/index.html?cate=21&page=1"
         ]
     },
     "2_start_requests_": {
@@ -37,56 +33,48 @@
             "_GET_"
         ]
     },
-    "3_列表页面__Json包_": {
+    "3_列表页面__Html格式_": {
         "0": [
             "QLineEdit",
-            ""
+            "//div[@class=\"about_cont\"]/table//tr/td[2]/a/text()"
         ],
         "1": [
             "QLineEdit",
-            "items"
+            "//div[@class=\"about_cont\"]/table//tr/td[2]/a"
         ],
         "2": [
             "QLineEdit",
-            "title"
+            "//div[@class=\"about_cont\"]/table//tr/td[3]"
         ],
         "3": [
-            "QLineEdit",
-            "列表url定位【逗号做分隔符】"
-        ],
-        "4": [
-            "QLineEdit",
-            "addDate"
-        ],
-        "5": [
             "QLineEdit",
             "(\\d\\d\\d\\d\\-\\d\\d\\-\\d\\d)"
         ]
     },
-    "4_招中标区分__标题判断_": {
+    "4_招中标区分__url判断_": {
         "0": [
             "QLineEdit",
-            "结果,中选，成交"
+            "cate=(.+?)&"
         ]
     },
     "5_翻页__正则url_": {
         "0": [
             "QLineEdit",
-            "&offset=(\\d+)"
+            "page=(\\d+)"
         ],
         "1": [
             "QLineEdit",
-            "30"
+            "1"
         ]
     },
-    "6_详细页_": {
+    "6_详细页__Html格式_": {
         "0": [
             "QLineEdit",
-            "_详细页_标题_xpath_"
+            "//div[@class=\"article-title\"]"
         ],
         "1": [
             "QLineEdit",
-            "_详细页_时间_xpath_"
+            "//div[@class=\"article-author\"]/em"
         ],
         "2": [
             "QLineEdit",
@@ -94,7 +82,7 @@
         ],
         "3": [
             "QLineEdit",
-            "_详细页_正文_xpath_"
+            "//div[@class=\"page\"]"
         ]
     }
 }
