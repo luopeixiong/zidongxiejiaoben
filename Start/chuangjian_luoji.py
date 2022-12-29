@@ -1,7 +1,7 @@
 import re
 import time
 import shutil
-print('cscscs')
+print('cscscs2')
 
 def jichu_data(data_dict, wanzheng_text):
     wenjianming = ''
