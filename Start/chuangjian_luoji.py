@@ -223,4 +223,4 @@ def chuangjian(data_dict):
 
 
 if __name__ == '__main__':
-    pass
+    print('测试')
