@@ -26,7 +26,6 @@ class Spider(scrapy.Spider):
 
     def guding_xieru(self, response):
         items = response.meta['items']  # 回传管道
-        self.shi.shishi1(items['source'], str(response.url))
         if items['title'] is not None and items['content'] is not None:
             if '>' in items['title']:
                 items['title'] = re.sub(r'(<(.+?)>)', '', items['title']).strip()

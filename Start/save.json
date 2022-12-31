@@ -2,29 +2,29 @@
     "0_基础数据_": {
         "0": [
             "QLineEdit",
-            "1023"
+            "1008"
         ],
         "1": [
             "QLineEdit",
-            "福建省福怡药械招标有限公司"
+            "自贡市政务服务中心"
         ],
         "2": [
             "QLineEdit",
-            "FujianshengFuyiyaoxie"
+            "ZigongshiFuwu"
         ],
         "3": [
             "QLineEdit",
-            "text/html; charset=utf-8"
+            ""
         ]
     },
     "1_start_urlAnddata__无_": {
         "0": [
             "QTextEdit",
-            "http://www.fyzb.com/index/Message/index.html?cate=20&page=1\nhttp://www.fyzb.com/index/Message/index.html?cate=22&page=1\nhttp://www.fyzb.com/index/Message/index.html?cate=23&page=1\nhttp://www.fyzb.com/index/Message/index.html?cate=26&page=1"
+            "http://61.157.185.148001/"
         ],
         "1": [
             "QTextEdit",
-            "ttp://www.fyzb.com/index/Message/index.html?cate=21&page=1"
+            ""
         ]
     },
     "2_start_requests_": {
@@ -36,45 +36,35 @@
     "3_列表页面__Html格式_": {
         "0": [
             "QLineEdit",
-            "//div[@class=\"about_cont\"]/table//tr/td[2]/a/text()"
+            "//div[@class=\"trade-bd\"]/div/ul/li/a/text()"
         ],
         "1": [
             "QLineEdit",
-            "//div[@class=\"about_cont\"]/table//tr/td[2]/a"
+            "//div[@class=\"trade-bd\"]/div/ul/li/a"
         ],
         "2": [
             "QLineEdit",
-            "//div[@class=\"about_cont\"]/table//tr/td[3]"
+            "//div[@class=\"trade-bd\"]/div/ul/li/span"
         ],
         "3": [
             "QLineEdit",
             "(\\d\\d\\d\\d\\-\\d\\d\\-\\d\\d)"
         ]
     },
-    "4_招中标区分__url判断_": {
+    "4_招中标区分__标题判断_": {
         "0": [
             "QLineEdit",
-            "cate=(.+?)&"
+            "结果,中选，成交"
         ]
     },
-    "5_翻页__正则url_": {
+    "5_详细页__Html格式_": {
         "0": [
             "QLineEdit",
-            "page=(\\d+)"
+            "//h3[@class=\"detail-tt\"]"
         ],
         "1": [
             "QLineEdit",
-            "1"
-        ]
-    },
-    "6_详细页__Html格式_": {
-        "0": [
-            "QLineEdit",
-            "//div[@class=\"article-title\"]"
-        ],
-        "1": [
-            "QLineEdit",
-            "//div[@class=\"article-author\"]/em"
+            "//div[@class=\"detail-tips\"]"
         ],
         "2": [
             "QLineEdit",
@@ -82,7 +72,7 @@
         ],
         "3": [
             "QLineEdit",
-            "//div[@class=\"page\"]"
+            "//div[@class=\"content-box clearfix\"]"
         ]
     }
 }

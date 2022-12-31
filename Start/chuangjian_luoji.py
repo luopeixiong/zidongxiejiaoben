@@ -1,8 +1,6 @@
 import re
 import time
 import shutil
-print('cscscs9')
-print('cscscs14')
 
 def jichu_data(data_dict, wanzheng_text):
     wenjianming = ''
@@ -226,4 +224,4 @@ def chuangjian(data_dict):
 
 
 if __name__ == '__main__':
-    print('测试')
+    pass
