@@ -4,7 +4,7 @@ from ..items import *
 
 class Spider(scrapy.Spider):
     mun = 0
-    zuihou_time = None
+    zuihou_time = 999
     shi = shi()
 
 {wanzheng_text}
