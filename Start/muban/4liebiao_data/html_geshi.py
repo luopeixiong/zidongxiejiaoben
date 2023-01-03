@@ -5,7 +5,7 @@
     publishtime_re = r"{time_re}"
 
 ~
-    def parse(self, response):
+    def parse(self, response, *args, **kwargs):
         if response.status == 200 and len(response.text) > 1:
             titlell = response.xpath(self.titlell_xpath).extract()
             urlhtml = response.xpath(self.urlhtml_xpath).re(r"href=[\'|\"](.+?)[\'|\"]")

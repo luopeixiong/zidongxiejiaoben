@@ -1,7 +1,7 @@
     url_pinjie_qianduan = '{a}'
 
 ~
-    def parse(self, response):
+    def parse(self, response, *args, **kwargs):
         if response.status == 200 and len(response.text) > 1:
             try:
                 rs = json.loads(response.text)
