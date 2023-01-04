@@ -2,13 +2,14 @@ import re
 import time
 import shutil
 
+
 def jichu_data(data_dict, wanzheng_text):
     wenjianming = ''
     for k, v in data_dict.items():
         if '_基础数据_' in k:
             with open('./muban/1kaitou/{}.py'.format('kaitou1'), 'r', encoding='utf8') as f:
-                wenjianming = v[0].text()+v[1].text()
-                text = f.read().format(a=(v[0].text()+v[1].text()), b=v[1].text(), c=v[2].text(), d=v[3].text())
+                wenjianming = v[0].text() + v[1].text()
+                text = f.read().format(a=(v[0].text() + v[1].text()), b=v[1].text(), c=v[2].text(), d=v[3].text())
                 wanzheng_text += text
     return wanzheng_text, wenjianming
 
@@ -78,19 +79,13 @@ def liebiao_data(data_dict, wanzheng_text):
         if '_列表页面_' in k:
             if "_Html格式_" in k:
                 with open('./muban/4liebiao_data/{}.py'.format('html_geshi'), 'r', encoding='utf8') as f:
-                    text_lst = f.read().split('~')
-                    qianduan_text = text_lst[0].format(title_xpath=v[0].text(), url_xpath=v[1].text(), time_xpath=v[2].text(), time_re=v[3].text())
-                    houduan_text = text_lst[1]
-                    wanzheng_text = qianduan_text + wanzheng_text
-                    wanzheng_text = wanzheng_text + houduan_text
+                    text = f.read()
+                    wanzheng_text += text.format(title_xpath=v[0].text(), url_xpath=v[1].text(), time_xpath=v[2].text(), time_re=v[3].text())
             elif '_Json包_' in k:
                 with open('./muban/4liebiao_data/{}.py'.format('json_bao'), 'r', encoding='utf8') as f:
-                    text_lst = f.read().split('~')
-                    qianduan_text = text_lst[0].format(a=v[0].text())
-                    houduan_text = text_lst[1]
-                    houduan_text = houduan_text.format(b=zhenghe_kuohao(v[1].text()), c=zhenghe_kuohao(v[2].text()), d=zhenghe_kuohao(v[3].text()), e=zhenghe_kuohao(v[4].text()), f=v[5].text()).replace('【', '{').replace('】', '}')
-                    wanzheng_text = qianduan_text + wanzheng_text
-                    wanzheng_text = wanzheng_text + houduan_text
+                    text = f.read()
+                    houduan_text = text.format(a=v[0].text(), b=zhenghe_kuohao(v[1].text()), c=zhenghe_kuohao(v[2].text()), d=zhenghe_kuohao(v[3].text()), e=zhenghe_kuohao(v[4].text()), f=v[5].text()).replace('【', '{').replace('】', '}')
+                    wanzheng_text += houduan_text
     return wanzheng_text
 
 
@@ -161,16 +156,14 @@ def fanye(data_dict, wanzheng_text):
     return wanzheng_text
 
 
-
 def xiangxiye(data_dict, wanzheng_text):
     for k, v in data_dict.items():
         if '_详细页_' in k:
             if "_Html格式_" in k:
                 with open('./muban/7zhengwen_data/{}.py'.format('Html_geshi'), 'r', encoding='utf8') as f:
-                    text_lst = f.read().split('~')
-                    qianduan = text_lst[0].format(title_xpath=v[0].text(), time_xpath=v[1].text(), time_re=v[2].text(), content_xpath=v[3].text())
-                    wanzheng_text = qianduan + wanzheng_text
-                    wanzheng_text += text_lst[1]
+                    text = f.read()
+                    text = text.format(title_xpath=v[0].text(), time_xpath=v[1].text(), time_re=v[2].text(), content_xpath=v[3].text())
+                    wanzheng_text += text
             elif '_Json包_' in k:
                 with open('./muban/7zhengwen_data/{}.py'.format('Json_bao'), 'r', encoding='utf8') as f:
                     text = f.read()

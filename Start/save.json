@@ -2,25 +2,25 @@
     "0_基础数据_": {
         "0": [
             "QLineEdit",
-            "1008"
+            "1038"
         ],
         "1": [
             "QLineEdit",
-            "自贡市政务服务中心"
+            "扬州市职业大学"
         ],
         "2": [
             "QLineEdit",
-            "ZigongshiFuwu"
+            ""
         ],
         "3": [
             "QLineEdit",
-            ""
+            "application/json"
         ]
     },
     "1_start_urlAnddata__无_": {
         "0": [
             "QTextEdit",
-            "http://61.157.185.148001/"
+            "http://www.czzy-edu.com/10/17/index.htm"
         ],
         "1": [
             "QTextEdit",
@@ -36,15 +36,15 @@
     "3_列表页面__Html格式_": {
         "0": [
             "QLineEdit",
-            "//div[@class=\"trade-bd\"]/div/ul/li/a/text()"
+            "//div[@class=\"gair-b2\"]//li/a"
         ],
         "1": [
             "QLineEdit",
-            "//div[@class=\"trade-bd\"]/div/ul/li/a"
+            "//div[@class=\"gair-b2\"]//li/a"
         ],
         "2": [
             "QLineEdit",
-            "//div[@class=\"trade-bd\"]/div/ul/li/span"
+            "//div[@class=\"gair-b2\"]//li/span"
         ],
         "3": [
             "QLineEdit",
@@ -57,14 +57,20 @@
             "结果,中选，成交"
         ]
     },
-    "5_详细页__Html格式_": {
+    "5_翻页__url_num增加_": {
         "0": [
             "QLineEdit",
-            "//h3[@class=\"detail-tt\"]"
+            "index_1.htm"
+        ]
+    },
+    "6_详细页__Html格式_": {
+        "0": [
+            "QLineEdit",
+            "//div[@class=\"xr-b-title\"]/h2"
         ],
         "1": [
             "QLineEdit",
-            "//div[@class=\"detail-tips\"]"
+            "//p[@class=\"arti-metas\"]"
         ],
         "2": [
             "QLineEdit",
@@ -72,7 +78,7 @@
         ],
         "3": [
             "QLineEdit",
-            "//div[@class=\"content-box clearfix\"]"
+            "//div[@class=\"xr-cont-t\"]"
         ]
     }
 }

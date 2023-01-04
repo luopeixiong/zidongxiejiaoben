@@ -12,3 +12,4 @@
             qq = qq if 'h' == qq[0] and '/' == qq[6] else response.url.split('/')[0] + '//' + response.url.split('/')[2] + qq if '/' == qq[0] else response.url.replace(response.url.split("/")[-1], "") + qq
             print(qq)
             yield scrapy.Request(qq, callback=self.parse)
+

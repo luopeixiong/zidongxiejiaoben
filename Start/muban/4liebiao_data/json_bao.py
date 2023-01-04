@@ -1,6 +1,3 @@
-    url_pinjie_qianduan = '{a}'
-
-~
     def parse(self, response, *args, **kwargs):
         if response.status == 200 and len(response.text) > 1:
             try:
@@ -11,7 +8,7 @@
                 items = ShishicesiItem()
                 titlell = x{c}
                 urlhtml = x{d}
-                url = self.url_pinjie_qianduan + urlhtml
+                url = '{a}' + urlhtml
                 publishtime = re.findall(r"{f}", str(x{e}))[0]
                 items['publishtime'] = publishtime.replace('.', '-').replace(' ', '').replace('/', '-')
                 self.zuihou_time = items['publishtime']

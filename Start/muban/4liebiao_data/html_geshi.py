@@ -1,15 +1,9 @@
-    titlell_xpath = '{title_xpath}'
-    titlell_xpath_re = r"title=[\'|\"](.+?)[\'|\"]"
-    urlhtml_xpath = '{url_xpath}'
-    publishtime_xpath = '{time_xpath}'
-    publishtime_re = r"{time_re}"
-
-~
     def parse(self, response, *args, **kwargs):
         if response.status == 200 and len(response.text) > 1:
-            titlell = response.xpath(self.titlell_xpath).extract()
-            urlhtml = response.xpath(self.urlhtml_xpath).re(r"href=[\'|\"](.+?)[\'|\"]")
-            publishtime = response.xpath(self.publishtime_xpath).re(self.publishtime_re)
+            titlell = response.xpath('{title_xpath}').extract()
+            # titlell = response.xpath('{title_xpath}').re(r"title=[\'|\"](.+?)[\'|\"]")
+            urlhtml = response.xpath('{url_xpath}').re(r"href=[\'|\"](.+?)[\'|\"]")
+            publishtime = response.xpath('{time_xpath}').re(r"{time_re}")
             print(len(titlell), len(urlhtml), len(publishtime), response.url)
             for x in range(0, len(urlhtml)):
                 items = ShishicesiItem()
@@ -27,7 +21,7 @@
                     # 判断招中标
                     self.zhaozhong_biao(response, items)
                     # 爬取列表内各个url的数据
-                    yield scrapy.Request(url=url, callback=self.html, meta={'items': items})
+                    yield scrapy.Request(url=url, callback=self.html, meta=【'items': items】)
             # 存在下一页翻页
             yield from self.xiayiye_fanye(response)
 
