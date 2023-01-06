@@ -2,11 +2,11 @@
     "0_基础数据_": {
         "0": [
             "QLineEdit",
-            "1049"
+            "1053"
         ],
         "1": [
             "QLineEdit",
-            "山西铁道职业技术学院"
+            "贵州电子信息职业技术学院"
         ],
         "2": [
             "QLineEdit",
@@ -20,7 +20,7 @@
     "1_start_urlAnddata__无_": {
         "0": [
             "QTextEdit",
-            "https://www.sxtdzy.cn/html/948/"
+            "https://www.gzeic.com/list.jsp?itemId=4&cItemId=1217&page=1"
         ],
         "1": [
             "QTextEdit",
@@ -36,15 +36,15 @@
     "3_列表页面__Html格式_": {
         "0": [
             "QLineEdit",
-            "//ul[@class=\"sidelist58\"]/li/a"
+            "//span[@class=\"title  css1\"]/a"
         ],
         "1": [
             "QLineEdit",
-            "//ul[@class=\"sidelist58\"]/li/a"
+            "//span[@class=\"title  css1\"]/a"
         ],
         "2": [
             "QLineEdit",
-            "//ul[@class=\"sidelist58\"]/li/span"
+            "//span[@class=\"time\"]"
         ],
         "3": [
             "QLineEdit",
@@ -60,17 +60,17 @@
     "5_翻页__下一页xpath_": {
         "0": [
             "QLineEdit",
-            "//a[contains(text(), \"下一页\")]/@href"
+            "//a[@class=\"next\"]/@href"
         ]
     },
     "6_详细页__Html格式_": {
         "0": [
             "QLineEdit",
-            "//div[@class=\"artitle\"]"
+            "//div[@class=\"Article_bt\"]"
         ],
         "1": [
             "QLineEdit",
-            "//div[@class=\"artinfo\"]"
+            "//div[@class=\"Article_ly\"]"
         ],
         "2": [
             "QLineEdit",
@@ -78,7 +78,7 @@
         ],
         "3": [
             "QLineEdit",
-            "//div[@class=\"artcon\"]"
+            "//div[@class=\"Article_zw\"]"
         ]
     }
 }
