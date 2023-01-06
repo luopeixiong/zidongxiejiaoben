@@ -205,7 +205,7 @@ class MainWindow(QWidget):
         elif "_翻页_" in value:
             biaoqian = str(self.count) + value + value2
             if '_下一页xpath_' in value2:
-                dongdai_chuangjian_lst.append(QLineEdit("_下一页xpath_"))
+                dongdai_chuangjian_lst.append(QLineEdit('//a[contains(text(), "下页")]/@href'))
             elif '_url_num增加_' in value2:
                 dongdai_chuangjian_lst.append(QLineEdit("把第二页的url后段部分写入，如：index_2.jhtml"))
             elif '_正则url_' in value2:

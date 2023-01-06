@@ -10,10 +10,9 @@
                 urlhtml = x{d}
                 url = '{a}' + urlhtml
                 publishtime = re.findall(r"{f}", str(x{e}))[0]
+                # publishtime = time.strftime("%Y-%m-%d", time.localtime(int(x{e})))  # 获取上次记录的日期和时间
                 items['publishtime'] = publishtime.replace('.', '-').replace(' ', '').replace('/', '-')
                 self.zuihou_time = items['publishtime']
-                # timeStamp = int(time.mktime(time.strptime(items['publishtime'], "%Y-%m-%d %H:%M:%S")))
-                # timeStamp = int(time.mktime(time.strptime(items['publishtime'], "%Y-%m-%d")))
                 items['source'] = self.items_cource
                 items['notes'] = 'bscrapy'
                 items['title'] = titlell

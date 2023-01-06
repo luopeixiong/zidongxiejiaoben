@@ -2,11 +2,11 @@
     "0_基础数据_": {
         "0": [
             "QLineEdit",
-            "1038"
+            "1049"
         ],
         "1": [
             "QLineEdit",
-            "扬州市职业大学"
+            "山西铁道职业技术学院"
         ],
         "2": [
             "QLineEdit",
@@ -20,7 +20,7 @@
     "1_start_urlAnddata__无_": {
         "0": [
             "QTextEdit",
-            "http://www.czzy-edu.com/10/17/index.htm"
+            "https://www.sxtdzy.cn/html/948/"
         ],
         "1": [
             "QTextEdit",
@@ -36,15 +36,15 @@
     "3_列表页面__Html格式_": {
         "0": [
             "QLineEdit",
-            "//div[@class=\"gair-b2\"]//li/a"
+            "//ul[@class=\"sidelist58\"]/li/a"
         ],
         "1": [
             "QLineEdit",
-            "//div[@class=\"gair-b2\"]//li/a"
+            "//ul[@class=\"sidelist58\"]/li/a"
         ],
         "2": [
             "QLineEdit",
-            "//div[@class=\"gair-b2\"]//li/span"
+            "//ul[@class=\"sidelist58\"]/li/span"
         ],
         "3": [
             "QLineEdit",
@@ -57,20 +57,20 @@
             "结果,中选，成交"
         ]
     },
-    "5_翻页__url_num增加_": {
+    "5_翻页__下一页xpath_": {
         "0": [
             "QLineEdit",
-            "index_1.htm"
+            "//a[contains(text(), \"下一页\")]/@href"
         ]
     },
     "6_详细页__Html格式_": {
         "0": [
             "QLineEdit",
-            "//div[@class=\"xr-b-title\"]/h2"
+            "//div[@class=\"artitle\"]"
         ],
         "1": [
             "QLineEdit",
-            "//p[@class=\"arti-metas\"]"
+            "//div[@class=\"artinfo\"]"
         ],
         "2": [
             "QLineEdit",
@@ -78,7 +78,7 @@
         ],
         "3": [
             "QLineEdit",
-            "//div[@class=\"xr-cont-t\"]"
+            "//div[@class=\"artcon\"]"
         ]
     }
 }
