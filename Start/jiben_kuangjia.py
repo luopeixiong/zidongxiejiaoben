@@ -46,8 +46,10 @@ class Spider(scrapy.Spider):
     def htmliii(self, response):
         self.mun += 1
         print("------------------------------\n" + response.text)
+        self.logger.info("------------------------------chenggong")
 
 
     def err(self, failure):
         response = failure.value.response
         print("------------------------------\n" + response.text)
+        self.logger.info("------------------------------shibai")

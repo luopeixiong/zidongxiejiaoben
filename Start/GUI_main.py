@@ -201,7 +201,7 @@ class MainWindow(QWidget):
             elif '_url判断_' in value2:
                 dongdai_chuangjian_lst.append(QLineEdit(r"&categorynum=(.+?)&"))
             elif '_body判断_' in value2:
-                dongdai_chuangjian_lst.append(QLineEdit(r"\"announcement\":\"(.+?)\""))
+                dongdai_chuangjian_lst.append(QLineEdit(r'"announcement":"(.+?)"'))
         elif "_翻页_" in value:
             biaoqian = str(self.count) + value + value2
             if '_下一页xpath_' in value2:

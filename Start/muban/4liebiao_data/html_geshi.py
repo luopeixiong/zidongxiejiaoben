@@ -3,6 +3,10 @@
             titlell = response.xpath('{title_xpath}').extract()
             # titlell = response.xpath('{title_xpath}').re(r"title=[\'|\"](.+?)[\'|\"]")
             urlhtml = response.xpath('{url_xpath}').re(r"href=[\'|\"](.+?)[\'|\"]")
+            # nian_list = response.xpath('').extract()
+            # yue_list = response.xpath('').extract()
+            # ri_list = response.xpath('').extract()
+            # publishtime = ['-'.join(x) for x in zip(nian_list, yue_list, ri_list)]
             publishtime = response.xpath('{time_xpath}').re(r"{time_re}")
             print(len(titlell), len(urlhtml), len(publishtime), response.url)
             for x in range(0, len(urlhtml)):

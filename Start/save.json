@@ -2,11 +2,11 @@
     "0_基础数据_": {
         "0": [
             "QLineEdit",
-            "1053"
+            "1077"
         ],
         "1": [
             "QLineEdit",
-            "贵州电子信息职业技术学院"
+            "南方医科大学口腔医院"
         ],
         "2": [
             "QLineEdit",
@@ -20,11 +20,11 @@
     "1_start_urlAnddata__无_": {
         "0": [
             "QTextEdit",
-            "https://www.gzeic.com/list.jsp?itemId=4&cItemId=1217&page=1"
+            "http://www.smukqyy.com/news/index.html?id=378&p=1"
         ],
         "1": [
             "QTextEdit",
-            ""
+            "http://www.smukqyy.com/news/index.html?id=376&p=1"
         ]
     },
     "2_start_requests_": {
@@ -36,15 +36,15 @@
     "3_列表页面__Html格式_": {
         "0": [
             "QLineEdit",
-            "//span[@class=\"title  css1\"]/a"
+            "//div[@class=\"content2\"]/ul/a/li/h3/text()"
         ],
         "1": [
             "QLineEdit",
-            "//span[@class=\"title  css1\"]/a"
+            "//div[@class=\"content2\"]/ul/a"
         ],
         "2": [
             "QLineEdit",
-            "//span[@class=\"time\"]"
+            "//div[@class=\"content2\"]/ul/a/li/h4"
         ],
         "3": [
             "QLineEdit",
@@ -60,17 +60,17 @@
     "5_翻页__下一页xpath_": {
         "0": [
             "QLineEdit",
-            "//a[@class=\"next\"]/@href"
+            "//a[contains(text(), \"下一页\")]/@href"
         ]
     },
     "6_详细页__Html格式_": {
         "0": [
             "QLineEdit",
-            "//div[@class=\"Article_bt\"]"
+            "//div[@class=\"content_1\"]/h3"
         ],
         "1": [
             "QLineEdit",
-            "//div[@class=\"Article_ly\"]"
+            "//div[@class=\"content_1\"]/h4"
         ],
         "2": [
             "QLineEdit",
@@ -78,7 +78,19 @@
         ],
         "3": [
             "QLineEdit",
-            "//div[@class=\"Article_zw\"]"
+            "//div[@id=\"size\"]"
+        ]
+    },
+    "0_翻页__url_num增加_": {
+        "0": [
+            "QLineEdit",
+            "index_2.shtml"
+        ]
+    },
+    "1_招中标区分__url判断_": {
+        "0": [
+            "QLineEdit",
+            "id=(.+?)&"
         ]
     }
 }
