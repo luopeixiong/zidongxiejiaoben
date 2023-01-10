@@ -148,11 +148,18 @@ class MainWindow(QWidget):
         value = self.select.currentText()
         value2 = self.select2.currentText()
         if "_基础数据_" in value:
+            hobby_box = QGroupBox('测试')
+            v_layout = QVBoxLayout()
             biaoqian = str(self.count) + value + value2
             dongdai_chuangjian_lst.append(QLineEdit("_脚本编号_"))
+            v_layout.addWidget(QLineEdit("_脚本编号_"))
             dongdai_chuangjian_lst.append(QLineEdit("_脚本中文名_"))
+            v_layout.addWidget(QLineEdit("_脚本中文名_"))
             dongdai_chuangjian_lst.append(QLineEdit("_脚本类名_"))
+            v_layout.addWidget(QLineEdit("_脚本类名_"))
             dongdai_chuangjian_lst.append(QLineEdit("application/json"))
+            v_layout.addWidget(QLineEdit("application/json"))
+            hobby_box.setLayout(v_layout)
         elif "_start_urlAnddata_" in value:
             biaoqian = str(self.count) + value + value2
             if '_无_' in value2:
@@ -226,14 +233,13 @@ class MainWindow(QWidget):
                 dongdai_chuangjian_lst.append(QLineEdit("详细页正文定位【逗号做分隔符,记得是全路径】"))
                 dongdai_chuangjian_lst.append(QLineEdit("详细页time定位【逗号做分隔符,记得是全路径】"))
                 dongdai_chuangjian_lst.append(QLineEdit(r"(\d\d\d\d\-\d\d\-\d\d)"))
-
         else:
             pass
 
-        self.controls[biaoqian] = dongdai_chuangjian_lst
-        for control in dongdai_chuangjian_lst:
-            # 将新创建的控件添加到控件列表和布局中
-            self.scroll_layout.addWidget(control)
+        self.controls[biaoqian] = hobby_box
+        # for control in dongdai_chuangjian_lst:
+        #     # 将新创建的控件添加到控件列表和布局中
+        self.scroll_layout.addWidget(hobby_box)
 
         self.count += 1
         # print(self.controls)
@@ -249,8 +255,8 @@ class MainWindow(QWidget):
                 for x in self.controls.keys():
                     zuihou_k = x
                 zuihou_v = self.controls[zuihou_k]
-                for x in zuihou_v:
-                    x.setParent(None)
+                # for x in zuihou_v:
+                zuihou_v.setParent(None)
                 del self.controls[zuihou_k]
 
     def print_clicked(self):
