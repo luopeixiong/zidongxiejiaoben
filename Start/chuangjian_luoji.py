@@ -48,7 +48,7 @@ def start_urldata(data_dict, wanzheng_text):
 
             yuming = re.findall(r"//(.+?)/", yuming_huoqu)[0]
             if ':' in yuming:
-                yuming = yuming.slipt(':')[0]
+                yuming = yuming.split(':')[0]
 
             with open('./muban/2start_urldata/{}.py'.format('1'), 'r', encoding='utf8') as f:
                 text = f.read()
@@ -133,17 +133,15 @@ def fanye(data_dict, wanzheng_text):
         if '_翻页_' in k:
             if "_下一页xpath_" in k:
                 with open('./muban/6fanye/{}.py'.format('xiayiye_xpath_pinjie'), 'r', encoding='utf8') as f:
-                    bugen_text_lst = f.read().split('~')
-                    wanzheng_text = bugen_text_lst[0].format(xpath=v[0].text()) + wanzheng_text
-                    wanzheng_text = wanzheng_text + bugen_text_lst[1]
+                    text = f.read()
+                    wanzheng_text += text.format(xpath=v[0].text())
             elif '_url_num增加_' in k:
                 with open('./muban/6fanye/{}.py'.format('url_num_zengjia'), 'r', encoding='utf8') as f:
-                    bugen_text_lst = f.read().split('~')
+                    text = f.read()
                     fenge_num = re.findall(r'(\d+)\.', v[0].text())[0]
                     qianzhui = v[0].text().split('{}.'.format(fenge_num))[0]
                     houzhui = '.' + v[0].text().split('{}.'.format(fenge_num))[1]
-                    wanzheng_text = bugen_text_lst[0].format(fanye2_text=v[0].text(), qianzhui=qianzhui, houzhui=houzhui) + wanzheng_text
-                    wanzheng_text = wanzheng_text + bugen_text_lst[1]
+                    wanzheng_text += text.format(fanye2_text=v[0].text(), qianzhui=qianzhui, houzhui=houzhui)
             elif '_正则url_' in k:
                 with open('./muban/6fanye/{}.py'.format('正则_url'), 'r', encoding='utf8') as f:
                     text = f.read()

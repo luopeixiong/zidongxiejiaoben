@@ -2,11 +2,11 @@
     "0_基础数据_": {
         "0": [
             "QLineEdit",
-            "1077"
+            "857"
         ],
         "1": [
             "QLineEdit",
-            "南方医科大学口腔医院"
+            "深圳技术大学采购与招投标管理中心"
         ],
         "2": [
             "QLineEdit",
@@ -20,11 +20,11 @@
     "1_start_urlAnddata__无_": {
         "0": [
             "QTextEdit",
-            "http://www.smukqyy.com/news/index.html?id=378&p=1"
+            "https://bidding.sztu.edu.cn/cggg/xxjzcgg.htm\nhttps://bidding.sztu.edu.cn/cggg/zfjzcgg.htm\nhttps://bidding.sztu.edu.cn/xxgk/htgs.htm\nhttps://bidding.sztu.edu.cn/xxgk/xqgs.htm\nhttps://bidding.sztu.edu.cn/xxgk/dbgs.htm"
         ],
         "1": [
             "QTextEdit",
-            "http://www.smukqyy.com/news/index.html?id=376&p=1"
+            "https://bidding.sztu.edu.cn/xxgk/jgs.htm"
         ]
     },
     "2_start_requests_": {
@@ -36,41 +36,41 @@
     "3_列表页面__Html格式_": {
         "0": [
             "QLineEdit",
-            "//div[@class=\"content2\"]/ul/a/li/h3/text()"
+            "//ul[@class=\"n_listxx1\"]/li/h2/a"
         ],
         "1": [
             "QLineEdit",
-            "//div[@class=\"content2\"]/ul/a"
+            "//ul[@class=\"n_listxx1\"]/li/h2/a"
         ],
         "2": [
             "QLineEdit",
-            "//div[@class=\"content2\"]/ul/a/li/h4"
+            "//ul[@class=\"n_listxx1\"]/li/h2/span"
         ],
         "3": [
             "QLineEdit",
-            "(\\d\\d\\d\\d\\-\\d\\d\\-\\d\\d)"
+            "(\\d\\d\\d\\d\\/\\d\\d\\/\\d\\d)"
         ]
     },
-    "4_招中标区分__标题判断_": {
+    "4_招中标区分__url判断_": {
         "0": [
             "QLineEdit",
-            "结果,中选，成交"
+            "cn/(.+?).htm"
         ]
     },
     "5_翻页__下一页xpath_": {
         "0": [
             "QLineEdit",
-            "//a[contains(text(), \"下一页\")]/@href"
+            "//a[contains(text(), \"下页\")]/@href"
         ]
     },
     "6_详细页__Html格式_": {
         "0": [
             "QLineEdit",
-            "//div[@class=\"content_1\"]/h3"
+            "//form[@name=\"_newscontent_fromname\"]/h2"
         ],
         "1": [
             "QLineEdit",
-            "//div[@class=\"content_1\"]/h4"
+            "//form[@name=\"_newscontent_fromname\"]/h3/span[1]"
         ],
         "2": [
             "QLineEdit",
@@ -78,19 +78,7 @@
         ],
         "3": [
             "QLineEdit",
-            "//div[@id=\"size\"]"
-        ]
-    },
-    "0_翻页__url_num增加_": {
-        "0": [
-            "QLineEdit",
-            "index_2.shtml"
-        ]
-    },
-    "1_招中标区分__url判断_": {
-        "0": [
-            "QLineEdit",
-            "id=(.+?)&"
+            "//div[@id=\"vsb_content\"]"
         ]
     }
 }

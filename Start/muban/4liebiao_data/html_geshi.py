@@ -21,7 +21,9 @@
                 url = str(urlhtml[x]).replace('&amp;', '&')
                 url = self.url_pingjie(response, url)
                 items['original_url'] = url.replace('&amp;', '&')
-                if url and self.shi.shishi(items['source'], str(url)):
+                shifouchadao = self.shi.shishi(items['source'], str(url))
+                self.logger.info('%s@@@chadedao' % items['publishtime']) if not shifouchadao else self.logger.info('%s@@@chabudao' % items['publishtime'])
+                if url and shifouchadao:
                     # 判断招中标
                     self.zhaozhong_biao(response, items)
                     # 爬取列表内各个url的数据
