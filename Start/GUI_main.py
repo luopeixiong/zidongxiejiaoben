@@ -27,6 +27,7 @@ class MainWindow(QWidget):
         self.load_button = QPushButton("Load")
 
         self.controls = {}  # 创建控件字典
+        self.controls2 = {}  # 创建控件字典
         self.count = 0  # 记录创建的输入框的数量
 
         # 设置布局
@@ -144,99 +145,134 @@ class MainWindow(QWidget):
     def add_clicked(self):
         # 根据选中的值创建不同的控件
         dongdai_chuangjian_lst = []
-        biaoqian = ''
         value = self.select.currentText()
         value2 = self.select2.currentText()
+        biaoqian = str(self.count) + value + value2
+        hobby_box = QGroupBox('')
+        from_layout = QFormLayout()
         if "_基础数据_" in value:
-            hobby_box = QGroupBox('测试')
-            v_layout = QVBoxLayout()
-            biaoqian = str(self.count) + value + value2
-            dongdai_chuangjian_lst.append(QLineEdit("_脚本编号_"))
-            v_layout.addWidget(QLineEdit("_脚本编号_"))
-            dongdai_chuangjian_lst.append(QLineEdit("_脚本中文名_"))
-            v_layout.addWidget(QLineEdit("_脚本中文名_"))
-            dongdai_chuangjian_lst.append(QLineEdit("_脚本类名_"))
-            v_layout.addWidget(QLineEdit("_脚本类名_"))
-            dongdai_chuangjian_lst.append(QLineEdit("application/json"))
-            v_layout.addWidget(QLineEdit("application/json"))
-            hobby_box.setLayout(v_layout)
+            hobby_box = QGroupBox(value+value2)
+            for x in ['脚本编号', '脚本中文名', '脚本类名', '请求标头Content-Type']:
+                lb = QLabel(x)
+                le = QLineEdit("")
+                dongdai_chuangjian_lst.append(le)
+                from_layout.addRow(lb, le)
+            hobby_box.setLayout(from_layout)
         elif "_start_urlAnddata_" in value:
-            biaoqian = str(self.count) + value + value2
-            if '_无_' in value2:
+            hobby_box = QGroupBox(value+value2)
+            if '_无_' in value2 or '_查询字符串参数_' in value2:
                 for x in ["_招标_url_", "_中标_url_"]:
-                    a = QTextEdit(x)
+                    a = QTextEdit()
                     a.setGeometry(55, 20, 200, 20)
                     a.setAcceptRichText(False)
                     dongdai_chuangjian_lst.append(a)
-            elif '_查询字符串参数_' in value2:
-                dongdai_chuangjian_lst.append(QLineEdit("_url_"))
-                for x in ["_招标_data_", "_中标_data_"]:
-                    a = QTextEdit(x)
-                    a.setGeometry(55, 20, 200, 20)
-                    a.setAcceptRichText(False)
-                    dongdai_chuangjian_lst.append(a)
+                    from_layout.addRow(x, a)
+                hobby_box.setLayout(from_layout)
             elif '_表单数据_' in value2:
-                dongdai_chuangjian_lst.append(QLineEdit("_url_"))
+                le = QLineEdit()
+                dongdai_chuangjian_lst.append(le)
+                from_layout.addRow('_url_', le)
                 for x in ["_招标_data_", "_中标_data_"]:
                     a = QTextEdit(x)
                     a.setGeometry(55, 20, 200, 20)
                     a.setAcceptRichText(False)
                     dongdai_chuangjian_lst.append(a)
+                    from_layout.addRow(x, a)
+                hobby_box.setLayout(from_layout)
         elif "_start_requests_" in value:
-            biaoqian = str(self.count) + value + value2
+            hobby_box = QGroupBox(value + value2)
             a = QComboBox()
             a.addItems(["_GET_", "_POST_"])
             dongdai_chuangjian_lst.append(a)
+            from_layout.addRow('start_requests', a)
+            hobby_box.setLayout(from_layout)
         elif "_列表页面_" in value:
-            biaoqian = str(self.count) + value + value2
+            hobby_box = QGroupBox(value + value2)
             if '_Html格式_' in value2:
-                dongdai_chuangjian_lst.append(QLineEdit("_标题_xpath_"))
-                dongdai_chuangjian_lst.append(QLineEdit("_url_xpath_"))
-                dongdai_chuangjian_lst.append(QLineEdit("_时间_xpath_"))
-                dongdai_chuangjian_lst.append(QLineEdit(r"(\d\d\d\d\-\d\d\-\d\d)"))
+                for x in ['标题_xpath', 'url_xpath', '时间_xpath']:
+                    le = QLineEdit()
+                    dongdai_chuangjian_lst.append(le)
+                    from_layout.addRow(x, le)
+                    hobby_box.setLayout(from_layout)
+                le = QLineEdit(r"(\d\d\d\d\-\d\d\-\d\d)")
+                dongdai_chuangjian_lst.append(le)
+                from_layout.addRow('时间re', le)
+                hobby_box.setLayout(from_layout)
             elif '_Json包_' in value2:
-                dongdai_chuangjian_lst.append(QLineEdit("如果值得到详细页的url的id部分，在此写入完整url前段部分【可以为空】"))
-                dongdai_chuangjian_lst.append(QLineEdit("列表定位【逗号做分隔符】"))
-                dongdai_chuangjian_lst.append(QLineEdit("列表标题定位【逗号做分隔符】"))
-                dongdai_chuangjian_lst.append(QLineEdit("列表url定位【逗号做分隔符】"))
-                dongdai_chuangjian_lst.append(QLineEdit("列表时间定位【逗号做分隔符】"))
+                for x in ['url_pinjie_qianduan', '列表定位', '列表标题定位', '列表url定位', '列表时间定位']:
+                    dongdai_chuangjian_lst.append(QLineEdit(x))
+                    from_layout.addRow(x, QLineEdit(""))
+                    hobby_box.setLayout(from_layout)
                 dongdai_chuangjian_lst.append(QLineEdit(r"(\d\d\d\d\-\d\d\-\d\d)"))
+                from_layout.addRow('列表时间re', QLineEdit(r"(\d\d\d\d\-\d\d\-\d\d)"))
+                hobby_box.setLayout(from_layout)
         elif "_招中标区分_" in value:
-            biaoqian = str(self.count) + value + value2  # "_标题判断_", "_url判断_", "_body判断_"
+            hobby_box = QGroupBox(value + value2)
+            le = QLineEdit()
             if '_标题判断_' in value2:
-                dongdai_chuangjian_lst.append(QLineEdit("结果,中选，成交"))
+                le.setText("结果,中选，成交")
+                dongdai_chuangjian_lst.append(le)
+                from_layout.addRow(value2, le)
+                hobby_box.setLayout(from_layout)
             elif '_url判断_' in value2:
-                dongdai_chuangjian_lst.append(QLineEdit(r"&categorynum=(.+?)&"))
+                le.setText(r"&categorynum=(.+?)&")
+                dongdai_chuangjian_lst.append(le)
+                from_layout.addRow(value2, le)
+                hobby_box.setLayout(from_layout)
             elif '_body判断_' in value2:
-                dongdai_chuangjian_lst.append(QLineEdit(r'"announcement":"(.+?)"'))
+                le.setText(r'"announcement":"(.+?)"')
+                dongdai_chuangjian_lst.append(le)
+                from_layout.addRow(value2, le)
+                hobby_box.setLayout(from_layout)
         elif "_翻页_" in value:
-            biaoqian = str(self.count) + value + value2
+            hobby_box = QGroupBox(value + value2)
             if '_下一页xpath_' in value2:
-                dongdai_chuangjian_lst.append(QLineEdit('//a[contains(text(), "下页")]/@href'))
+                le = QLineEdit()
+                le.setText('//a[contains(text(), "下页")]/@href')
+                dongdai_chuangjian_lst.append(le)
+                from_layout.addRow(value2, le)
             elif '_url_num增加_' in value2:
-                dongdai_chuangjian_lst.append(QLineEdit("把第二页的url后段部分写入，如：index_2.jhtml"))
+                le = QLineEdit()
+                le.setText("index_2.jhtml")
+                dongdai_chuangjian_lst.append(le)
+                from_layout.addRow(value2, le)
             elif '_正则url_' in value2:
-                dongdai_chuangjian_lst.append(QLineEdit(r"&Paging=(\d+)&【请勿修改\d+】"))
-                dongdai_chuangjian_lst.append(QLineEdit(r"30【增加的数组】"))
+                dic = {'url_Re': r"&Paging=(\d+)&【请勿修改\d+】", 'url_num_add': r"30【增加的数组】"}
+                for k, v in dic.items():
+                    le = QLineEdit()
+                    le.setText(v)
+                    dongdai_chuangjian_lst.append(le)
+                    from_layout.addRow(k, le)
             elif '_正则body_' in value2:
-                dongdai_chuangjian_lst.append(QLineEdit(r'pageNum":(\d+)&【请勿修改\d+】'))
-                dongdai_chuangjian_lst.append(QLineEdit(r'30【增加的数组】'))
+                dic = {'body_Re': r'pageNum":(\d+)&【请勿修改\d+】', 'body_num_add': r'30【增加的数组】'}
+                for k, v in dic.items():
+                    le = QLineEdit()
+                    le.setText(v)
+                    dongdai_chuangjian_lst.append(le)
+                    from_layout.addRow(k, le)
+            hobby_box.setLayout(from_layout)
         elif "_详细页_" in value:
-            biaoqian = str(self.count) + value + value2
+            hobby_box = QGroupBox(value + value2)
             if '_Html格式_' in value2:
-                dongdai_chuangjian_lst.append(QLineEdit("_详细页_标题_xpath_"))
-                dongdai_chuangjian_lst.append(QLineEdit("_详细页_时间_xpath_"))
-                dongdai_chuangjian_lst.append(QLineEdit(r"(\d\d\d\d\-\d\d\-\d\d)"))
-                dongdai_chuangjian_lst.append(QLineEdit("_详细页_正文_xpath_"))
+                dic = {'详细页_标题_xpath': '', '详细页_时间_xpath': '', '详细页_时间_re': r"(\d\d\d\d\-\d\d\-\d\d)", '详细页_正文_xpath': ""}
+                for k, v in dic.items():
+                    le = QLineEdit()
+                    le.setText(v)
+                    dongdai_chuangjian_lst.append(le)
+                    from_layout.addRow(k, le)
             elif '_Json包_' in value2:
-                dongdai_chuangjian_lst.append(QLineEdit("详细页title定位【逗号做分隔符,记得是全路径】"))
-                dongdai_chuangjian_lst.append(QLineEdit("详细页正文定位【逗号做分隔符,记得是全路径】"))
-                dongdai_chuangjian_lst.append(QLineEdit("详细页time定位【逗号做分隔符,记得是全路径】"))
-                dongdai_chuangjian_lst.append(QLineEdit(r"(\d\d\d\d\-\d\d\-\d\d)"))
+                dic = {'详细页title定位': '【逗号做分隔符,记得是全路径】', '详细页正文定位': '【逗号做分隔符,记得是全路径】', '详细页time定位': r"【逗号做分隔符,记得是全路径】", '详细页timeRe': r"(\d\d\d\d\-\d\d\-\d\d)"}
+                for k, v in dic.items():
+                    le = QLineEdit()
+                    le.setText(v)
+                    dongdai_chuangjian_lst.append(le)
+                    from_layout.addRow(k, le)
+            hobby_box.setLayout(from_layout)
         else:
             pass
 
-        self.controls[biaoqian] = hobby_box
+        self.controls[biaoqian] = dongdai_chuangjian_lst
+        self.controls2[biaoqian] = hobby_box
         # for control in dongdai_chuangjian_lst:
         #     # 将新创建的控件添加到控件列表和布局中
         self.scroll_layout.addWidget(hobby_box)
@@ -250,14 +286,15 @@ class MainWindow(QWidget):
         result = self.queren_msg.exec_()
         if result == QMessageBox.Yes:
             # 从控件列表中移除最后一个控件
-            if self.controls:
+            if self.controls2:
                 zuihou_k = ''
-                for x in self.controls.keys():
+                for x in self.controls2.keys():
                     zuihou_k = x
-                zuihou_v = self.controls[zuihou_k]
-                # for x in zuihou_v:
-                zuihou_v.setParent(None)
+                qg_zuihou_v = self.controls2[zuihou_k]
+                qg_zuihou_v.setParent(None)
+
                 del self.controls[zuihou_k]
+                del self.controls2[zuihou_k]
 
     def print_clicked(self):
         self.queren_msg.setText("你确定要【创建脚本】吗？")

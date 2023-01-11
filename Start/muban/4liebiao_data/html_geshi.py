@@ -28,6 +28,7 @@
                     self.zhaozhong_biao(response, items)
                     # 爬取列表内各个url的数据
                     yield scrapy.Request(url=url, callback=self.html, meta=【'items': items】)
+                    # yield scrapy.FormRequest(url=url.split('|')[0], method="POST", headers=self.headers, body=url.split('|')[1], callback=self.html, meta=【'items': items】)
             # 存在下一页翻页
             yield from self.xiayiye_fanye(response)
 

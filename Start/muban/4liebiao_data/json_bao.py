@@ -10,7 +10,7 @@
                 urlhtml = x{d}
                 url = '{a}' + urlhtml
                 publishtime = re.findall(r"{f}", str(x{e}))[0]
-                # publishtime = time.strftime("%Y-%m-%d", time.localtime(int(x{e})))  # 获取上次记录的日期和时间
+                # publishtime = time.strftime("%Y-%m-%d", time.localtime(int(str(x{e})[:-3])))
                 items['publishtime'] = publishtime.replace('.', '-').replace(' ', '').replace('/', '-')
                 self.zuihou_time = items['publishtime']
                 items['source'] = self.items_cource
@@ -23,6 +23,7 @@
                     self.zhaozhong_biao(response, items)
                     # 爬取列表内各个url的数据
                     yield scrapy.Request(url=url.replace('&amp;', '&'), callback=self.html, meta=【'items': items】)
+                    # yield scrapy.FormRequest(url=url.split('|')[0], method="POST", headers=self.headers, body=url.split('|')[1], callback=self.html, meta=【'items': items】)
             # # 存在下一页翻页
             yield from self.xiayiye_fanye(response)
 
