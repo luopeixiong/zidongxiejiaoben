@@ -10,6 +10,11 @@ class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
 
+        self.insert_button = None
+        self.remove2_button = None
+
+        self.zuixin_hobby_box2 = None
+
         self.resize(700, 500)
 
         self.queren_msg = QMessageBox()
@@ -33,7 +38,7 @@ class MainWindow(QWidget):
         # 设置布局
         layout = QHBoxLayout()
         layout2 = QVBoxLayout()
-        layout3 = QVBoxLayout()
+        self.layout3 = QVBoxLayout()
 
         layout2.addWidget(self.select)
         layout2.addWidget(self.select2)
@@ -49,11 +54,11 @@ class MainWindow(QWidget):
         self.scroll_content = QWidget()
         self.scroll_layout = QVBoxLayout(self.scroll_content)
         scroll.setWidget(self.scroll_content)
-        layout3.addWidget(scroll)
+        self.layout3.addWidget(scroll)
 
         # 设置布局
         layout.addLayout(layout2)
-        layout.addLayout(layout3)
+        layout.addLayout(self.layout3)
         self.setLayout(layout)
 
         # 连接信号和槽
@@ -63,6 +68,24 @@ class MainWindow(QWidget):
         self.save_button.clicked.connect(self.save_clicked)
         self.load_button.clicked.connect(self.load_clicked)
         self.select.currentIndexChanged[str].connect(self.select_changed)  # 条目发生改变，发射信号，传递条目内容
+
+    def insert_kongjianzu(self):
+        self.queren_msg.setText("你确定要【在此控件组上插入新控件组】吗？")
+        # 显示对话框并获取用户的选择
+        result = self.queren_msg.exec_()
+        if result == QMessageBox.Yes:
+            self.add_kongjianzu()
+            zuihou_k = ''
+            button = self.sender()
+            button_name = button.objectName()
+            button_name = button_name.split('#')[0]
+            for x in self.controls2.keys():
+                if button_name in x:
+                    zuihou_k = x
+                    break
+            qg_zuihou_v = self.controls2[zuihou_k]
+            dangqian_kongjianzu = self.scroll_layout.indexOf(qg_zuihou_v)  # self.scroll_layout
+            self.scroll_layout.insertWidget(dangqian_kongjianzu, self.zuixin_hobby_box2)
 
     def queren_again(self):
         # 创建一个 QMessageBox 对象
@@ -142,16 +165,18 @@ class MainWindow(QWidget):
         else:
             pass
 
-    def add_clicked(self):
+    def add_kongjianzu(self):
         # 根据选中的值创建不同的控件
+        hobby_box2 = QGroupBox('')
+        layout4 = QHBoxLayout()
         dongdai_chuangjian_lst = []
         value = self.select.currentText()
         value2 = self.select2.currentText()
-        biaoqian = str(self.count) + value + value2
+        biaoqian = '@' + str(self.count) + '_' + value + value2
         hobby_box = QGroupBox('')
         from_layout = QFormLayout()
         if "_基础数据_" in value:
-            hobby_box = QGroupBox(value+value2)
+            hobby_box = QGroupBox(value + value2)
             for x in ['脚本编号', '脚本中文名', '脚本类名', '请求标头Content-Type']:
                 lb = QLabel(x)
                 le = QLineEdit("")
@@ -159,7 +184,7 @@ class MainWindow(QWidget):
                 from_layout.addRow(lb, le)
             hobby_box.setLayout(from_layout)
         elif "_start_urlAnddata_" in value:
-            hobby_box = QGroupBox(value+value2)
+            hobby_box = QGroupBox(value + value2)
             if '_无_' in value2 or '_查询字符串参数_' in value2:
                 for x in ["_招标_url_", "_中标_url_"]:
                     a = QTextEdit()
@@ -270,15 +295,51 @@ class MainWindow(QWidget):
             hobby_box.setLayout(from_layout)
         else:
             pass
+        self.remove2_button = QPushButton("Remove")
+        self.remove2_button.setObjectName('@{}_#remove2'.format(str(self.count)))
+        self.remove2_button.clicked.connect(self.remove_clicked2)
+
+        self.insert_button = QPushButton("insert")
+        self.insert_button.setObjectName('@{}_#insert'.format(str(self.count)))
+        self.insert_button.clicked.connect(self.insert_kongjianzu)
+
+        layout5 = QVBoxLayout()
+        layout5.addWidget(self.remove2_button)
+        layout5.addWidget(self.insert_button)
+
+        layout4.addWidget(hobby_box)
+        layout4.addLayout(layout5)
+        hobby_box2.setLayout(layout4)
 
         self.controls[biaoqian] = dongdai_chuangjian_lst
-        self.controls2[biaoqian] = hobby_box
-        # for control in dongdai_chuangjian_lst:
-        #     # 将新创建的控件添加到控件列表和布局中
-        self.scroll_layout.addWidget(hobby_box)
-
+        self.controls2[biaoqian] = hobby_box2
+        self.zuixin_hobby_box2 = hobby_box2
         self.count += 1
-        # print(self.controls)
+
+    def add_clicked(self):
+        self.add_kongjianzu()
+        self.scroll_layout.addWidget(self.zuixin_hobby_box2)
+
+    def remove_clicked2(self):
+        self.queren_msg.setText("你确定要【当前控件组】吗？")
+        # 显示对话框并获取用户的选择
+        result = self.queren_msg.exec_()
+        if result == QMessageBox.Yes:
+            # 从控件列表中移除最后一个控件
+            if self.controls2:
+                zuihou_k = ''
+                button = self.sender()
+                button_name = button.objectName()
+                button_name = button_name.split('#')[0]
+                for x in self.controls2.keys():
+                    if button_name in x:
+                        zuihou_k = x
+                        break
+                qg_zuihou_v = self.controls2[zuihou_k]
+                qg_zuihou_v.setParent(None)
+
+                del self.controls[zuihou_k]
+                del self.controls2[zuihou_k]
 
     def remove_clicked(self):
         self.queren_msg.setText("你确定要【删除最后一个控件组】吗？")
@@ -290,6 +351,7 @@ class MainWindow(QWidget):
                 zuihou_k = ''
                 for x in self.controls2.keys():
                     zuihou_k = x
+                    break
                 qg_zuihou_v = self.controls2[zuihou_k]
                 qg_zuihou_v.setParent(None)
 
