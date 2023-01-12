@@ -1,12 +1,12 @@
 {
-    "0_基础数据_": {
+    "@0__基础数据_": {
         "0": [
             "QLineEdit",
-            "1078"
+            "1082"
         ],
         "1": [
             "QLineEdit",
-            "西安市儿童医院"
+            "江西省肿瘤医院"
         ],
         "2": [
             "QLineEdit",
@@ -14,63 +14,63 @@
         ],
         "3": [
             "QLineEdit",
-            "application/json"
+            ""
         ]
     },
-    "1_start_urlAnddata__无_": {
+    "@1__start_urlAnddata__无_": {
         "0": [
             "QTextEdit",
-            "http://www.xachyy.com/xxgk/zbcg/zbgg.htm"
+            "http://www.jxszlyy.com/ywgk1/zbcg.htm"
         ],
         "1": [
             "QTextEdit",
-            "http://www.xachyy.com/xxgk/zbcg/zbtz.htm"
+            ""
         ]
     },
-    "2_start_requests_": {
+    "@2__start_requests_": {
         "0": [
             "QComboBox",
             "_GET_"
         ]
     },
-    "3_列表页面__Html格式_": {
+    "@3__列表页面__Html格式_": {
         "0": [
             "QLineEdit",
-            "//div[@class=\"p-list\"]/ul/li/a//h5"
+            "//li[@class=\"d\"]/a/text()"
         ],
         "1": [
             "QLineEdit",
-            "//div[@class=\"p-list\"]/ul/li/a"
+            "//li[@class=\"d\"]/a"
         ],
         "2": [
             "QLineEdit",
-            "//div[@class=\"p-list\"]/ul/li/a/div[1]/div[2]//div[@class=\"p-list\"]/ul/li/a/div[1]/div[1]"
+            "//li[@class=\"d\"]/strong"
         ],
         "3": [
             "QLineEdit",
-            "(\\d\\d\\d\\d\\/\\d\\d\\/\\d\\d)"
+            "(\\d\\d\\d\\d\\-\\d\\d\\-\\d\\d)"
         ]
     },
-    "4_招中标区分__url判断_": {
+    "@4__招中标区分__标题判断_": {
         "0": [
             "QLineEdit",
-            "zbcg/(.+?).htm"
+            "结果,中选，成交"
         ]
     },
-    "5_翻页__下一页xpath_": {
+    "@5__翻页__下一页xpath_": {
         "0": [
             "QLineEdit",
             "//a[contains(text(), \"下页\")]/@href"
         ]
     },
-    "6_详细页__Html格式_": {
+    "@6__详细页__Html格式_": {
         "0": [
             "QLineEdit",
-            "//div[@class=\"p-show01\"]/h5"
+            "//div[@class=\"art-tit cont-tit\"]/h3"
         ],
         "1": [
             "QLineEdit",
-            "//div[@class=\"p-show01\"]/p"
+            "//div[@class=\"art-tit cont-tit\"]/p"
         ],
         "2": [
             "QLineEdit",
@@ -78,7 +78,7 @@
         ],
         "3": [
             "QLineEdit",
-            "//div[@id=\"vsb_content\"]"
+            "//div[@class=\"art-body nr\"]"
         ]
     }
 }

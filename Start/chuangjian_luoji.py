@@ -177,31 +177,31 @@ def chuangjian(data_dict):
     panduan_zhaozhongbiaoyong_zhongbiaoshuju_lst = []
 
     # 基础数据
-    if re.findall(r'\'(\d+)_基础数据_', str(data_dict)):
+    if re.findall(r'\'(.+?)_基础数据_', str(data_dict)):
         wanzheng_text, wenjianming = jichu_data(data_dict, wanzheng_text)
 
-    if re.findall(r'\'(\d+)_start_urlAnddata_', str(data_dict)):
+    if re.findall(r'\'(.+?)_start_urlAnddata_', str(data_dict)):
         wanzheng_text, panduan_zhaozhongbiaoyong_zhongbiaoshuju_lst = start_urldata(data_dict, wanzheng_text)
 
     # 第一次start_requests以及对应的url和data
 
-    if re.findall(r'\'(\d+)_start_requests_', str(data_dict)):
+    if re.findall(r'\'(.+?)_start_requests_', str(data_dict)):
         wanzheng_text = start_requests_luoji(data_dict, wanzheng_text)
 
     # 列表标题，url，时间
-    if re.findall(r'\'(\d+)_列表页面_', str(data_dict)):
+    if re.findall(r'\'(.+?)_列表页面_', str(data_dict)):
         wanzheng_text = liebiao_data(data_dict, wanzheng_text)
 
     # 招标中标区分
-    if re.findall(r'\'(\d+)_招中标区分_', str(data_dict)):
+    if re.findall(r'\'(.+?)_招中标区分_', str(data_dict)):
         wanzheng_text = zhaozhongbiao_qufen(data_dict, wanzheng_text, panduan_zhaozhongbiaoyong_zhongbiaoshuju_lst)
 
     # 翻页
-    if re.findall(r'\'(\d+)_翻页_', str(data_dict)):
+    if re.findall(r'\'(.+?)_翻页_', str(data_dict)):
         wanzheng_text = fanye(data_dict, wanzheng_text)
     #
     # # 正文标题，时间，内容
-    if re.findall(r'\'(\d+)_详细页_', str(data_dict)):
+    if re.findall(r'\'(.+?)_详细页_', str(data_dict)):
         wanzheng_text = xiangxiye(data_dict, wanzheng_text)
 
     with open('jiben_kuangjia.py', 'r', encoding='utf8') as f:
