@@ -250,17 +250,19 @@ class MainWindow(QWidget):
                 hobby_box.setLayout(from_layout)
             elif '_Json包_' in value2:
                 for x in ['url_pinjie_qianduan', '列表定位', '列表标题定位', '列表url定位', '列表时间定位']:
-                    dongdai_chuangjian_lst.append(QLineEdit(x))
-                    from_layout.addRow(x, QLineEdit(""))
+                    le = QLineEdit()
+                    dongdai_chuangjian_lst.append(le)
+                    from_layout.addRow(x, le)
                     hobby_box.setLayout(from_layout)
-                dongdai_chuangjian_lst.append(QLineEdit(r"(\d\d\d\d\-\d\d\-\d\d)"))
-                from_layout.addRow('列表时间re', QLineEdit(r"(\d\d\d\d\-\d\d\-\d\d)"))
+                le = QLineEdit(r"(\d\d\d\d\-\d\d\-\d\d)")
+                dongdai_chuangjian_lst.append(le)
+                from_layout.addRow('时间re', le)
                 hobby_box.setLayout(from_layout)
         elif "_招中标区分_" in value:
             hobby_box = QGroupBox(value + value2)
             le = QLineEdit()
             if '_标题判断_' in value2:
-                le.setText("结果,中选，成交")
+                le.setText("结果,中选,成交,中标,废标,流标")
                 dongdai_chuangjian_lst.append(le)
                 from_layout.addRow(value2, le)
                 hobby_box.setLayout(from_layout)
