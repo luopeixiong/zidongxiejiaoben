@@ -9,9 +9,9 @@
             # publishtime = ['-'.join(x) for x in zip(nian_list, yue_list, ri_list)]
             publishtime = response.xpath('{time_xpath}').re(r"\d【4】-\d【1,2】-\d【1,2】|\d【4】/\d【1,2】/\d【1,2】|\d【4】.\d【1,2】.\d【1,2】|\d【4】年\d【1,2】月\d【1,2】")  # r"{time_re}"
             print(len(titlell), len(urlhtml), len(publishtime), response.url)
-            if len(titlell) == 0 or len(urlhtml) == 0 or len(publishtime) == 0 or len(titlell) != len(urlhtml) or len(titlell) != len(publishtime) or len(urlhtml) != len(publishtime):
+            if len(titlell) != len(urlhtml) or len(titlell) != len(publishtime) or len(urlhtml) != len(publishtime):
                 self.logger.info("##########################shujubuyizhihuokong")
-            for x in range(0, len(urlhtml)):
+            for x in range(0, len(publishtime)):
                 items = ShishicesiItem()
                 items['publishtime'] = publishtime[x].replace('.', '-').replace(' ', '').replace('/', '-').replace('年', '-').replace('月', '-').replace('日', '')
                 self.zuihou_time = items['publishtime']
@@ -24,7 +24,7 @@
                 url = self.url_pingjie(response, url)
                 items['original_url'] = url.replace('&amp;', '&')
                 shifouchadao = self.shi.shishi(items['source'], str(url))
-                self.logger.info('%s@@@chadedao' % items['publishtime']) if not shifouchadao else self.logger.info('%s@@@chabudao' % items['publishtime'])
+                self.logger.info('%s@@@chadedao') if not shifouchadao else self.logger.info('%s@@@chabudao')
                 if url and shifouchadao:
                     # 判断招中标
                     self.zhaozhong_biao(response, items)

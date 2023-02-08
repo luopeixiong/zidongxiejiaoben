@@ -41,6 +41,7 @@ class Spider(scrapy.Spider):
                 print('########################################title获取不完整： ', response.url)
             elif items['content'] is None:
                 print('########################################content获取不完整： ', response.url)
+            self.logger.info('########################################content|titleNo： ', response.url)
 
     def guding_xieru2(self, response, items):
         if items['title'] is not None and items['content'] is not None:
@@ -64,6 +65,7 @@ class Spider(scrapy.Spider):
                 print('########################################title获取不完整： ', response.url)
             elif items['content'] is None:
                 print('########################################content获取不完整： ', response.url)
+            self.logger.info('########################################content|titleNo： ', response.url)
 
 
     def htmliii(self, response):

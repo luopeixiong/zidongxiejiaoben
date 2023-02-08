@@ -1,9 +1,11 @@
+import os
 import sys
 from PyQt5.QtWidgets import *
 import re
 import chuangjian_luoji
 import traceback
 import json
+import natsort
 
 
 class MainWindow(QWidget):
@@ -365,16 +367,28 @@ class MainWindow(QWidget):
                 del self.controls2[zuihou_k]
 
     def print_clicked(self):
-        self.queren_msg.setText("你确定要【创建脚本】吗？")
-        # 显示对话框并获取用户的选择
-        result = self.queren_msg.exec_()
-        if result == QMessageBox.Yes:
-            try:
-                # 在这里执行你的代码
-                chuangjian_luoji.chuangjian(self.controls)
-            except Exception as e:
-                # 在这里处理所有异常
-                QMessageBox.warning(self, "错误", f"发生了一个错误：{traceback.format_exc()}")
+        try:
+            if re.findall(r'\'(.+?)_基础数据_', str(self.controls)):
+                jiaoben_lst = natsort.natsorted(os.listdir(r'D:\pycharm_xiangmu\shishicesi\gerapy\projects\shishicesi\shishicesi\spiders'))
+                zuixin_bianhao = str(int(re.findall(r'\d+', jiaoben_lst[-3])[0]) + 1)
+                jiaoben_lst_str = str(jiaoben_lst)
+                for k, v in self.controls.items():
+                    if '_基础数据_' in k:
+                        if v[1].text() in jiaoben_lst_str:
+                            yicunzai_bianhao_jiaoben_name = re.findall("'(\d+){}".format(v[1].text()), jiaoben_lst_str)[0] + v[1].text()
+                            self.queren_msg.setText("发现已有脚本：{}\n是否还要创建：{}{}".format(yicunzai_bianhao_jiaoben_name, zuixin_bianhao, v[1].text()))
+                            # 显示对话框并获取用户的选择
+                            result = self.queren_msg.exec_()
+                            if result == QMessageBox.Yes:
+                                chuangjian_luoji.chuangjian(self.controls, zuixin_bianhao)
+                        else:
+                            self.queren_msg.setText("你确定要【创建：{}{}】吗？".format(zuixin_bianhao, v[1].text()))
+                            # 显示对话框并获取用户的选择
+                            result = self.queren_msg.exec_()
+                            if result == QMessageBox.Yes:
+                                chuangjian_luoji.chuangjian(self.controls, zuixin_bianhao)
+        except:
+            QMessageBox.warning(self, "错误", f"发生了一个错误：{traceback.format_exc()}")
 
 
 if __name__ == "__main__":

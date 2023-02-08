@@ -18,7 +18,7 @@
                 items['title'] = titlell
                 items['original_url'] = url
                 shifouchadao = self.shi.shishi(items['source'], str(url))
-                self.logger.info('%s@@@chadedao' % items['publishtime']) if not shifouchadao else self.logger.info('%s@@@chabudao' % items['publishtime'])
+                self.logger.info('%s@@@chadedao') if not shifouchadao else self.logger.info('%s@@@chabudao')
                 if url and shifouchadao:
                     self.zhaozhong_biao(response, items)
                     # 爬取列表内各个url的数据

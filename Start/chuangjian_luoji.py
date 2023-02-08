@@ -3,13 +3,13 @@ import time
 import shutil
 
 
-def jichu_data(data_dict, wanzheng_text):
+def jichu_data(data_dict, wanzheng_text, zuixin_bianhao):
     wenjianming = ''
     for k, v in data_dict.items():
         if '_基础数据_' in k:
             with open('./muban/1kaitou/{}.py'.format('kaitou1'), 'r', encoding='utf8') as f:
-                wenjianming = v[0].text() + v[1].text()
-                text = f.read().format(a=(v[0].text() + v[1].text()), b=v[1].text(), c=v[2].text(), d=v[3].text())
+                wenjianming = zuixin_bianhao + v[1].text()
+                text = f.read().format(a=(zuixin_bianhao + v[1].text()), b=v[1].text(), c=v[2].text(), d=v[3].text())
                 wanzheng_text += text
     return wanzheng_text, wenjianming
 
@@ -170,7 +170,7 @@ def xiangxiye(data_dict, wanzheng_text):
     return wanzheng_text
 
 
-def chuangjian(data_dict):
+def chuangjian(data_dict, zuixin_bianhao):
     # print(data_dict)
     wanzheng_text = ''
     wenjianming = ''
@@ -178,7 +178,7 @@ def chuangjian(data_dict):
 
     # 基础数据
     if re.findall(r'\'(.+?)_基础数据_', str(data_dict)):
-        wanzheng_text, wenjianming = jichu_data(data_dict, wanzheng_text)
+        wanzheng_text, wenjianming = jichu_data(data_dict, wanzheng_text, zuixin_bianhao)
 
     if re.findall(r'\'(.+?)_start_urlAnddata_', str(data_dict)):
         wanzheng_text, panduan_zhaozhongbiaoyong_zhongbiaoshuju_lst = start_urldata(data_dict, wanzheng_text)
@@ -199,8 +199,7 @@ def chuangjian(data_dict):
     # 翻页
     if re.findall(r'\'(.+?)_翻页_', str(data_dict)):
         wanzheng_text = fanye(data_dict, wanzheng_text)
-    #
-    # # 正文标题，时间，内容
+    # 正文标题，时间，内容
     if re.findall(r'\'(.+?)_详细页_', str(data_dict)):
         wanzheng_text = xiangxiye(data_dict, wanzheng_text)
 
