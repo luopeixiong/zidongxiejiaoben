@@ -7,7 +7,7 @@
             items = response.meta['items']  # 回传管道
             items['title'] = rs{a}
             items['content'] = rs{b}
-            time_text = re.findall(r"\d【4】-\d【1,2】-\d【1,2】|\d【4】/\d【1,2】/\d【1,2】|\d【4】\.\d【1,2】\.\d【1,2】|\d【4】年\d【1,2】月\d【1,2】", str(rs{c}))
+            time_text = re.findall(r"\d【4】-\d【1,2】-\d【1,2】|\d【4】/\d【1,2】/\d【1,2】|\d【4】.\d【1,2】.\d【1,2】|\d【4】年\d【1,2】月\d【1,2】", str(rs{c}))
             if time_text:
                 items['publishtime'] = time_text[0].replace('.', '-').replace(' ', '').replace('/', '-').replace('年', '-').replace('月', '-').replace('日', '')
             # self.guding_xieru(response)

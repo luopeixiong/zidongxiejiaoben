@@ -17,6 +17,7 @@ cleaner = Cleaner()
 cleaner.javascript = True
 cleaner.page_structure = False
 cleaner.style = True
+cleaner.remove_tags = ['head', 'link']
 
 import requests
 
