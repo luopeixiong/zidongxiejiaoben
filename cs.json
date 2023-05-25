@@ -1,0 +1,102 @@
+{
+    "IndexError: list index out of range": {
+        "此报错总数": 7,
+        "  File \"/www/wwwroot/bcy/bcy_venv/lib/python3.8/site-packages/scrapy/core/spidermw.py\", line 79, in process_sync\n    for r in iterable:\n  File \"/tmp/shishicesi-1678084602-t0po1nee.egg/shishicesi/spiders/1148兰州大学第二医院.py\", line 85, in html\n    publishtime = response.xpath('//div[contains(@class, \"center\")]/span[4]').re(r\"\\d{4}-\\d{1,2}-\\d{1,2}|\\d{4}/\\d{1,2}/\\d{1,2}|\\d{4}.\\d{1,2}.\\d{1,2}|\\d{4}年\\d{1,2}月\\d{1,2}\")[0]\n|\n": {
+            "内容报错列表": [],
+            "此报错数量": 3,
+            "有此报错脚本列表": [
+                "1148兰州大学第二医院"
+            ]
+        },
+        "  File \"/www/wwwroot/bcy/bcy_venv/lib/python3.8/site-packages/scrapy/core/spidermw.py\", line 79, in process_sync\n    for r in iterable:\n  File \"/tmp/shishicesi-1678084602-2_4x4_fk.egg/shishicesi/spiders/1150济宁市中医院.py\", line 84, in html\n    publishtime = response.xpath('//td[contains(@class, \"bds\")]/table//tr[2]/td/table//tr[3]/td').re(r\"\\d{4}-\\d{1,2}-\\d{1,2}|\\d{4}/\\d{1,2}/\\d{1,2}|\\d{4}.\\d{1,2}.\\d{1,2}|\\d{4}年\\d{1,2}月\\d{1,2}\")[0]\n|\n": {
+            "内容报错列表": [],
+            "此报错数量": 1,
+            "有此报错脚本列表": [
+                "1150济宁市中医院"
+            ]
+        },
+        "  File \"/www/wwwroot/bcy/bcy_venv/lib/python3.8/site-packages/scrapy/core/spidermw.py\", line 79, in process_sync\n    for r in iterable:\n  File \"/tmp/shishicesi-1678084602-6lg73gxg.egg/shishicesi/spiders/1198湖北科技学院采购网.py\", line 93, in html\n    publishtime = response.xpath('//div[contains(@class, \"info\")]').re(r\"\\d{4}-\\d{1,2}-\\d{1,2}|\\d{4}/\\d{1,2}/\\d{1,2}|\\d{4}.\\d{1,2}.\\d{1,2}|\\d{4}年\\d{1,2}月\\d{1,2}\")[0]  # r\"(\\d\\d\\d\\d\\-\\d\\d\\-\\d\\d)\"\n|\n": {
+            "内容报错列表": [],
+            "此报错数量": 3,
+            "有此报错脚本列表": [
+                "1198湖北科技学院采购网"
+            ]
+        }
+    },
+    "TypeError: can only concatenate str (not \"NoneType\") to str": {
+        "此报错总数": 2,
+        "  File \"/www/wwwroot/bcy/bcy_venv/lib/python3.8/site-packages/scrapy/core/spidermw.py\", line 79, in process_sync\n    for r in iterable:\n  File \"/tmp/shishicesi-1678084602-l09prvuh.egg/shishicesi/spiders/814上海交通大学数字化采购平台.py\", line 38, in parse\n    url = 'https://www.yuncaitong.cn/api/publish/' + x['syncId']\n|\n": {
+            "内容报错列表": [],
+            "此报错数量": 1,
+            "有此报错脚本列表": [
+                "814上海交通大学数字化采购平台"
+            ]
+        },
+        "  File \"/www/wwwroot/bcy/bcy_venv/lib/python3.8/site-packages/scrapy/core/spidermw.py\", line 79, in process_sync\n    for r in iterable:\n  File \"/tmp/shishicesi-1678084602-kvwq9so2.egg/shishicesi/spiders/1203中国农业大学.py\", line 36, in parse\n    url = 'https://gzc.cau.edu.cn/provider/#/publish/' + urlhtml\n|\n": {
+            "内容报错列表": [],
+            "此报错数量": 1,
+            "有此报错脚本列表": [
+                "1203中国农业大学"
+            ]
+        }
+    },
+    "其他报错": {
+        "此报错总数": 69,
+        "twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.\n": {
+            "内容报错列表": [],
+            "此报错数量": 1,
+            "有此报错脚本列表": [
+                "1011宁波市北仑区公共资源交易中心"
+            ]
+        },
+        "  File \"/www/wwwroot/bcy/bcy_venv/lib/python3.8/site-packages/twisted/internet/defer.py\", line 892, in _runCallbacks\n    current.result = callback(  # type: ignore[misc]\n  File \"/www/wwwroot/bcy/bcy_venv/lib/python3.8/site-packages/twisted/internet/endpoints.py\", line 1022, in startConnectionAttempts\n    raise error.DNSLookupError(\ntwisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: zcpt.sxjkzhgk.com.cn.\n": {
+            "内容报错列表": [],
+            "此报错数量": 1,
+            "有此报错脚本列表": [
+                "1017山西交通控股集团有限公司电子招投标采购交易平台"
+            ]
+        },
+        "  File \"/www/wwwroot/bcy/bcy_venv/lib/python3.8/site-packages/twisted/internet/defer.py\", line 892, in _runCallbacks\n    current.result = callback(  # type: ignore[misc]\n  File \"/www/wwwroot/bcy/bcy_venv/lib/python3.8/site-packages/twisted/internet/endpoints.py\", line 1022, in startConnectionAttempts\n    raise error.DNSLookupError(\ntwisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: www.dfggzyjy.com.\n": {
+            "内容报错列表": [],
+            "此报错数量": 1,
+            "有此报错脚本列表": [
+                "1026郑州市登封公共资源交易中心"
+            ]
+        },
+        "scrapy.exceptions.NotSupported: Unsupported URL scheme 'ttps': no handler available for that scheme\n": {
+            "内容报错列表": [],
+            "此报错数量": 1,
+            "有此报错脚本列表": [
+                "1029温州市文成县公共资源交易网"
+            ]
+        },
+        "twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]\n": {
+            "内容报错列表": [],
+            "此报错数量": 1,
+            "有此报错脚本列表": [
+                "1062河源职业技术学院"
+            ]
+        },
+        "twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion.>]\n": {
+            "内容报错列表": [],
+            "此报错数量": 1,
+            "有此报错脚本列表": [
+                "1090中山市古镇人民医院"
+            ]
+        },
+        "twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]\n": {
+            "内容报错列表": [],
+            "此报错数量": 1,
+            "有此报错脚本列表": [
+                "1130盘锦市中心医院"
+            ]
+        },
+        "  File \"/www/wwwroot/bcy/bcy_venv/lib/python3.8/site-packages/twisted/internet/defer.py\", line 892, in _runCallbacks\n    current.result = callback(  # type: ignore[misc]\n  File \"/www/wwwroot/bcy/bcy_venv/lib/python3.8/site-packages/twisted/internet/endpoints.py\", line 1022, in startConnectionAttempts\n    raise error.DNSLookupError(\ntwisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: 2yuan.xjtu.edu.cn.\n": {
+            "内容报错列表": [],
+            "此报错数量": 1,
+            "有此报错脚本列表": [
+                "1138西安交通大学第二附属医院"
+            ]
+        }
+    }
+}

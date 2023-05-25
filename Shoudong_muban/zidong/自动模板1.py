@@ -10,6 +10,7 @@ class Spider(scrapy.Spider):
     name = ''
     items_cource = ''  # 不要加前面数字
     lei_ming = ''
+    headers = {'Content-Type': ''}
 
     start_datas = []
     allowed_domains = []

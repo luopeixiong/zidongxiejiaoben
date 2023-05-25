@@ -1,0 +1,8 @@
+ValueError: max() arg is an empty sequence
+ValueError: XPath error: Invalid expression in
+ValueError: XPath error: Invalid predicate in
+KeyError: 'content'
+ValueError: XPath error: Unfinished literal in
+IndexError: list index out of range
+AttributeError: Response content isn't text
+ValueError: not enough values to unpack
