@@ -1,0 +1,6493 @@
+{
+    "gengxin_time": "2023-11-24",
+    "jiaoben_dic": {
+        "1000长白山管委会公共资源交易信息网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1001盐城市阜宁县招标投标网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1002武汉政府采购信息发布系统": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1003喀什地区公共资源交易中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1004张掖市公共资源交易中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1005蚌埠市公共资源交易中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1007威海市建设工程电子交易系统": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1008自贡市政务服务中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1009安徽众志工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1012常州润邦招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1013金隅冀东阳光采购平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1014四川省人民医院电子招标采购平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1015深圳广播电影电视集团广电采购网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1016西安交通大学采购与招标管理办公室": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1017山西交通控股集团有限公司电子招投标采购交易平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1017芜湖市人民政府网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1018肇庆市公共资源交易中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1019贵州省公共资源交易公共服务平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1021浙江交通集团电子招标采购管理系统": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1022青岛国信招投标采购平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1023福建省福怡药械招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1025扬州工业职业技术学院国有资产管理处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1026郑州市登封公共资源交易中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1027福州华腾招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1030宁波市象山县公共资源交易中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1031宁波市阳光采购服务平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1032保山学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1033福建师范大学协和学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1034商丘师范学院设备与资产管理处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1035福建商学院资产管理处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1036军队采购网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1037扬州市职业大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1038郴州职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1039长沙航空职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1040潍坊职业学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1041陕西警官职业学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1043广东理工职业学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1044陕西青年职业学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1045河南工业贸易职业学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1046广西民族大学相思湖学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1047广西职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1048清远职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1049山西铁道职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1050长沙航空职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1051石家庄邮电职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1052安庆职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1053贵州电子信息职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1054安徽电子信息职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1055泰州职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1057平顶山职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1058云南林业职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1059陕西国防工业职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1060沙洲职业工学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1061泉州工艺美术职业学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1062河源职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1063河源职业技术学院采购办公室": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1064阿坝职业学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1065莆田学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1066攀枝花学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1067中国民用航空飞行学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1068河西学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1069昭通学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1070青岛农业大学海都学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1072汕头大学医学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1073浙江工商大学杭州商学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1074西安医学院附属宝鸡医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1075成飞医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1076吉林大学中日联谊医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1077南方医科大学口腔医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1078西安市儿童医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1079南京市儿童医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1080浙江省人民医院浙江省立医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1081潜山市立医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1082江西省肿瘤医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1083福建省肿瘤医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1084重庆市肿瘤医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1085江苏省老年病医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1086广西医科大学附属肿瘤医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1087广州医科大学附属肿瘤医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1088复旦大学附属肿瘤医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1089四川省人民医院金牛医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1090中山市古镇人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1091甘肃省人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1092河北省人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1094惠州市中心人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1095德阳市人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1096日照市人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1097鹰潭市人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1098广汉市人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1099黄山市人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1100眉山市人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1101淮北市人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1102陕西省第四人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1103剑阁县人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1104利辛县人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1105景谷傣族彝族自治县人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1106昆明市盘龙区人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1107珠海市香洲区人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1108广西壮族自治区人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1109宁夏回族自治区人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1110内蒙古自治区人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1111德阳市第六人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1112安阳市第五人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1113遵义市第五人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1114湖南省第二人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1115曲靖市第二人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1116芜湖市第二人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1117绵阳市第三人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1118蚌埠市第三人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1119云南省第一人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1120资阳市第一人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1121自贡市第一人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1123河池市第一人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1124台州市第一人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1125石嘴山市第一人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1126佛山市第一人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1127怀化市第一人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1128岳阳市一人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1129南京鼓楼医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1130盘锦市中心医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1131潜江市中心医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1132郑州市中心医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1134川北医学院附属医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1135西南医科大学附属医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1136汕头大学医学院第二附属医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1137海南医学院第二附属医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1138西安交通大学第二附属医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1139安徽中医药大学第二附属医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1140郑州大学第一附属医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1141厦门大学附属翔安医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1142南方科技大学医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1143秦皇岛市第四医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1144西安市第四医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1145济宁市中西医结合医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1146玉溪市中医医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1147望江县中医医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1148兰州大学第二医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1149泉州市中医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1150济宁市中医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1151潍坊市中医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1152中山大学附属第三医院粤东医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1153内蒙古自治区第三医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1154九〇三医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1155福州市第一医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1156陕西省妇幼保健院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1157自贡市妇幼保健院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1158东莞市妇幼保健院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1159常德市妇幼保健院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1160江苏省淮安市妇幼保健院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1161惠州市第二妇幼保健院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1162河南科技大学招标采购办公室": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1164河南工业大学招投标工作办公室": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1165福建广播电视大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1166贵州医科大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1167福建中医药大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1168温州医科大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1169北部湾大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1170西南石油大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1171陕西理工大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1172安徽工业大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1173昆明学院后勤集团": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1174马鞍山师范高等专科学校总务处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1175华北电力大学基建处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1176上海应用技术大学基建处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1177湖南师范大学基建处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1178华北电力大学资产管理处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1179贵州民族大学资产管理处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1180河南工学院国有资产管理处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1181信阳农林学院国有资产管理处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1182南京旅游职业学院资产管理处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1183福建商学院资产管理处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1184福建江夏学院资产管理处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1185福建工程学院资产管理处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1186江苏第二师范学院招标办公室": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1187湖北文理学院理工学院招投标中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1188华中农业大学采购与招标中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1189四川旅游学院采购与招投标管理中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1190太原理工大学招标与采购中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1191长春医学高等专科学校": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1192铜仁职业技术学院信息公开网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1193闽南师范大学招投标信息网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1194中国地质大学（武汉）采购与招标信息网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1195杭州电子科技大学招标与采购信息网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1196广东机电职业技术学院采购信息网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1197西安电子科技大学采购与招标网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1198湖北科技学院采购网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1199云南财经大学新闻网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1200贵州财经大学新闻网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1201南京审计大学国有资产管理部": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1202成都中医药大学后勤基建处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1203中国农业大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1204哈尔滨工业大学招标与采购管理中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1205吉林大学招标与采购管理中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1206东南大学采购中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1207山东省公共资源交易网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1208重庆师范大学采购与招投标中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1209上海出版印刷高等专科学校": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1210华南理工大学招标中心2": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1211深圳大学招投标管理中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1212成都轨道电子商务采购平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1213南水北调东线江苏水源有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1214长沙市建设发展集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1215信e采": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1216厦门采购招标网公E采电子交易平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1217易土365电子招投标平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1218朝阳市公共资源交易信息网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1219深圳市公共资源交易平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1220中煤易购采购一体化平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1221中煤易购采购一体化平台2": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1222谷城县公共资源交易网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1223苍南县公共资源交易网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1225麻城市公共资源交易中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1226新野县公共资源交易平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1227桐柏县公共资源交易平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1228镇平县公共资源交易平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1229松原市公共资源交易中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1230安吉县公共资源交易平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1231白城市公共资源交易平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1232白山市公共资源交易网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1233亳州市公共资源交易平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1234鄂州公共资源交易网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1235北京市政府采购电子卖场（京华云采）": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1237宣州区中介超市": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1238湖南省网上中介超市": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1239韶关市网上中介超市": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1240绵阳市中介服务网上超市": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1241成都市公共资源交易服务中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1242青海省政府采购云平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1243河北省政府采购网上商城": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1244江苏省广电有线信息网络股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1245广东省机场管理集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1246安徽省交通控股集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1247云南省政府采购和出让中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1248宁波市奉化区公共资源交易网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1249宁波市宁海县公共资源交易网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1250宁波市余姚公共资源交易网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1251开滦股份采购电子商务平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1252杭州锦江集团采购电子商务平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1253上海地铁采购电子商务平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1254河南英典工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1255河南诚信工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1256丰汇国际项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1257广西众联工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1258浙江欧邦工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1259中通服供应链管理有限公司（江苏）": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1260中国黄金集团建设有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1261数字广东网络建设有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1262湖北慧博工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1263广西德胜工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1264广西城建咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1265苏州市卫康招投标咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1266深圳市瑞凝信招标咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1267潮州市正得项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1268广东泰通伟业工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1269广西泽丰工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1270福建省建融工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1271河南海隆工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1272宁波日报报业集团": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1273中国烟草红河红运集团": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1274国咨项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1275安徽寰亚国际招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1276广东盛远招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1277厦门市华沧采购招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1278福建国诚招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1279广东德信行招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1280广东正德招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1281湖北中天招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1282山东水务招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1283山东瑞信招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1284常州中金招投标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1285常州中采招投标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1286潍柴控股集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1287广西同泽工程项目管理股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1288方大特钢科技股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1289重庆市玉罗实业有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1290广西德元工程项目管理有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1291重庆钢铁集团有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1292广东鼎信招标采购有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1293重庆市弘禹水利咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1294常州中宇建设工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1295湖北保都项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1296广东群升招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1297上海国际招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1298厦门市招拍挂信息技术有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1299广东海虹药通电子商务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1300浙江震元股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1301奇瑞电子采购平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1302华芳集团电子采购平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1303中山大学附属第五医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1303重庆城市管理职业学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1304珠海华信达工程顾问有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1305重庆欣宏达项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1307重庆市建标工程技术有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1308重庆圣讯建设工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1309恒泰工程咨询集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1310大华建设项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1311浙江中合工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1312新华工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1313上海正弘建设工程顾问有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1314泰宇建筑工程技术咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1315中资国际工程咨询集团有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1316浙江中正工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1317永明项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1318公诚管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1319丰汇国际项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1320海之特工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1321圣弘建设股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1322合普项目管理咨询集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1323中建鼎正项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1324广东宏茂建设管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1325中策恒睿建设有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1326广西邕政工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1327中招康泰项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1328中国远东国际招标公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1329中奋工程设计咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1330智埔国际建设集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1331浙江求真工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1332天鉴国际工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1333华物盛泰工程咨询管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1335广东华穗工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1336广东鸿厦工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1337大成工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1338湖南中投项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1339广东海外建设咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1340国众联建设工程管理顾问有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1341广西众鑫信技术咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1342广西铭晟工程咨询限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1343北京诚佳信工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1344福建安华发展有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1345建银工程咨询有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1346方大国际工程咨询股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1347东霖工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1348四川同创建设工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1349中经国际招标集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1350正大鹏安建设项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1351广西国盛招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1352江西银信工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1353河北鸿泰融新工程项目咨询股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1354广西机电设备招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1355苏世建设管理集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1356万隆金剑工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1357中乾立源工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1358正信伟业工程咨询管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1359重庆驰久卓越工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1360广东建瀚工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1361大洲设计咨询集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1362河南德泓工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1363深圳市合创建设工程顾问有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1364中鼎誉润工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1365华采招标集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1366四川信源工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1367中新创达咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1368国咨项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1369深圳群伦项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1370红城国际工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1371中睿智工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1372贵州新阳光项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1373广西建荣工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1374成致项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1375珠海市公评工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1376广西瑞智工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1377京延工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1378汇龙工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1379中达安股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1380江苏三师土地房地产资产评估测绘咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1381广西中鑫益项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1382永信恒昌工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1383广东产品质量监督检验研究院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1384集宁师范学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1385杭州市临平区公共资源交易管理委员会办公室": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1386广西招标投标公共服务平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1387广东长鸿建设咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1388深圳市千诚招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1389深圳市诚信行工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1390广东润德工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1391深圳市润达工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1392广州采阳招标代理有限公司河源分公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1393深圳市加乐咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1394广东省建东工程监理有限公司中山分公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1395深圳市安信招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1396中基科技(广州)有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1397广东众扬招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1398广州筑正工程建设管理有限公司中山分公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1399广东华盛招标采购有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1400广东国晟招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1401韶关市建韶工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1402广州广骏工程监理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1403新境界工程技术(深圳)有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1404广东诚实商务咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1405广东顶立工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1406深圳华瑞工程顾问有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1407深圳市华南工程顾问有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1408河源市中政招标项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1409广东建银工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1410深圳市华瑞工程建设管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1411广东平嘉项目管理有限公司河源分公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1412深圳市航建工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1413清远市众航项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1414深圳市顺生项目咨询管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1415鹏翔招标代理(深圳)有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1416深圳利盛管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1417深圳市万略项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1418深圳市德顺项目咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1419中山鸿睿工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1420深圳市亿嘉人项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1421广州建达建设管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1422深圳市水务(集团)有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1423深圳市鼎燊国际招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1424深圳市锦泓兴投资有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1425深圳市厚德天成实业有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1426广东金雁工业集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1427广东建一招标采购有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1428正采(深圳)招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1429华春建设工程项目管理有限责任公司茂名分公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1430深圳市建安业项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1431深圳市疆业建设项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1432深圳智廉项目咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1433深圳市圳采招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1434广东巨正建设项目管理有限公司河源分公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1435深圳市普利工程咨询有限公司河源分公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1436华伦中建建设股份有限公司河源分公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1437深圳市智筑工程咨询有限公司河源分公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1438深圳市拓泰实业有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1439中晟(广东)咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1440正浩招标(深圳)有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1441深圳睿研创智管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1442深圳市信德行工程顾问有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1443深圳市中合建工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1444广东国正招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1445深圳市建明项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1446深圳市业峰咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1447广东创源工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1448广东中致工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1449广东创建工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1450惠州市建迅工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1451广东平讯招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1452深圳市振东招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1453广东新江工程建设管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1454深圳信德招标服务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1455广东华鑫盛工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1456广东中胜工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1457北京中兴恒工程咨询有限公司茂名分公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1459广州市吉光工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1460中山雷石招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1461广东德正工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1462广东桓宇招标采购有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1463湖南省湘咨工程咨询有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1464广东标信咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1465广东德源招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1466广东粤信项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1467广东正联德工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1468广东永宬工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1469广州龙达工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1470广东七星招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1471广州宏元建设工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1472肇庆市永利招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1473湖南省工程建设监理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1474汕头市联益建设咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1475广州西河堂招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1476广东一心工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1477深圳市恒浩建工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1478信合招标（深圳）有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1479茂名市众星招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1480深圳市建锋工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1481深圳市海西工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1482广东诚德工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1483深圳市千里招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1484珠海智采项目咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1485广州市宏正工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1486深圳市国建工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1487中潮项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1488广东德骏工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1489广东润景工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1490深圳市鑫润招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1491广州建筑工程监理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1492广东建伟工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1493广东吉庆双盈招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1494湖南正源项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1495韶关市瑞诚项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1496浙江省工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1497广东剑凯招标采购有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1498贵州智聚招标造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1499深圳市亿诚工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1500深圳市特采招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1501华智信达（深圳）咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1502深圳市广得信工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1503建中工程有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1504湛江市志正工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1505广州祥成工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1506广州尚晋工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1507广东盛建工程事务咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1508深圳市中联建工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1509深圳龙达招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1510广州市华思达企业管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1511中山广立工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1512江西省建设监理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1513佛山顺之易项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1514广州市恒茂建设监理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1515江西省机电设备招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1516广东三瑞资产土地房地产评估咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1517广东宏正工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1518中外天利（北京）工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1519深圳市河图建设项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1520广东重工建设监理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1521信宜市宏森招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1522佛山市安立信招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1523湖南华冠工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1524茂名市广纳招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1525深圳市鸿图建设管理集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1526茂名市众诚招标采购有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1527广东托信项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1528佛山市粤创招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1529广州国宏采购咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1530广州工建工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1531广州程启招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1532中金招标有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1533深圳市远东数智采技术服务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1534广州穗峰建设工程监理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1535阳江市投源招标采购有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1536广东汇创项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1537旺和招标咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1538惠州市中弘咨询管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1539惠州市联拓招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1540茂名市德信工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1541广东中厚科技有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1542中山品诚项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1543清远市中益工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1544东方国际招标有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1545广东长盛工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1546广东鑫华弘工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1547广东信立招标采购有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1548惠州市鸿盛项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1549广东恒胜建设监理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1551广东政阳项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1552广东致远工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1553华晟（广东）招标采购有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1554广东粤晟咨询管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1555广东建众工程顾问管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1556广东信锋招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1557茂名市赛德招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1558惠州同群工程建设管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1559云浮市国御招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1560方禾（广东）项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1561茂名市诚飞招标采购有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1562广州市国际工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1563深圳市普利工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1564广东东正招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1565广东智信招标采购有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1566广东海恒招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1567广东道勤项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1568广东祥泰工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1569广东煦崇工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1570江门市安厦建设监理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1571广州市南悦工程顾问有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1572惠州永越建设管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1573河源市万信招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1574广东道锐工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1575河源市城铭项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1576广东聚佳项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1577广州合壹招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1578广东海新招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1579广东建发工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1580广东宏生工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1581广东健雄工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1582广东铭艺工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1583广东中顺管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1584茂名市建宏工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1585广州南华工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1586广州海业实业有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1587广东精信工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1588中洲宏腾工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1589广东正锐工程招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1590广东立兴项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1591广东兴东南项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1592中山誉鑫工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1593深圳市业峰咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1594东莞市骐圣招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1595惠州友辰招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1596深圳市圳兴采购科技有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1597广州地铁集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1598广东瑞峰项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1599广东睿协管理咨询有限公司河源分公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1600福建省营造项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1601福建华广工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1602阜阳市同创投资咨询管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1603福州晋建工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1604浙江宇康工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1605浙江省成套工程有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1606浙江新诚信工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1607浙江省国际技术设备招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1608宁波市国际招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1611浙江五石中正工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1612浙江国际招投标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1613浙江东瓯工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1614贵州信和工程招标造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1615浙江金业管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1616浙江华耀建设咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1617福建省闽建工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1618浙江省房地产管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1619宁波名诚招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1620德邻联合工程有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1621浙江省建设工程设备招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1622浙江科信联合工程项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1623浙江禾城工程管理有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1624耀华建设管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1625浙江越锋项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1626台州市建设咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1627福建昇华工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1628建正工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1629浙江东南建设管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1630浙江天诚工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1631福州市建设工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1632宁波德信工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1633浙江诚源工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1635浙江勋达工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1636浙江建航工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1637安庆市皖宜项目咨询管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1638华诚工程咨询集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1639浙江天成项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1640安徽省永光工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1641江苏伟业项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1642苏州泛亚万隆建设工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1643淮安市财建工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1644福建省天海招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1645山西省招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1646宁波国咨工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1647浙江乐诚工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1648宁波正吉工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1649浙江凯翔工程咨询管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1651浙江华杰工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1652安徽华正建设工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1653西北（陕西）国际招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1654陕西省采购招标有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1655中鼎万联建设项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1656四川国际招标有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1657建融建设管理集团有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1658江苏华盛工程咨询股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1659福建德森招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1660福建省智信招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1661陕西纵横项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1662苏州市宇杰工程技术服务咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1663福建晨至信招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1664苏州欣禾诚工程咨询服务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1665福建恒信工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1666杭州天恒投资建设管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1667西安正建工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1668中咨环球(北京)工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1669瑞恒项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1670陕西上德招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1671海南省教学仪器设备招标中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1672华夏国际项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1673安徽盛康工程管理集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1674山西重力工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1675山西新星项目管理有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1676四川五洲招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1677常熟市兴联工程造价咨询事务所有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1678福州大禹建设工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1679常州亿楷源工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1680江苏省招标中心有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1681重庆欣宏达项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1682湖州市仁皇工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1683广西金海交通咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1684鸿民国际工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1685福建中诚信工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1686大华建设项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1687江苏仁合中惠工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1688江苏中瑞建设项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1689重庆妙正工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1690苏州金正工程技术咨询服务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1691瑞信国际项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1692盛唐工程咨询集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1693浙江鼎力工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1694重庆市建标工程技术有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1695天马盛鼎项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1696苏州市卫康招投标咨询服务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1697常州青枫招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1698重庆市鼎运工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1699中建华阳建设项目管理有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1700陕西瑞通工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1701江苏信德工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1702中企华建友工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1703华地众信工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1704中机中联工程有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1705宁波欣达建设项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1706福建环闽工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1707江苏明润资产房地产评估造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1708四川世纪康恒工程管理咨询有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1709天勤工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1710杭州信达投资咨询估价监理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1711江苏苏维工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1712江苏杰源工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1713湖北宏志招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1714湖北中联太工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1715河北宏信招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1716中创恒梦工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1717武汉坤达工程造价咨询有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1718至诚工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1719河南求实工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1720陕西正邦招标有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1721中招辰丰达招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1723云南泰熙招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1724甘肃中金国际招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1725湖北省招标股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1726湖北省成套招标股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1727湖北中盛汇金项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1728湖北中楚建设工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1729武汉新地工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1730武汉千代工程建设招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1731武汉闻道工程建设咨询管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1732辽宁恒丰慧信项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1733湖北正信工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1734忱义工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1735安徽安兆工程技术咨询服务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1736辽宁正泉项目管理服务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1737河北安正工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1738青海旭诚工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1739河北中原工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1740湖北峰业工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1741河北至成中盛工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1742河北新合作工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1743河北乐创工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1744宁夏国际招标咨询集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1745河北百展工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1746黑龙江亿德项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1747河北鑫凯工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1748山东兴联项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1749天津烜福工程招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1750天津博纳招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1751山东正信招标有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1752河北纪宇工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1752青海百鑫工程监理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1753天津泰达工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1753湖北国华项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1754黑龙江省广建工程项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1755黑龙江省招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1756河北兴冀工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1757湖北华科工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1758卓越同辉建设咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1759大庆高新资产管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1760黑龙江省汇龙工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1761青海诚鑫招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1762中伟诚工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1763黑龙江省启越工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1765湖北金华禹工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1766大连中恒信工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1767湖北谨兴工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1768十堰长信项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1769廊坊至信招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1770辽宁顺达汇咨询管理服务有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1771银川万博拍卖招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1772大连东大项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1773北京科技园拍卖招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1774湖北胜捷工程咨询有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1775陕西中技招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1776宁夏天雨工程咨询管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1778山东冠宇招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1779山东忠诚信工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1781河北儒山工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1782中环建(北京)工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1783天行健项目管理咨询(北京)有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1784辽宁工程招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1785重庆招标采购(集团)有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1786中原招采信息科技(河南)有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1787河南嘉铭建设工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1788开信项目管理集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1789河南中怡建设工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1790福建省仟羽工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1791联合利国文化产权交易所有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1792天健工程咨询(重庆)有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1793陕西正大方略工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1794重庆天廷工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1795天之瓴建设股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1796厦门协诚工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1797深圳市瑞凝信招标咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1798肥东县公共资源交易有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1799深圳市加乐咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1800深圳市恒浩建工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1801筑忱项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1802山西巨牛工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1803北京国泰建中管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1804山西汇鑫磊招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1805华正大地项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1806山西景屹招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1807山西华辰投资咨询管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1808中元建设科技有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1809湖北恒晟工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1810湖北正天工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1811中竞发工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1812江苏苏咨工程咨询有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1813江西衡正招投标技术咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1814海南易中招投标项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1815江西中汇工程技术监理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1816江西省鼎跃招标咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1817江西省瑞宏招标咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1818福建闽审工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1819湖南永晟电子商务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1820湖南建科工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1821山东华招项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1822江西首信招标咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1823江西合胜合招标咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1824江西省安澜工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1825江西华昊信息咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1827江西国政招标咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1828江西智拓工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1829江西省正乙招标咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1830江西新立建设管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1831瀚景项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1832内蒙古华通公路工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1833湖北政通工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1834安徽求是工程建设咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1835淮安广联工程项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1836湖北楚元工程建设咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1837湖北建信建设工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1838湖北国成工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1839湖北华昇招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1840湖北中瀚招标咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1841湖北杰亿工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1842湖南中智联和工程造价管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1843湖南建衡达工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1844湖北五环宏达建设工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1846湖北联益建设工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1847湖北弘信咨询服务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1848通城众城项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1849通城县康顺招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1850赤壁市木兰工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1851武汉富纳工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1852湖北中公工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1853荣达工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1854安徽龙方工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1855福建金业建设发展有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1856龙岩城发工程造价咨询服务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1857山东三强建设咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1858山东鲁投招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1859依诚招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1860山东浩邦招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1861内蒙古自治区机械设备成套有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1862永泽建设工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1863中益工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1864内蒙古昆岗工程项目管理有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1865山东宏达工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1866江西新明工程服务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1867江西安必信招标咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1868湖南中屹项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1869湖北嘉汇志诚招标咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1870福建联审工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1871河南中尚工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1872河南省天平招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1873湖南长顺项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1874江西鑫磊工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1875赣州佳禾项目咨询管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1876江西久和招标服务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1878江西斯诺招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1879山东省建设工程招标中心有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1880四川标准招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1881中投德创建工有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1882湖南创迪工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1883湖南华科工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1884四川佰瑞招投标咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1885四川九载工程项目管理集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1886安徽省华都工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1887福建省鸿远招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1888福建鑫之源建设发展有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1889四川云灿招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1890四川汇合源招投标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1891成都金牡丹工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1892四川正汇恒招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1893四川宇之峰工程项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1894四川省环科院科技咨询有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1895四川吉安泰工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1896成都荣兆业工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1897四川标源招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1898四川正平招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1899四川中采宏泰工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1900四川建科工程建设管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1901四川川信招投标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1902四川新宇盛项目管理集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1903安迅达工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1904四川标哲招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1905佰利建设管理(集团)有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1907贵州聚力项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1908河北诺峰工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1909陕西江河工程项目管理有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1910上海联合工程监理造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1911湖南格瑞工程建设集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1912北京精信嘉业建筑咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1913江西东普工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1914鼎信数智技术集团股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1915青岛海易建设项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1916山东国能招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1917山东华标招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1918山东望京工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1919北京京咨工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1920北京明世继元招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1921开封开财企业管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1922安徽省志成建设工程咨询股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1923河南省伟信招标管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1924河南方正水利工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1925河南省教育招标服务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1926河南赤橙工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1927陕西德仁招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1928贵州正佳咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1929贵州鹏业国际机电设备招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1930江苏方升投资管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1931陕西诚信达工程建设咨询有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1932陕西金岸工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1933云南嘉鑫项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1934云南兴语招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1935湖北夷陵造价咨询事务所有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1936湖北浩嘉工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1937北京国际工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1938山东东岳项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1939山东大华工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1940中恒一信项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1941福建鼎御招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1942福建盛鑫招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1943中天信远国际招投标咨询(北京)有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1944青岛市招标中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1945福建省金丰招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1946国讯招标集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1947北京展创丰华工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1948中杰齐晟项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1949云南元大工程咨询有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1950山东华展项目咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1951云南云创招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1952山东省建设监理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1953冠县永信项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1954安徽振兴工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1955山东弘毅项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1956山东同圆工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1957山东普华项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1958内蒙古迪克工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1959山东宏丰达工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1960福建省博益招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1961福建禾海天成项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1962陕西正平工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1963广东正一工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1964福建广誉工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1965云南中招招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1966大理建设工程招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1967云南谦和工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1968山东广信招标有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1969蒙立欣工程项目管理有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1970云南中盈招标咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1971红河州建设工程招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1972昆明建设咨询管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1973蚌埠市招标投标咨询服务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1974安徽省建生工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1975荆门市华正招标咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1976中三信工程管理(湖北)有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1977荆门科锐企业管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1978江苏省建信招投标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1979内蒙古宣宇工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1980江苏尚阳工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1981辽宁友诚招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1982江苏唯诚建设咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1983苏州诚联招投标咨询服务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1984内蒙古恒通招标有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1985江苏昱丰华项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1986重庆合信工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1987北京明德致信咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1988江苏正华新工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1989江苏启越工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1990苏州骏捷建设管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1992山东新世纪招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1993安徽博鸿工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1994泰达工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1995内蒙古华晟工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1997江苏国兴建设项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1998陕西万德招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "1999西安辰和工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2000河南省机电设备国际招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2001青海发投机电设备招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2002陕西中润国际招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2003中国市政工程华北设计研究总院有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2004旺苍县协成工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2005常州中平招投标咨询服务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2006山东泽瑞工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2007句容永恒嘉诚会计师事务所有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2008银川有形建设工程服务中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2009北京中慧智联工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2010湖北榕杉项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2011厦门特拍拍卖有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2012江苏绿阳交通建设集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2013贵州万衡工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2014河南国之泰工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2015浙江林鸥工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2016湖北佰誉工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2017辽宁泰茂招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2018淮安市大运河保护传承利用有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2020安徽华邃工程项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2021青岛东方国际招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2022北京海泽日升科技有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2023常州合浠工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2024山东新傲项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2025福建智卓咨询服务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2026中环联(福建)供应链管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2027福建万祥招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2028安徽翔天建设项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2029浙江捷正工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2030新疆维泰开发建设(集团)股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2031宿迁市钟吾人才科技集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2032安徽灏湃建设项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2033江苏骏通建设项目管理咨询公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2034北京太和华典工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2035北京高联合众信息咨询服务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2036致和天成建设咨询(北京)有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2037江苏常信保险经纪有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2038陕西交通技术咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2039安徽易玖科技众创空间有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2040泉州市产权交易中心有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2041安徽邦成建设管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2042苏州茗竣建设管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2043中移动金融科技有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2044南通江山农药化工股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2045福建北极星建设有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2046湖南恒典建设项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2047云南信尚工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2048常州市阳峻项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2049云南润国招标代理有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2050内蒙古硕力工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2051江苏国采工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2052广州珠江监理咨询集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2053盐城恒瑞工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2054广州中经招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2055惠州市建鑫工程造价事务所有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2056咸宁市通城鑫城招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2057浙江信立恒工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2058中盛隆国际招标(北京)有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2060南京永信联合会计师事务所": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2061贵州众益建设监理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2062四川交投设计咨询研究院有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2063湖北德普管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2064湖北卓诚信建设工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2065陕西凯坤项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2066南京卓诚工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2067青海国德招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2068河南省建设工程咨询公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2069湖北鑫溢鑫工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2070山东隆寰项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2071杭州博成工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2072潜江市高新投勘察设计咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2073江苏吴越之光项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2074宁波市镇海国太企业管理咨询服务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2075安徽轶群工程咨询有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2076河建国际工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2077武汉市宏建基础设施建设有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2078四川中志招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2079青岛青西项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2080江苏阳湖建设项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2081宁波广兴工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2082广东旭腾项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2083广东科安达招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2084四川协盈工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2085安徽山水城市设计有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2086广东昌广工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2087武汉景程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2088深圳高星项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2089湖北城发设计咨询集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2090江西金诺咨询管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2091茂名市建艺工程造价咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2092云南省设计院集团建设有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2094华尔兹国际工程咨询(湖北)有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2095内蒙古业成工程建设项目招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2096山东磐实项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2097浙江华昌工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2098四川固恒工程技术有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2099黑龙江中筑建设项目咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2100浙江绿邦招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2101贵州明睿项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2102广东中协力招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2103名旺工程咨询(湖北)有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2104浙江添翼工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2105安徽华源工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2106宁波建信工程造价咨询事务所有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2107江西亘美工程技术有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2108赣州市欣荣招投标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2109湖北清江工程管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2110湖南圆圈项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2111广州建沣工程咨询管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2112湖北杰达建筑工程有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2113广东中晨项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2114正宇工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2115粤廉（广东）招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2116广东文宇工程顾问有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2117福建标乔工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2118廊坊合创信恒工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2119江苏中嘉招投标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2120西部保险经纪有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2121广州白云产权经纪有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2122山西中经招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2123河南万为项目咨询管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2124泉州市正晋项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2125金华产权交易所有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2126中铁第一勘察设计院集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2127中铁第一设计院集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2128中铁第五勘察设计院集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2129中铁科工集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2130湖北省交通运输厅": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2131德润工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2132黑龙江中灏瑞合工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2133安徽昌利项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2134山东蔚泰项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2135深圳市众拓工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2136湖南为元建设工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2137广东盈信项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2138安徽天翰工程咨询有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2139江苏全盛工程造价事务所有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2140远眺(上海)招标服务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2141巴中正信招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2141河南祥辰工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2142宜宾市润宜天然气有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2143安徽省文化产权交易所有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2144河南恒盛工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2145江西心远管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2146历山控股(山东)有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2147苏州市嘉德信招投标代理有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2148宁波国研科技咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2149天佑德建设咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2150江苏信达建设工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2151广东星辰建设管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2152玉溪和业招标咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2153湖北同欣项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2154武汉市硚房汉信建设项目管理有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2155随州职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2156广州盛发项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2157湖北南方建设管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2158山东维诚达招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2159六安鑫鹏项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2161中国融通科学研究院集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2162全流程项目管理咨询（广东）有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2163北京市交通委员会": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2164塔城地区行政公署": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2165西安市交通运输局": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2166中国电建集团成都勘测设计研究院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2167中国水利水电第十二工程局有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2168中电建电力投资集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2169中电建电力投资集团青海电力设计院有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2170江南大学附属医院（无锡市第四人民医院）": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2171江南大学附属医院采购平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2172杭州市第一人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2173中国人民解放军第四五五医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2174安徽农业大学采购招标网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2175苏州大学附属第二医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2176福建商学院资产管理处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2177江苏交通控股有限公司招标与采购网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2178长治医学院附属和平医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2179云南农业职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2180淮海实业发展集团公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2181江苏阳光服饰有限公司采购招标信息平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2182内蒙古创源金属有限公司采购服务平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2183广州市生态环境局": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2184无锡市生态环境局": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2185云南招标股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2186靖江市人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2187四川大学华西第二医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2188新余市卫生健康委员会": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2189福建省生态环境厅": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2190江苏尚田工程项目管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2191重庆市弘禹水利咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2192兰州市退役军人事务局": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2193广西壮族自治区大数据发展局": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2194深圳市第二人民医院招采管理系统": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2195中共深圳市委党校": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2196广东省高明监狱": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2197广东省武江监狱": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2198广东省揭阳监狱": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2199四川省中医药科学院中医研究所": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2200中国工程物理研究院招投标信息网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2201安徽省农业农村厅": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2202上海市住房和城乡建设管理委员会": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2203蒙牛乳业": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2204民航专业工程建设项目招标投标管理系统": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2205厦门市生态环境局": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2206新疆瑞和安惠项目管理集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2207红日药业集团企业电子采购平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2208扬州工程建设信息网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2209广州港股份有限公司采购平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2210重庆长征重工有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2211友和招标代理服务网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2212全军武器装备采购信息网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2213广东塔牌集团股份有限公司招标平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2214遂宁市第一人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2215常德市第一人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2216广东省第二中医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2217兰州大学第一医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2218四川大学华西第二医院华西妇产儿童医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2219三明市中西医结合医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2220重庆市第十三人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2221南华大学附属第二医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2222南京市中西医结合医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2223十堰市太和医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2224河南大学第一附属医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2225九江学院附属医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2226信阳市中心医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2227黑龙江省农垦总局总医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2228广州医科大学附属肿瘤医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2229郑州市中心医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2230河北环境工程学院新闻网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2231四川建设网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2232北京大学总务部": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2233宁德市水利局": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2234福建省体育局": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2235湖南省农业农村厅": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2237聊城市第二人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2238四川铁道职业学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2239中国南方航空采购招标网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2240甘肃机电职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2241广元市利州区中医医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2242胜利油田中心医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2243桂林市中医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2244福州大学信息公开网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2245江苏海洋大学招标信息网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2246湖北交投宜昌投资开发有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2247郑州市文化广电和旅游局": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2248杭州西湖风景名胜区管理委员会": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2249辽宁省生态环境厅": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2250湖南水利水电职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2252宁波市退役军人事务局": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2253成都医学院新闻网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2254忻城县人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2255衢州市人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2256云南疾控咨讯网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2257江西省妇幼保健院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2258江西晶昊盐化有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2259成都大学后勤处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2260安康职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2261无锡市人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2262临泉县人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2263安阳市第三人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2264广西交通职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2265汕头职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2266郑州大学第五附属医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2267安徽师范大学皖江学院后勤与保卫处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2268许昌学院资产管理处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2269马栏山视频文创产业园": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2270江苏第二师范学院招标办公室": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2271哈尔滨工程大学招标与采购管理中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2272福建技术师范学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2273中铁建生态环境有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2274奎屯市公共资源交易中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2275湖州市南浔区公共资源交易中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2276九安电子招投标交易平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2277宁德市中医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2278宁夏医科大学总医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2279阜阳市第五人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2280建湖县人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2281中煤建工集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2282中煤科工集团重庆研究院有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2283成都中建材光电材料有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2284嘉兴市水利局": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2285登封市人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2286北京清华长庚医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2287定远县总医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2288中华人民共和国福建海事局": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2289中玻控股": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2290广西医科大学第二附属医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2291东莞市人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2292佛山市卫生健康局": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2293深圳市前海深港现代服务业合作区管理局": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2294国家级浏阳经济技术开发区": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2295重庆工业职业技术学院招标采购网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2296重庆医科大学附属医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2297新乡职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2298永州职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2299山东磐金锻造机械有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2300龙岩人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2301嘉兴学院采购中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2302榆林能源": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2303湖南劳动人事职业学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2304青海建筑职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2305辽宁中医药大学附属第二医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2306安徽交通职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2307长安大学招标信息网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2308信阳市商城县公共资源交易网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2309云南省昆明市官渡区人民政府": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2310深圳市儿童医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2311西安邮电大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2312赣州市人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2313江西中医药大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2314云南省昭通市彝良县人民政府": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2315浙江安防职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2316吉林省延边朝鲜族自治州和龙市政府网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2317山钢股份莱芜分公司电子交易平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2318重庆市渝兴建设投资有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2319东北财经大学采购与招标管理办公室": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2320宜春学院招标采购中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2321中国人民大学采购与招标管理中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2322长安汽车电子采购平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2323内蒙古公路交通投资发展有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2324呼伦贝尔城市投资建设(集团)有限责任公司竞价系统": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2325新疆农业大学资产管理处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2326云南省昆明市富民县政府网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2327宣城市公共资源交易有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2328深圳市人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2329湖南中医大学第一附属医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2330国际电力网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2331常州纺织服装职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2332宜宾市第二人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2333中咨智达工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2334昆明冶金高等专科学校": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2335益阳市第四人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2336河南省中医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2337江苏科技大学招投标工作办公室": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2338成都大学招标投标采购网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2339海南省发展控股有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2340汉川市人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2341淮阴师范学院招标采购网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2342南昌大学招标采购中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2343水利水电网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2344建设行业信息网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2345北极星垃圾发电网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2346寿县县医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2347湖南建工相山投资集团": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2348湖南轨道交通控股集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2349湖南省水运建设投资集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2350湖南省港务集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2351湖南百舸水利建设股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2352湖南省水利水电科学研究院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2353湖南国信建设集团股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2354阳江市公共卫生医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2355淮北市教育局": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2356山东大学招标采购管理中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2357湖南芙蓉可再生能源发展有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2358湖南湘江新区发展集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2359长沙城市发展集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2360株洲城发集团": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2361首都医科大学附属北京胸科医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2362江苏省苏北人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2363陆军军医大学第二附属医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2364湘潭市妇幼保健院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2365湘潭交通发展集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2366衡阳城投集团": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2367江西工业工程职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2368中山大学附属口腔医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2369雅安市雨城区人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2370国药葛洲坝中心医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2371益阳市交通投资运营集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2372岳阳市城投集团": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2373常德市城市建设投资集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2374云南经济管理学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2375徽商职业学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2376广州市第八人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2377成都市第二人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2378郴州市发展投资集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2379怀化市城市建设投资有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2380株洲市云龙发展投资控股集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2381兰州市第一人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2382中山大学孙逸仙纪念医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2383温州市中西医结合医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2384旺苍县中医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2385吉林省高速公路集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2386长春城开农业投资发展集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2387江苏省沿海开发集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2388南昌市第三医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2389铜陵市妇幼保健院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2390南京市口腔医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2391宝鸡文理学院信息公开网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2392武汉妇女儿童医疗保健中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2393江苏润扬交通工程集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2394南京市城市建设投资控股（集团）有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2395南京市第二医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2396国鼎和诚招标咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2397广东宏茂建设管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2398南通市机关事务局": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2399重庆航天职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2400南京水务集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2401连云港市交通控股集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2402南通市口腔医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2403河源市人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2404陕西铁路工程职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2405中钰招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2406贺州学院国有资产管理办公室": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2407南京地铁集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2408南通沿海开发集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2409南通交通建设投资集团有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2410扬州市交通产业集团有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2411扬州水利建筑工程有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2412徐州地铁集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2413常州交通产业集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2414淮安市投资控股集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2415江苏宿迁交通工程建设有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2416宿迁市城市建设投资（集团）有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2417赣州城市投资控股集团有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2418江西省公路工程有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2419江西建工第三建筑有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2420川北幼儿师范高等专科学校": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2421明光市人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2422福建医科大学孟超肝胆医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2423江西公路开发有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2424江西省咨询投资集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2425江西省江咨投控工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2426宜春市城市建设投资开发总公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2428沈阳地铁集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2429辽宁省交通建设投资集团有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2430辽宁省高速公路实业发展有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2431鄂尔多斯市城市建设投资集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2432青海省建筑勘察设计研究院股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2433太原国有投资集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2434山西四建集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2435赣州交通控股集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2436山西省水利水电工程建设监理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2437山西路桥建设集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2438济南城市投资集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2439青岛城市发展集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2441中共吉林省委党校": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2442东莞滨海湾新区管委会": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2443中共福建省委党校福建行政学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2444青岛路桥建设集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2445青岛地铁集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2446德州城建工程集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2447滨州市财金投资集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2448山东高速集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2449吉安市城市建设投资开发有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2450齐鲁高速公路股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2451山东高速工程咨询集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2452中共吉林省委党校（吉林省行政学院）": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2453中共台州市委党校": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2454中共山西省委党校": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2455中共安徽省委党校": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2456山东水总有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2457山东省财金投资集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2458青岛中建联合集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2459中共温州市委党校": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2460中共南京市委党校": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2461中共海南省委党校": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2462重庆市建筑科学研究院有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2463重庆物流集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2464重庆市铁路(集团)有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2465重庆科学城城市建设集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2466重庆市规划设计研究院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2468广东海洋大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2469上海外国语大学信息公开网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2470广东工业大学招投标中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2471上饶师范学院招标采购中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2472怀化学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2473宁波市北仑区公共资源交易中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2474宁波市镇海县公共资源交易": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2475宁波市象山县公共资源交易中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2476吉林大学中日联谊医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2477赣南师范大学招标采购中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2478恩施州巴东县公共资源交易网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2479台州市天台县公共资源交易网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2480铜川职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2481湘潭市第一人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2482诸暨人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2483广东展诚工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2484遂宁市中心医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2485南宁市公共资源交易平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2486兰州大学采购管理办公室": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2487武汉大学采购与招投标管理中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2488江西科技师范大学招标与采购办公室": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2489仲恺农业工程学院招投标办公室": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2490滨州职业学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2491长沙学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2492国防科技大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2493盐城幼儿师范高等专科学校": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2494中国民航大学招投标信息网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2495河北水利电力学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2496宁波建兴招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2497重庆国际投资咨询集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2498苏州市创杰招投标咨询服务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2499湖州网上中介服务超市": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2500福建省新卫招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2501东莞理工学院采购管理系统": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2502贵州谦瑞项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2503广东方得项目管理咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2504广东古岑工程管理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2505广东秤风采购招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2506温州市文成县公共资源交易网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2507苏州市昆山市政府采购电子商城": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2508北京市政府采购中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2509商水县政府采购中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2511山东华旭政府采购信息公布平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2512北京市政府采购网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2513中国政府采购招标网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2514广东壹加壹招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2515肇庆中亿招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2516深圳市正量行招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2517山东大明联合会计师事务所": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2518广东德鑫招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2519广东国联招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2520广东中程招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2521福建信发招标代理有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2522福建兴诚建项目管理集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2523攀枝花城建交通（集团）有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2524内江建工集团": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2525遂宁市河东开发建设投资有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2526雅安城市建设投资开发有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2527雅安市交通建设（集团）有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2528巴中发展控股集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2529成都建工第四建筑工程有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2530成都建工集团": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2531成都交通投资集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2532绵阳市高等级公路开发有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2533泸州交投集团路桥建设有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2534泸州市城市建设投资集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2535广元市投资发展集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2536广元市城市发展集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2537四川省第三建筑工程有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2538四川省建筑科学研究院有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2539四川第六建筑有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2540四川省第十一建筑有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2541四川路桥建设集团股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2542四川成渝高速公路股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2543四川高速公路建设开发集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2544蜀道交通服务集团有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2545四川省交通建设集团有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2546四川泸石高速公路有限责任公司官网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2547四川绵九高速公路有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2548四川川东高速公路有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2549四川路桥华东建设有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2550四川泸渝高速公路开发有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2551四川达陕高速公路有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2552杭州市西溪医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2553云南省中医医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2554乌兰察布市公共资源交易中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2555北京市体育局": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2556深圳市第三人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2557广东人信工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2558山西重力工程咨询有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2559三明市公共资源交易网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2560合肥公交集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2561广州高新工程顾问有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2562云南省地震局": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2563安徽安兆工程技术咨询服务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2564广西新衡通工建咨询服务有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2565滨州职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2566四川攀西高速公路开发股份有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2568四川蜀道城乡投资集团有限责任公司成都第二分公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2569四川省投资集团有限责任公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2570四川川投水务集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2571四川能投电力开发集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2572陕西省铁路集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2573蚌埠投资集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2574池州建设投资集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2575宿州埇桥城投集团（控股）有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2576福建卫生职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2577广西工业职业技术学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2578滇西应用技术大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2579福建省第三人民医院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2580宿州市城市建设投资集团（控股）有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2581淮南建设发展控股（集团）有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2582铜陵市综合交通投资集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2583安徽省港航集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "2584安徽省港航建设投资集团有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "800南昌航空大学招标采购中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "801江西理工大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "802景德镇陶瓷大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "803江西农业大学招标与采购中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "807江西财经大学招标采购中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "808萍乡学院招标与采购中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "810南昌工程学院招投标中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "811南昌医学院资产管理中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "812上海复旦大学采购与招标管理中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "813同济大学采购与招标管理办公室": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "814上海交通大学数字化采购平台": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "815华东理工大学采购招标网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "818华东师范大学采购信息网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "819上海电力大学信息公开网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "820上海海洋大学招投标办公室": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "822华东政法大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "823上海戏剧学院采购与招投标管理中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "824上海大学采购与招标管理办公室": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "825上海工程技术大学招投标中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "826上海立信会计金融学院招标管理与法务中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "827上海电机学院招投标办公室": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "829暨南大学招标采购中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "830汕头大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "833华南农业大学采购管理信息系统": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "835广州医科大学采购中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "836广东医科大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "837华南师范大学采购与招投标中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "840肇庆学院招投标中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "841广州体育学院采购与招投标管理中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "842广州美术学院招标采购": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "843星海音乐学院资产管理与采购中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "844广东技术师范大学招投标管理中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "846广东财经大学招投标中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "849五邑大学招投标服务中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "850广东金融学院招与标采购中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "851广东石油化工学院招投标工作办公室": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "854广东外语外贸大学招投标中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "855南方医科招标采购中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "856南方科技大学采购与招标管理部": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "857深圳技术大学采购与招投标管理中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "858桂林电子科技大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "859广西医科大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "860广西师范大学采购管理中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "861南宁师范大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "862河池学院国资处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "863广西兴桂源招标有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "865广西科联招标中心有限公司": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "868三亚市政府网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "869儋州市政府网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "871乐东黎族自治县政府网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "872临高县政府网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "873湘潭大学招标采购网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "874湘潭大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "875吉首大学采购与招投标管理中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "876湖南大学招标与采购中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "877中南大学采购与招标管理中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "878湖南科技大学采购网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "879长沙理工大学采购信息资产管理处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "880湖南农业大学采购与招标中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "881中南林业科技大学政府采购与招投标管理中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "882湖南中医药大学招投标管理办公室": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "883湖南师范大学招标采购资产与实验管理处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "884湖南师范大学后勤管理处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "885湖南理工学院资产设备管理处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "886湘南学院国有资产招投标": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "887衡阳师范学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "888邵阳学院资产与实验管理处、采购与招投标管理中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "890湖南文理学院招投标管理中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "891湖南科技学院采购中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "892湖南工商大学": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "895湖南工程学院采购与招标管理中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "896湖南工学院招投标管理与服务中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "897湖南警察学院国有资产管理处": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "898湖南工业大学采购与招标网": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "900湖南第一师范学院采购与招投标服务中心": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "901湖南医药学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        },
+        "902长沙师范学院": {
+            "yunxing": 1,
+            "biaoqian": "shishicesi"
+        }
+    }
+}

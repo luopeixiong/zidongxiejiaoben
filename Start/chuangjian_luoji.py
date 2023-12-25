@@ -9,7 +9,7 @@ def jichu_data(data_dict, wanzheng_text, zuixin_bianhao):
         if '_基础数据_' in k:
             with open('./muban/1kaitou/{}.py'.format('kaitou1'), 'r', encoding='utf8') as f:
                 wenjianming = zuixin_bianhao + v[1].text()
-                text = f.read().format(a=(zuixin_bianhao + v[1].text()), b=v[1].text(), c=v[2].text(), d=v[3].text())
+                text = f.read().format(a=(zuixin_bianhao + v[1].text()), b=v[1].text(), c=v[2].text(), d=v[3].text(), e=v[4].text())
                 wanzheng_text += text
     return wanzheng_text, wenjianming
 
@@ -80,7 +80,7 @@ def liebiao_data(data_dict, wanzheng_text):
             if "_Html格式_" in k:
                 with open('./muban/4liebiao_data/{}.py'.format('html_geshi'), 'r', encoding='utf8') as f:
                     text = f.read()
-                    wanzheng_text += text.format(title_xpath=v[0].text(), url_xpath=v[1].text(), time_xpath=v[2].text(), time_re=v[3].text())
+                    wanzheng_text += text.format(title_xpath=v[0].text(), url_xpath=v[1].text(), time_xpath=v[2].text(), nianyue_xpath=v[3].text(), ri_xpath=v[4].text())
             elif '_Json包_' in k:
                 with open('./muban/4liebiao_data/{}.py'.format('json_bao'), 'r', encoding='utf8') as f:
                     text = f.read()
@@ -104,6 +104,14 @@ def zhaozhongbiao_qufen(data_dict, wanzheng_text, panduan_zhaozhongbiaoyong_zhon
         if '_招中标区分_' in k:
             if "_标题判断_" in k:
                 with open('./muban/5zhaozhongbiao_qufen/{}.py'.format('title_panduan'), 'r', encoding='utf8') as f:
+                    text = f.read()
+                    text = text.format(a=str(v[0].text().replace('，', ',').split(',')))
+            elif "_url_str判断_" in k:
+                with open('./muban/5zhaozhongbiao_qufen/{}.py'.format('url_str_panduan'), 'r', encoding='utf8') as f:
+                    text = f.read()
+                    text = text.format(a=str(v[0].text().replace('，', ',').split(',')))
+            elif "_body_str判断_" in k:
+                with open('./muban/5zhaozhongbiao_qufen/{}.py'.format('body_str_panduan'), 'r', encoding='utf8') as f:
                     text = f.read()
                     text = text.format(a=str(v[0].text().replace('，', ',').split(',')))
             elif "_url判断_" in k:

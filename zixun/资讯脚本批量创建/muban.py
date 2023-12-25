@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
-import re
 
 from ..items import *
-from lxml import etree
-import platform
 
 
 class Spider(scrapy.Spider):
@@ -17,12 +14,7 @@ class Spider(scrapy.Spider):
     start_urls = ['{url}']
     allowed_domains = ['{yuming}']
 
-    if platform.system() == "Windows":
-        with open(r'D:\pycharm_xiangmu\shishicesi\gerapy\projects\shishizixun\url_txt\{zhongwen}.txt', 'r', encoding='utf-8') as f:
-            url_lst = f.read().split('\n')
-    elif platform.system() == "Linux":
-        with open('/www/wwwroot/bcy/gerapy/projects/shishizixun/shishicesi/url_txt/{zhongwen}.txt', 'r', encoding='utf-8') as f:
-            url_lst = f.read().split('\n')
+    youwu_txt = {youwu_txt}
 
 
     custom_settings = 【
@@ -39,8 +31,9 @@ class Spider(scrapy.Spider):
     def parse(self, response, *args, **kwargs):
         if response.status == 200 and len(response.text) > 1:
             a_list = response.xpath('//a').extract()
+            url_lst = liebiao_guolu(self.items_cource, self.youwu_txt)
             for index, text in enumerate(a_list):
-                if text not in self.url_lst:
+                if text not in url_lst:
                     items = ShishicesiItem()
                     urlhtml = re.findall(r"href=[\'|\"](.+?)[\'|\"]", text)
                     if urlhtml and len(urlhtml) == 1:
@@ -49,15 +42,6 @@ class Spider(scrapy.Spider):
                         url = self.url_pingjie(response, url)
                     else:
                         continue
-                    publishtime = re.findall(r"\d【4】-\d【1,2】-\d【1,2】|\d【4】/\d【1,2】/\d【1,2】|\d【4】\.\d【1,2】\.\d【1,2】|\d【4】年\d【1,2】月\d【1,2】", text)
-                    if not publishtime:
-                        publishtime = re.findall(r"\d【1,2】-\d【1,2】|\d【1,2】/\d【1,2】|\d【1,2】\.\d【1,2】|\d【1,2】月\d【1,2】", text)
-                        if not publishtime:
-                            pass
-                        elif len(publishtime) == 1:
-                            items['publishtime'] = '2023-【】'.format(publishtime[0]).replace('.', '-').replace(' ', '').replace('/', '-').replace('年', '-').replace('月', '-')
-                    elif len(publishtime) == 1:
-                        items['publishtime'] = publishtime[0].replace('.', '-').replace(' ', '').replace('/', '-').replace('年', '-').replace('月', '-')
                     title_lst = re.findall(r"title=[\'|\"](.+?)[\'|\"]", text)
                     if not title_lst:
                         title_lst = re.findall(r'(?<![a-zA-Z])[\u4e00-\u9fa5\u3002\uFF1F\uFF01\u3010\u3011\uFF0C\u3001\uFF1B\uFF1A\u300C\u300D\u300E\u300F\u2019\u201C\u201D\u2018\uFF08\uFF09\u3014\u3015\u2026\u2013\uFF0E\u2014\u300A\u300B\u3008\u3009]【10,】', text)
@@ -68,6 +52,9 @@ class Spider(scrapy.Spider):
                         if not title_lst:
                             continue
                     if title_lst:
+                        title_panduan = re.findall('采购|招标|中选|成交|废标|流标|磋商|比选|中标|合同', title_lst[0])
+                        if title_panduan:
+                            continue
                         items['title'] = title_lst[0].replace('\n', '').replace('\\xa0', '').replace('...', '')
                         items['source'] = self.items_cource
                         items['notes'] = 'bscrapyz'
@@ -108,11 +95,15 @@ class Spider(scrapy.Spider):
                     now_lst.append('')
                     jiange = False
             zhongzhi = False
-            for x in now_lst:
+            for index, x in enumerate(now_lst):
                 new_xpath = '//' + x
                 zhengwen_result = response.xpath(new_xpath)
                 for i in zhengwen_result:
                     content = i.extract()
+                    if '发布时间' in content or '字体' in content:
+                        items['content'] = response.xpath('//' + now_lst[index - 1])[0].extract()
+                        zhongzhi = True
+                        break
                     if max_zhengwen in content:
                         items['content'] = content
                         zhongzhi = True
@@ -120,7 +111,10 @@ class Spider(scrapy.Spider):
                 if zhongzhi:
                     break
             publishtime = re.findall(r"\d【4】-\d【1,2】-\d【1,2】|\d【4】/\d【1,2】/\d【1,2】|\d【4】\.\d【1,2】\.\d【1,2】|\d【4】年\d【1,2】月\d【1,2】", xiugai_html)
-            items['publishtime'] = publishtime[0].replace('.', '-').replace(' ', '').replace('/', '-').replace('年', '-').replace('月', '-')
+            for x in publishtime[::-1]:
+                if x.startswith("20"):
+                    items['publishtime'] = x.replace('.', '-').replace(' ', '').replace('/', '-').replace('年','-').replace('月', '-')
+                    break
             zhaodao = False
             for i in range(int(len(yuan_title) / 2)):
                 shifouyou = re.findall(yuan_title, xiugai_html)
@@ -277,7 +271,7 @@ class Spider(scrapy.Spider):
             print(items['channel_id'], len(items['content']), items['publishtime'], items['title'], items['original_url'])  # 输出
             # self.shi.shishi1(items['source'], str(response.url))
             yield scrapy.FormRequest(
-                url='http://192.168.0.238/index.php/api/article/crawl', callback=self.htmliii, errback=self.err, method="POST", formdata=zidianformdata(items), dont_filter=True,
+                url='http://192.168.0.228/index.php/api/article/crawl', callback=self.htmliii, errback=self.err, method="POST", formdata=zidianformdata(items), dont_filter=True,
                 meta=【'source': items['source'], 'url': str(response.url)】
             )
         else:

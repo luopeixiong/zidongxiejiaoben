@@ -20,6 +20,8 @@ class Spider(scrapy.Spider):
         elif '../' in url[:3]:
             daoshu_num = -1 * (url.count('../') + 1)
             url = '/'.join(response.url.split('/')[:daoshu_num]) + '/' + url.replace('../', '')
+        elif '?' == url[:1]:
+            url = response.url.split('?')[0] + url
         else:
             url = '/'.join(response.url.split('/')[:-1]) + '/' + url
         return url
@@ -33,7 +35,7 @@ class Spider(scrapy.Spider):
                                                                                                                                                                                                                                                              "") + r'\g<3>\g<5>', items['content']))  # 全自动补全升级版
             print(items['channel_id'], len(items['content']), items['publishtime'], items['title'], items['original_url'])  # 输出
             self.shi.shishi1(items['source'], str(response.url))
-            yield scrapy.FormRequest(url='http://192.168.0.238/index.php/api/article/crawl', callback=self.htmliii, errback=self.err, method="POST", formdata=zidianformdata(items), dont_filter=True)
+            yield scrapy.FormRequest(url='http://192.168.0.228/index.php/api/article/crawl',meta=【'source':str(items['source']),'url':str(response.url)】,callback=self.htmliii,errback=self.err,method="POST",formdata=zidianformdata(items),dont_filter=True)
         else:
             if items['content'] is None and items['title'] is None:
                 print('########################################content|title获取不完整： ', response.url)
@@ -57,7 +59,7 @@ class Spider(scrapy.Spider):
                 )  # 全自动补全升级版
             print(items['channel_id'], len(items['content']), items['publishtime'], items['title'], items['original_url'])  # 输出
             self.shi.shishi1(items['source'], str(response.url))
-            yield scrapy.FormRequest(url='http://192.168.0.238/index.php/api/article/crawl', callback=self.htmliii, errback=self.err, method="POST", formdata=zidianformdata(items), dont_filter=True)
+            yield scrapy.FormRequest(url='http://192.168.0.228/index.php/api/article/crawl',meta=【'source':str(items['source']),'url':str(response.url)】,callback=self.htmliii,errback=self.err,method="POST",formdata=zidianformdata(items),dont_filter=True)
         else:
             if items['content'] is None and items['title'] is None:
                 print('########################################content|title获取不完整： ', response.url)
@@ -69,12 +71,11 @@ class Spider(scrapy.Spider):
 
 
     def htmliii(self, response):
+        self.shi.shishi1(response.meta['source'], response.meta['url'])
         self.mun += 1
-        print("------------------------------\n" + response.text)
-        self.logger.info("------------------------------chenggong")
+        self.logger.info("----------------chenggong--------------\n" + response.text)
 
 
     def err(self, failure):
         response = failure.value.response
-        print("------------------------------\n" + response.text)
-        self.logger.info("------------------------------shibai")
+        self.logger.info("----------------shibai--------------\n" + response.text)

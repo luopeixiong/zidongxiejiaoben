@@ -1,4 +1,12 @@
 /venv/
+# pycharm
+.idea/
+Logs/
+
+__pycache__/
+*.py[cod]
+*$py.class
+
 /changshijian_weigengxin/url_列表查找/json_dir/
 /changshijian_weigengxin/url_列表查找/txt_dir/
 /changshijian_weigengxin/url_列表查找/过滤后_urllst_txt/

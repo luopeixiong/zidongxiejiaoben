@@ -14,7 +14,7 @@
                 items['publishtime'] = publishtime.replace('.', '-').replace(' ', '').replace('/', '-').replace('年', '-').replace('月', '-').replace('日', '')
                 self.zuihou_time = items['publishtime']
                 items['source'] = self.items_cource
-                items['notes'] = 'bscrapy'
+                items['notes'] = self.notes
                 items['title'] = titlell
                 items['original_url'] = url
                 shifouchadao = self.shi.shishi(items['source'], str(url))

@@ -1,6 +1,8 @@
 import requests
 import json
 import guolu_benlai_yipa
+import math
+import weipa_token
 
 
 def req(num, cookies):
@@ -20,50 +22,68 @@ def req(num, cookies):
     params = {
         'page': str(num),
         'perPage': '100',
-        'orderBy': '',
-        'orderDir': '',
+        'orderBy': 'bz',
+        'orderDir': 'asc',
     }
 
     json_data = {
         'page': num,
         'hascrawled': False,
+        'orderBy': 'bz',
+        'orderDir': 'asc',
         'perPage': 100,
+        'source': '[~]',
+        'url': '[~]',
         'create_date': '[-]',
     }
 
     response = requests.post(
-        'http://192.168.0.238/admin/uncrawledsource/list',
+        'http://caiji.hangxunbao.com/admin/uncrawledsource/list',
         params=params,
         cookies=cookies,
         headers=headers,
         json=json_data,
         verify=False,
-    )
-    return response
+    ).json()
+    return response['data']['total']
 
 
 def start(cookies):
+    json_data = []
     yuanshi_liebiao = []
-    for num in range(1, 6):
+    total = req(1, cookies)
+    result = math.ceil(total / 100) + 1
+    for num in range(1, result):
         print(num)
         response = req(num, cookies)
-        rs = json.loads(response.text)
-        for x in rs["data"]["items"]:
-            if x['bz'] is None:
-                yuanzu = x['id'], x['url'], x['source'][::-1], x['bz']
-                yuanshi_liebiao.append(yuanzu)
+        for x in response["data"]["items"]:
+            yuanzu = x['id'], x['url'], x['source'][::-1], x['bz']
+            yuanshi_liebiao.append(yuanzu)
         # time.sleep(5)
     daoxu_liebiao = sorted(yuanshi_liebiao, key=lambda t: t[2], reverse=False)
-    f = open('weipa.txt', 'w', encoding='utf8')
     for index, url, daoxu_text, bz in daoxu_liebiao:
-        f.write('{}--{}--{}\n'.format(daoxu_text[::-1], bz, url))
-    f.close()
+        json_data.append({'title': daoxu_text[::-1], 'bz': bz, 'url': url})
+
+    with open('weipa.json', 'w', encoding='utf-8') as f:
+        json.dump(json_data, f, indent=4, ensure_ascii=False)
     print('==============')
 
 
+def get_access_token():
+    json_data = {
+        "username": "bichengyi",
+        "password": "bichengyi"
+    }
+    response = requests.post('http://caiji.hangxunbao.com/admin/auth/form/login/api',json=json_data).json()
+    return response['data']['access_token']
+
+
+
+
 def main():
+    access_token = weipa_token.main()
     cookies = {
-        'Authorization': '"bearer tz2xyZUx68QG8zRqZCKU7p3SeMADy5KIPWjPBkRVrlU"',
+        'Authorization': '"bearer %s"' % access_token,
     }
     start(cookies)
     guolu_benlai_yipa.main(cookies)

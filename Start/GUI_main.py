@@ -69,7 +69,7 @@ class MainWindow(QWidget):
         self.print_button.clicked.connect(self.print_clicked)
         self.save_button.clicked.connect(self.save_clicked)
         self.load_button.clicked.connect(self.load_clicked)
-        self.select.currentIndexChanged[str].connect(self.select_changed)  # 条目发生改变，发射信号，传递条目内容
+        self.select.currentIndexChanged[str].connect(self.select_changed)  # 条目发生改变 ，发射信号，传递条目内容
 
     def replace_kongjianzu(self):
         self.queren_msg.setText("你确定要【在此控件组上替换新控件组】吗？")
@@ -186,7 +186,7 @@ class MainWindow(QWidget):
         elif "_列表页面_" in i or "_详细页_" in i:
             self.select2.addItems(["_Html格式_", "_Json包_"])
         elif "_招中标区分_" in i:
-            self.select2.addItems(["_标题判断_", "_url判断_", "_body判断_"])
+            self.select2.addItems(["_标题判断_", "_url_str判断_", "_body_str判断_", "_url判断_", "_body判断_"])
         elif "_翻页_" in i:
             self.select2.addItems(["_下一页xpath_", "_url_num增加_", "_正则url_", "_正则body_"])
         else:
@@ -204,11 +204,16 @@ class MainWindow(QWidget):
         from_layout = QFormLayout()
         if "_基础数据_" in value:
             hobby_box = QGroupBox(value + value2)
-            for x in ['脚本编号', '脚本中文名', '脚本类名', '请求标头Content-Type']:
+            for x in ['脚本编号', '脚本中文名', '脚本类名', '请求标头Content-Type', 'notes']:
                 lb = QLabel(x)
                 le = QLineEdit("")
                 dongdai_chuangjian_lst.append(le)
                 from_layout.addRow(lb, le)
+            select = QComboBox()
+            select.addItems(["？", "YES编号", "NO编号"])
+            lb = QLabel('是否加编号')
+            from_layout.addRow(lb, select)
+            dongdai_chuangjian_lst.append(select)
             hobby_box.setLayout(from_layout)
         elif "_start_urlAnddata_" in value:
             hobby_box = QGroupBox(value + value2)
@@ -241,14 +246,11 @@ class MainWindow(QWidget):
         elif "_列表页面_" in value:
             hobby_box = QGroupBox(value + value2)
             if '_Html格式_' in value2:
-                for x in ['标题_xpath', 'url_xpath', '时间_xpath']:
+                for x in ['标题_xpath', 'url_xpath', '全时间_xpath', '年月_xpath', '日_xpath']:
                     le = QLineEdit()
                     dongdai_chuangjian_lst.append(le)
                     from_layout.addRow(x, le)
                     hobby_box.setLayout(from_layout)
-                le = QLineEdit(r"(\d\d\d\d\-\d\d\-\d\d)")
-                dongdai_chuangjian_lst.append(le)
-                from_layout.addRow('时间re', le)
                 hobby_box.setLayout(from_layout)
             elif '_Json包_' in value2:
                 for x in ['url_pinjie_qianduan', '列表定位', '列表标题定位', '列表url定位', '列表时间定位']:
@@ -264,7 +266,17 @@ class MainWindow(QWidget):
             hobby_box = QGroupBox(value + value2)
             le = QLineEdit()
             if '_标题判断_' in value2:
-                le.setText("结果,中选,成交,中标,废标,流标")
+                le.setText("结果,中选,成交,中标,废标,流标,合同")
+                dongdai_chuangjian_lst.append(le)
+                from_layout.addRow(value2, le)
+                hobby_box.setLayout(from_layout)
+            elif '_url_str判断_' in value2:
+                le.setText("")
+                dongdai_chuangjian_lst.append(le)
+                from_layout.addRow(value2, le)
+                hobby_box.setLayout(from_layout)
+            elif '_body_str判断_' in value2:
+                le.setText("")
                 dongdai_chuangjian_lst.append(le)
                 from_layout.addRow(value2, le)
                 hobby_box.setLayout(from_layout)
@@ -369,24 +381,32 @@ class MainWindow(QWidget):
     def print_clicked(self):
         try:
             if re.findall(r'\'(.+?)_基础数据_', str(self.controls)):
-                jiaoben_lst = natsort.natsorted(os.listdir(r'D:\pycharm_xiangmu\shishicesi\gerapy\projects\shishicesi\shishicesi\spiders'))
-                zuixin_bianhao = str(int(re.findall(r'\d+', jiaoben_lst[-3])[0]) + 1)
-                jiaoben_lst_str = str(jiaoben_lst)
+                if self.controls['@0__基础数据_'][5].currentText() == 'NO编号':
+                    jiaoben_lst_str = ''
+                    zuixin_bianhao = ''
+                else:
+                    jiaoben_lst = natsort.natsorted(os.listdir(r'D:\pycharm_xiangmu\shishicesi\gerapy\projects\shishicesi\shishicesi\spiders'))
+                    zuixin_bianhao = str(int(re.findall(r'\d+', str(jiaoben_lst))[-1]) + 1)
+                    jiaoben_lst_str = str(jiaoben_lst)
                 for k, v in self.controls.items():
                     if '_基础数据_' in k:
-                        if v[1].text() in jiaoben_lst_str:
-                            yicunzai_bianhao_jiaoben_name = re.findall("'(\d+){}".format(v[1].text()), jiaoben_lst_str)[0] + v[1].text()
-                            self.queren_msg.setText("发现已有脚本：{}\n是否还要创建：{}{}".format(yicunzai_bianhao_jiaoben_name, zuixin_bianhao, v[1].text()))
-                            # 显示对话框并获取用户的选择
-                            result = self.queren_msg.exec_()
-                            if result == QMessageBox.Yes:
-                                chuangjian_luoji.chuangjian(self.controls, zuixin_bianhao)
+                        if v[4].text() != '':
+                            if v[1].text() in jiaoben_lst_str:
+                                yicunzai_bianhao_jiaoben_name = re.findall("'(\d+){}".format(v[1].text()), jiaoben_lst_str)[0] + v[1].text()
+                                self.queren_msg.setText("发现已有脚本：{}\n是否还要创建：{}{}\n【notes：{}】".format(yicunzai_bianhao_jiaoben_name, zuixin_bianhao, v[1].text(), v[4].text()))
+                                # 显示对话框并获取用户的选择
+                                result = self.queren_msg.exec_()
+                                if result == QMessageBox.Yes:
+                                    chuangjian_luoji.chuangjian(self.controls, zuixin_bianhao)
+                            else:
+                                self.queren_msg.setText("你确定要【创建：{}{}】吗？\n【notes：{}】".format(zuixin_bianhao, v[1].text(), v[4].text()))
+                                # 显示对话框并获取用户的选择
+                                result = self.queren_msg.exec_()
+                                if result == QMessageBox.Yes:
+                                    chuangjian_luoji.chuangjian(self.controls, zuixin_bianhao)
                         else:
-                            self.queren_msg.setText("你确定要【创建：{}{}】吗？".format(zuixin_bianhao, v[1].text()))
-                            # 显示对话框并获取用户的选择
-                            result = self.queren_msg.exec_()
-                            if result == QMessageBox.Yes:
-                                chuangjian_luoji.chuangjian(self.controls, zuixin_bianhao)
+                            QMessageBox.warning(self, "错误", "notes不能为空")
+                            break
         except:
             QMessageBox.warning(self, "错误", f"发生了一个错误：{traceback.format_exc()}")
 

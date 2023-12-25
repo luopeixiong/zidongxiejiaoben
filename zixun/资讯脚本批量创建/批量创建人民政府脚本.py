@@ -27,7 +27,7 @@ def zip_folder(folder_path, zip_path):
     zip_file.close()
 
 
-def piliang_chuangjian():
+def piliang_chuangjian(csv_lst, youwu_txt):
     jiaoben_path = r'D:\pycharm_xiangmu\shishicesi\gerapy\projects\shishizixun\shishicesi\spiders'
     zuixin_biaoqian = 1
     for x in csv_lst:
@@ -48,7 +48,8 @@ def piliang_chuangjian():
                     num_zhongwen=jiaoben_name,
                     zhongwen=str(''.join(diqu[1:])) + '人民政府',
                     url=str(row['url']),
-                    yuming=yuming
+                    yuming=yuming,
+                    youwu_txt=youwu_txt
                 )
                 get_muban_gaihao_text = get_muban_gaihao_text.replace('【', '{').replace('】', '}')
                 print('{}\{}.py'.format(jiaoben_path, jiaoben_name))
@@ -56,9 +57,42 @@ def piliang_chuangjian():
                 with open(chuanjian_wenjian_path, 'w', encoding='utf8') as f:
                     f.write(get_muban_gaihao_text)
                 zuixin_biaoqian += 1
+    return zuixin_biaoqian
 
 
-def main(csv_lst):
+def piliang_chuangjian2(csv_lst, zuixin_biaoqian, youwu_txt):
+    jiaoben_path = r'D:\pycharm_xiangmu\shishicesi\gerapy\projects\shishizixun\shishicesi\spiders'
+    for x in csv_lst:
+        data = pd.read_csv(x, encoding='utf-8')
+
+        with open('muban.py', 'r', encoding='utf-8') as f:
+            get_muban_text = f.read()
+        for index, row in data.iterrows():
+            if str(row['url']) != 'nan':
+                diqu = row['source'].replace('\r', '').replace('\n', '').replace('\t', '').replace(' ', '')
+                jiaoben_name = '{}{}'.format(zuixin_biaoqian, diqu)
+                if '//' in str(row['url']):
+                    yuming = str(row['url']).split('/')[2]
+                else:
+                    yuming = str(row['url'])
+
+                get_muban_gaihao_text = get_muban_text.format(
+                    num_zhongwen=jiaoben_name,
+                    zhongwen=diqu,
+                    url=str(row['url']),
+                    yuming=yuming,
+                    youwu_txt=youwu_txt
+                )
+                get_muban_gaihao_text = get_muban_gaihao_text.replace('【', '{').replace('】', '}')
+                print('{}\{}.py'.format(jiaoben_path, jiaoben_name))
+                chuanjian_wenjian_path = r'{}\{}.py'.format(jiaoben_path, jiaoben_name)
+                with open(chuanjian_wenjian_path, 'w', encoding='utf8') as f:
+                    f.write(get_muban_gaihao_text)
+                zuixin_biaoqian += 1
+    return zuixin_biaoqian
+
+
+def main():
     # 实现备份
     folder_path = r'D:\pycharm_xiangmu\shishicesi\gerapy\projects\shishizixun\shishicesi\spiders'
     now = datetime.datetime.now()
@@ -76,8 +110,13 @@ def main(csv_lst):
     f = open(r'D:\pycharm_xiangmu\shishicesi\gerapy\projects\shishizixun\shishicesi\spiders\__init__.py', 'w')
     f.close()
 
+    csv_lst = ['shengbiao5.csv', 'shi_biao2.csv']
+    youwu_txt = 1
     # 批量创建脚本
-    piliang_chuangjian()
+    zuixin_biaoqian = piliang_chuangjian(csv_lst, youwu_txt)
+    youwu_txt = 0
+    csv_lst = ['data.csv']
+    piliang_chuangjian2(csv_lst, zuixin_biaoqian, youwu_txt)
 
     # # 压缩更新后的脚本
     # folder_path = r'D:\pycharm_xiangmu\shishicesi\gerapy\projects\shishizixun\shishicesi\spiders'
@@ -86,8 +125,7 @@ def main(csv_lst):
 
 
 if __name__ == '__main__':
-    csv_lst = ['shengbiao5.csv', 'shi_biao2.csv']
-    main(csv_lst)
+    main()
 
 
 
